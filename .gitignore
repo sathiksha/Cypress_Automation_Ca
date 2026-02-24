@@ -1,0 +1,16 @@
+cypress/reports
+cypress/tests
+cypress/qaExcelData
+cypress/screenshots
+/test/e2e/.gitignore
+/test/e2e/cypress.config.js
+/test/e2e/.azure-pipelines.yml
+/test/e2e/cypress/.gitignore
+/node_modules/
+node_modules/
+.env
+cypress/videos/
+cypress/screenshots/
+
+
+
