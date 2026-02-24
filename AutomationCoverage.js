@@ -640,7 +640,6 @@ https://cdn.sheetjs.com/xlsx-0.20.1/package/dist/xlsx.full.min.js</script>
            <input type="text" id="searchInput" placeholder="Search..." />
 
            <!-- GitHub Runner config -->
-           <button class="btn btn-sm" onclick="setupGh()">⚙️ GitHub Runner</button>
 
            <button class="btn btn-primary" onclick="exportToCSV()">📥 Export CSV</button>
            <button class="btn" onclick="staticRefresh()">🔄 Refresh Data</button>
@@ -706,17 +705,22 @@ https://cdn.sheetjs.com/xlsx-0.20.1/package/dist/xlsx.full.min.js</script>
   }
 
   // GitHub settings (stored in localStorage)
-  function getGh() {
-    var gh = {
-      api: localStorage.getItem('ghApi') || 'https://api.github.com',
-      org: localStorage.getItem('ghOrg') || 'YOUR_ORG',
-      repo: localStorage.getItem('ghRepo') || 'YOUR_REPO',
-      ref: localStorage.getItem('ghRef') || 'main',
-      workflow: localStorage.getItem('ghWorkflow') || 'run-tests.yml',
-      token: localStorage.getItem('ghToken') || ''
-    }
-    return gh
+ function getGh() {
+  var gh = {
+    api: 'https://api.github.com',
+
+    // Hardcoded values (your repo)
+    org: 'sathiksha',
+    repo: 'Cypress_Automation_Ca',
+    ref: 'main',
+    workflow: 'run-tests.yml',
+
+    // Token: first try localStorage, else fallback
+    token: localStorage.getItem('ghToken') || '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'
   }
+  return gh
+}
+
   function saveGh(k, v) { try { localStorage.setItem(k, v) } catch(_){} }
 
   function setupGh() {
