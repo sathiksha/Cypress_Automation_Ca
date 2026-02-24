@@ -640,6 +640,7 @@ https://cdn.sheetjs.com/xlsx-0.20.1/package/dist/xlsx.full.min.js</script>
            <input type="text" id="searchInput" placeholder="Search..." />
 
            <!-- GitHub Runner config -->
+           <button class="btn btn-sm" onclick="setupGh()" style="border-color: var(--accent-primary);">⚙️ GitHub Runner</button>
 
            <button class="btn btn-primary" onclick="exportToCSV()">📥 Export CSV</button>
            <button class="btn" onclick="staticRefresh()">🔄 Refresh Data</button>
