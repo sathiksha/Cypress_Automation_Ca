@@ -40,11 +40,16 @@ jobs:
           spec: ${{ github.event.inputs.spec || '' }}
           env: grep=${{ github.event.inputs.grep || '' }}
 
-      - name: Upload Cypress screenshots and videos
+      - name: Generate Coverage Dashboard
+        if: always()
+        run: node AutomationCoverage.js
+
+      - name: Upload Test Results & Dashboard
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: cypress-artifacts
+          name: cypress-report
           path: |
             cypress/screenshots
             cypress/videos
+            automation-coverage-report.html

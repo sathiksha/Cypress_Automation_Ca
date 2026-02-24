@@ -13,8 +13,8 @@
 const fs = require('fs')
 const path = require('path')
 
-// ---------- Windows/Absolute Paths (update if needed) ----------
-const BASE_DIR = path.normalize('C:\\Users\\USER\\Downloads\\HugenticAutomation_Playwright\\optiqs-gen4\\test\\e2e\\Cypress_Automation_Ca')
+// ---------- Dynamic Paths (works local & CI) ----------
+const BASE_DIR = process.cwd()
 
 
 // The main regression folder
@@ -463,8 +463,8 @@ const html = `<!DOCTYPE html>
 <meta charset="UTF-8" />
 <title>Automation Dashboard</title>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js</script>
-https://cdn.sheetjs.com/xlsx-0.20.1/package/dist/xlsx.full.min.js</script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<script src="https://cdn.sheetjs.com/xlsx-0.20.1/package/dist/xlsx.full.min.js"></script>
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&family=JetBrains+Mono&display=swap');
   * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -1005,7 +1005,8 @@ https://cdn.sheetjs.com/xlsx-0.20.1/package/dist/xlsx.full.min.js</script>
       body: JSON.stringify(body)
     }).then(function(r){
       if (r.ok) {
-        appendRunLog('✅ Workflow dispatch accepted. GitHub will start the run shortly.\\n')
+        appendRunLog('✅ Workflow dispatch accepted. Finding run ID...\\n')
+        setTimeout(function(){ findAndPollRun(gh) }, 4000)
       } else {
         r.json().then(function(data) {
            appendRunLog('❌ Dispatch failed: ' + r.status + ' ' + (data.message || r.statusText) + '\\n')
@@ -1021,6 +1022,59 @@ https://cdn.sheetjs.com/xlsx-0.20.1/package/dist/xlsx.full.min.js</script>
       appendRunLog('❌ Error: ' + (err && err.message ? err.message : String(err)) + '\\n')
       throw err
     })
+  }
+
+  function findAndPollRun(gh) {
+    var url = gh.api + '/repos/' + gh.org + '/' + gh.repo + '/actions/runs?workflow_id=' + gh.workflow + '&per_page=1'
+    fetch(url, { headers: { 'Authorization': 'Bearer ' + gh.token } })
+      .then(function(r){ return r.json() })
+      .then(function(data){
+        var run = data.workflow_runs && data.workflow_runs[0]
+        if (!run) {
+          appendRunLog('⏳ Run not found yet, retrying...\\n')
+          setTimeout(function(){ findAndPollRun(gh) }, 4000)
+          return
+        }
+        appendRunLog('🔍 Found Run ID: ' + run.id + ' (Status: ' + run.status + ')\\n')
+        appendRunLog('🔗 View on GitHub: ' + run.html_url + '\\n\\n')
+        pollJobStatus(gh, run.id)
+      })
+  }
+
+  function pollJobStatus(gh, runId) {
+    var url = gh.api + '/repos/' + gh.org + '/' + gh.repo + '/actions/runs/' + runId + '/jobs'
+    fetch(url, { headers: { 'Authorization': 'Bearer ' + gh.token } })
+      .then(function(r){ return r.json() })
+      .then(function(data){
+        var job = data.jobs && data.jobs[0]
+        if (!job) {
+          setTimeout(function(){ pollJobStatus(gh, runId) }, 3000)
+          return
+        }
+        
+        if (job.status === 'completed') {
+          appendRunLog('\\n🏁 Job Finished! (Conclusion: ' + job.conclusion + ')\\n')
+          fetchJobLogs(gh, job.id)
+        } else {
+          appendRunLog('🏃 Job ' + job.status + '... (' + (job.steps ? job.steps.filter(s=>s.status==='completed').length : 0) + ' steps done)\\n')
+          setTimeout(function(){ pollJobStatus(gh, runId) }, 5000)
+        }
+      })
+  }
+
+  function fetchJobLogs(gh, jobId) {
+    appendRunLog('📥 Fetching execution logs...\\n')
+    var url = gh.api + '/repos/' + gh.org + '/' + gh.repo + '/actions/jobs/' + jobId + '/logs'
+    fetch(url, { headers: { 'Authorization': 'Bearer ' + gh.token } })
+      .then(function(r) { return r.text() })
+      .then(function(text) {
+        appendRunLog('------------------------------------------\\n')
+        appendRunLog(text)
+        appendRunLog('\\n------------------------------------------\\n✅ Logs fully loaded.')
+      })
+      .catch(function(err){
+        appendRunLog('❌ Could not fetch logs: ' + err.message)
+      })
   }
 
   function runTestGh(rowIdx, testIdx) {
