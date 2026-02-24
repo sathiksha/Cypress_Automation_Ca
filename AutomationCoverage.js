@@ -713,7 +713,7 @@ https://cdn.sheetjs.com/xlsx-0.20.1/package/dist/xlsx.full.min.js</script>
       repo:     localStorage.getItem('ghRepo') || 'Cypress_Automation_Ca',
       ref:      localStorage.getItem('ghRef') || 'main',
       workflow: localStorage.getItem('ghWorkflow') || 'run-tests.yml',
-      token:    localStorage.getItem('ghToken') || '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'
+      token:    localStorage.getItem('ghToken') || ''
     }
   }
 
