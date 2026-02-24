@@ -716,7 +716,7 @@ https://cdn.sheetjs.com/xlsx-0.20.1/package/dist/xlsx.full.min.js</script>
     workflow: 'run-tests.yml',
 
     // Token: first try localStorage, else fallback
-   token: localStorage.getItem('ghToken') || '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'
+    token: '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'
   }
   return gh
 }
