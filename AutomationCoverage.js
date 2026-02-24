@@ -1003,7 +1003,7 @@ https://cdn.sheetjs.com/xlsx-0.20.1/package/dist/xlsx.full.min.js</script>
       method: 'POST',
       headers: {
         'Accept': 'application/vnd.github+json',
-        'Authorization': 'Bearer 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',
+        'Authorization': 'Bearer ' + gh.token,
         'Content-Type': 'application/json'
       },
       body: JSON.stringify(body)
@@ -1103,6 +1103,9 @@ https://cdn.sheetjs.com/xlsx-0.20.1/package/dist/xlsx.full.min.js</script>
   }
 
   init()
+
+  
+  
 </script>
 </body>
 </html>

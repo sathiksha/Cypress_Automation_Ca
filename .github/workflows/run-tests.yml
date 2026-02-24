@@ -1,69 +1,57 @@
 name: Run Cypress Tests
 
 on:
+  push:
+    branches:
+      - main
+  pull_request:
   workflow_dispatch:
     inputs:
       spec:
-        description: "Cypress spec file or folder path"
-        required: true
-        default: "cypress/e2e-regression"
-      grep:
-        description: "Test name filter (optional)"
+        description: 'Spec file to run'
         required: false
-        default: ""
+        default: ''
+      grep:
+        description: 'Grep pattern for tests'
+        required: false
+        default: ''
 
 jobs:
   cypress-run:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v3
 
-      - name: Setup Node
-        uses: actions/setup-node@v4
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
         with:
-          node-version: 18
+          node-version: '18'
 
-      - name: Install Dependencies
+      - name: Install dependencies
         run: npm ci
 
-      - name: Verify Cypress Installation
+      - name: Verify Cypress install
         run: npx cypress verify
 
-      - name: Show Input Values
-        run: |
-          echo "Spec: ${{ github.event.inputs.spec }}"
-          echo "Grep: ${{ github.event.inputs.grep }}"
-
-      - name: Run Cypress Tests
-        run: |
-          if [ -z "${{ github.event.inputs.grep }}" ]; then
-            npx cypress run --spec "${{ github.event.inputs.spec }}"
-          else
-            npx cypress run --spec "${{ github.event.inputs.spec }}" --env grep="${{ github.event.inputs.grep }}"
-          fi
-
-      - name: Upload Cypress Videos
-        if: always()
-        uses: actions/upload-artifact@v4
+      - name: Run Cypress tests
+        uses: cypress-io/github-action@v5
         with:
-          name: cypress-videos
-          path: cypress/videos
-          if-no-files-found: ignore
+          record: true
+          group: 'E2E Tests'
+          parallel: false
+          ci-build-id: ${{ github.run_id }}
+          spec: ${{ github.event.inputs.spec || '' }}
+          env: grep=${{ github.event.inputs.grep || '' }}
+        env:
+          CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_TOKEN }}
 
-      - name: Upload Cypress Screenshots
+      - name: Upload Cypress screenshots and videos
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v3
         with:
-          name: cypress-screenshots
-          path: cypress/screenshots
-          if-no-files-found: ignore
-
-      - name: Upload Cypress Reports (if exists)
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: cypress-reports
-          path: cypress/reports
-          if-no-files-found: ignore
+          name: cypress-artifacts
+          path: |
+            cypress/screenshots
+            cypress/videos
+```
