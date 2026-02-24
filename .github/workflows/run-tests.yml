@@ -1,0 +1,49 @@
+name: Run Cypress Tests
+
+on:
+  workflow_dispatch:
+    inputs:
+      spec:
+        description: "Spec file path"
+        required: true
+        type: string
+      grep:
+        description: "Test name"
+        required: false
+        type: string
+
+jobs:
+  cypress-run:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Verify Cypress
+        run: npx cypress verify
+
+      - name: Run Cypress
+        run: |
+          if [ -z "${{ github.event.inputs.grep }}" ]; then
+            npx cypress run --spec "${{ github.event.inputs.spec }}"
+          else
+            npx cypress run --spec "${{ github.event.inputs.spec }}" --env grep="${{ github.event.inputs.grep }}"
+          fi
+
+      - name: Upload Artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: cypress-artifacts
+          path: |
+            cypress/screenshots
+            cypress/videos
