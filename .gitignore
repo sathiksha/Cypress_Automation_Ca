@@ -12,5 +12,4 @@ node_modules/
 cypress/videos/
 cypress/screenshots/
 
-
-
+github-config.json

@@ -50,6 +50,24 @@ console.log(`📂 Project Root: ${PROJECT_ROOT}`)
 // ---------- Config ----------
 const OUTPUT_HTML = 'automation-coverage-report.html'
 
+// ---------- GitHub Configuration ----------
+let githubConfig = {
+  ghApi: 'https://api.github.com',
+  ghOrg: '',
+  ghRepo: '',
+  ghRef: '',
+  ghWorkflow: '',
+  ghToken: ''
+}
+const configPath = path.join(BASE_DIR, 'github-config.json')
+if (fs.existsSync(configPath)) {
+  try {
+    const userConfig = JSON.parse(fs.readFileSync(configPath, 'utf8'))
+    githubConfig = { ...githubConfig, ...userConfig }
+    console.log('✅ Loaded GitHub configuration from github-config.json')
+  } catch (e) { console.warn('⚠️ Could not parse github-config.json') }
+}
+
 // INFO logging: which directories will be scanned
 console.log('📂 Scan Roots:')
 for (const r of SCAN_ROOTS) console.log('   •', r)
@@ -449,7 +467,7 @@ function buildDashboardData() {
     flowsCovered: totalItsCount
   }
 
-  return { tableData, stats, slowestFeatures }
+  return { tableData, stats, slowestFeatures, config: githubConfig }
 }
 
 /** ---------- Build initial data & HTML ---------- */
@@ -705,15 +723,16 @@ const html = `<!DOCTYPE html>
     filters: { status: 'all', coverage: 'all', search: '', group: 'all' }
   }
 
-  // GitHub settings (stored in localStorage)
+  // GitHub settings (stored in localStorage with defaults from github-config.json)
   function getGh() {
+    var def = DATA.config || {}
     return {
-      api:      localStorage.getItem('ghApi') || 'https://api.github.com',
-      org:      localStorage.getItem('ghOrg') || 'sathiksha',
-      repo:     localStorage.getItem('ghRepo') || 'Cypress_Automation_Ca',
-      ref:      localStorage.getItem('ghRef') || 'main',
-      workflow: localStorage.getItem('ghWorkflow') || 'run-tests.yml',
-      token:    localStorage.getItem('ghToken') || ''
+      api:      localStorage.getItem('ghApi') || def.ghApi || 'https://api.github.com',
+      org:      localStorage.getItem('ghOrg') || def.ghOrg || '',
+      repo:     localStorage.getItem('ghRepo') || def.ghRepo || '',
+      ref:      localStorage.getItem('ghRef') || def.ghRef || '',
+      workflow: localStorage.getItem('ghWorkflow') || def.ghWorkflow || '',
+      token:    localStorage.getItem('ghToken') || def.ghToken || ''
     }
   }
 
