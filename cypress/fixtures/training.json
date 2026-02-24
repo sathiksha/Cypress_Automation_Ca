@@ -1,0 +1,20 @@
+{
+    "Training": {
+        "Transcripts": {
+            "columnNames": [
+                "Course Code",
+                "Title",
+                "Version",
+                "Curriculum",
+                "WWID",
+                "Network ID",
+                "User Full Name",
+                "Type",
+                "Status",
+                "Due Date",
+                "Assigned Date",
+                "Completed Date"
+            ]
+        }
+    }
+}

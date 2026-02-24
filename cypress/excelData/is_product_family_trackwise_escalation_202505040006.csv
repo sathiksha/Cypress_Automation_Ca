@@ -1,0 +1,315 @@
+"primary_key","object_id","product_family_id","product_family_name","product_family_number","laststreameddate","itemnumber","itemname","description_of_issue","state","operating_company","segment","creation_date","escalation_lead_or_quality_rep","action_plan_or_proposed_action","highest_escalation_level_reached","user_comments"
+"01966ca2-7ddd-7085-bc3d-0966f1ce7f5a-d4a8c794-ad6b-46ce-8675-8d85b4470187-1234-$record.itemRef",d4a8c794-ad6b-46ce-8675-8d85b4470187,"01966ca2-7ddd-7085-bc3d-0966f1ce7f5a",CypressTC2 – Streamer Test,"1234",2025-05-03 00:00:00.000,"1945192",Two Azacitidine(AZA) SUSARs were not reported on time as AZA was marked non-IMP in the SMP -Cusatuzumab 74494550AML2001,"Two Azacitidine (AZA) Suspected Unexpected Serious Adverse Reactions (SUSARs) were not reported on time because AZA was marked as a non- Investigational Medicinal Product (IMP) in the Safety Monitoring Plan (SMP) version dated 10Jul2019 vTMF 7220852 (however was marked as IMP in the CTA. Entry in SMP was an error). The SUSARs will be reported with a significant delay.
+Upon awareness of this issue 26Feb2021, the team arranged for an expedited review of all cases (45) for potential relation to AZA. The safety surveillance physician reported that of the 45 cases there were 2 cases that indicated they were possibly related to AZA.
+•	20191136089 (Subject ID:  20900803, Reported Term: Typhlitis Dated: 21Nov2019)
+•	20200224946 (Subject ID:  20900705, Reported Term:  Differentiation syndrome Dated:  13 Feb2020)",Closed,Janssen Pharmaceutical,Pharma - R&D,2021-03-11 18:20:08.000,"Izzard, Christine","Correct and update SMP
+Report SUSARs
+Consider an update to consent form if needed
+Consider the need for notifications – EC / local notifications
+Retraining of relevant study staff",No Subsequent Escalation,
+"01966ca2-7ddd-7085-bc3d-0966f1ce7f5a-b9613f5e-e99b-4924-86c1-c1d5e99f3c79-1234-$record.itemRef",b9613f5e-e99b-4924-86c1-c1d5e99f3c79,"01966ca2-7ddd-7085-bc3d-0966f1ce7f5a",CypressTC2 – Streamer Test,"1234",2025-05-03 00:00:00.000,"1996382",Critical Audit Observations: 3 Critical Observations identified during an External Service Provider Audit of IQVIA,"During a routine GCP External Service Provider Audit of IQVIA conducted on 07-17JUN 2021 (ESP2021Q14456), three GCP Critical Observations were identified across the sample of studies included in the audit. 
+
+Two of the three Critical Observations are repeat observations from the previous audits conducted at IQVIA (JUN2018 ESP2018Q22406 and FEB2020 ESP2020Q13534), highlighting the insufficient mitigation actions implemented.   
+
+Below is a summary of the three Critical Observations:
+•	Significant Monitoring and Site Management deficiencies related to Monitoring and Pharmacy visits not conducted, not conducted in a timely manner, and/or not reported in a timely manner per the approved monitoring plans for the studies included in the audit sample. 
+
+•	Significant IQVIA Trial Master File (Wingspan) deficiencies related to the completeness and the contemporaneousness filing of essential document in the TMF. Quality control processes to ensure the quality of the TMF were also found deficient and not robust. This is a repeat Critical Audit Observation from both the 2018 and 2020 Audits.
+
+•	Deficient issue management and escalation processes as evidenced by failure to create Quality Issues (QI), delays in creating and reporting the QIs and insufficient tracking and oversight of the QIs. This is a repeat Critical Audit Observation from the 2018 Audit. Consequently, these deficiencies also contributed to delays in Janssen awareness and delays in Janssen processing and escalating of these quality issues. In addition, the CAPA management at IQVIA was also found deficient with action plans not created to proactively remediate significant/systemic issues, untimely closure of CAPA, inadequate documentation of root causes, and unclear assessment of Effectiveness Checks. 
+
+In addition, six Major Observations were identified and reported in the Audit Report.
+
+The management of the related action plans, including the development of Corrections and Corrective/Preventative Actions to address the Observations in the audit report, will adhere to the BRQC QA audit reporting processes. 
+
+In addition, a Janssen/IQVIA Quality Executive Steering Committee has been scheduled on 22 July 2021 to review the significance of these quality issues and obtain commitment for action and sustained improvement and performance.",Closed,Janssen Pharmaceutical,Pharma - R&D,2021-07-15 23:09:31.000,"CALMEJANE, JEROME","The management of the related action plans, including the development of Corrections and Corrective/Preventative Actions to address the Observations in the audit report, will adhere to the BRQC QA audit reporting processes. 
+
+In addition, a Janssen/IQVIA Quality Executive Steering Committee has been scheduled on 22 July 2021 to review the significance of these quality issues and obtain commitment for action and sustained improvement and performance.",No Subsequent Escalation,
+"01966ca2-7ddd-7085-bc3d-0966f1ce7f5a-f1b11495-bf60-4c9c-8fc3-e726b9b22fe9-1234-$record.itemRef",f1b11495-bf60-4c9c-8fc3-e726b9b22fe9,"01966ca2-7ddd-7085-bc3d-0966f1ce7f5a",CypressTC2 – Streamer Test,"1234",2025-05-03 00:00:00.000,"2003492",Non-compliance of Pharmacovigilance (PV) reporting to the Kenyan Health Authority (HA),"Trigger(s) for escalation:
+-	Formal notification to Kenyan HA (to be submitted)
+-	Non-compliance with requirements to submit SUSAR line listings, solicitated cases from Patient Support Programmes (PSPs) and Periodic Safety Update Reports (PSURs)
+
+Issue background and description:
+Following the departure of the Kenyan Local Safety Officer (LSO) in Q2 2021, routine LSO handover activities identified three quality issues relating to gaps in the local Pharmacovigilance system. Ranging back to 2018, these include:
+- missed reporting of six monthly SUSAR line listings (1989387)
+- 19 solicited Individual Case Safety Reports (ICSRs) from PSPs not reported to the Kenyan HA, (which have now been reported) (1976274)
+- missed and late (Pharma and Consumer product) Periodic Safety Update Reports (PSURs) to the Kenyan HA.(1981857)
+
+Preliminary review identified that a total of 8 SUSAR line listings (out of 14) were not submitted to Kenyan HA for the HIV VAC89220HPX2003 clinical trial. From 2018 to date, 14 PSURs (26%) were not submitted, 11 were submitted late (21%), and 3 (6%) submitted with a wrong date documented in the regulatory system (Insight). There is no risk to patient safety or to the benefit risk profile of the products. Further review is ongoing to ensure no other PV system gaps exist. This is expected to conclude mid-Aug.
+
+A written communication to the Kenyan HA, summarizing the identified compliance issues, with the corrective and preventative measures to be put in place once the three quality investigations conclude (estimated end August).",Closed,Janssen Pharmaceutical,Pharma - R&D,2021-08-04 10:00:09.000,"CHAHAL, AMIT",Refer to the three QIs,No Subsequent Escalation,
+"01966ca2-7ddd-7085-bc3d-0966f1ce7f5a-0cbb5c06-1f06-4c1e-89a8-7e0011904e15-1234-$record.itemRef","0cbb5c06-1f06-4c1e-89a8-7e0011904e15","01966ca2-7ddd-7085-bc3d-0966f1ce7f5a",CypressTC2 – Streamer Test,"1234",2025-05-03 00:00:00.000,"2044582",Critical observation -  Dr. Wildberger (Site ID# L74-DE10025)  GUIDE trial CNTO1959PSO3012,"CNTO1959PSO3012 GUIDE, Dr. Wildberger (Site ID# L74 DE10025). 
+	Health Authority: Local Supervising Health Authority in Germany (Darmstadt) 
+
+	Timeline:
+	 July 2021 Virtual inspection initiated
+         02 03SEP2021On site inspection. 
+	19OCT23021 Correspondence sent by the inspector to the PI requesting a follow up on site visit 
+	27OCT2021 A follow up inspection conducted
+	16NOV21, A draft inspection report was provided to PI and Janssen
+  	24NOV2021 Acknowledgement of the draft report sent by PI / Janssen.
+	02DEC2021 Final, non-translated report issued.
+
+	
+	M3 (critical finding – (site and sponsor) 27OCT2021
+	
+The following deficiencies were identified regarding GCP compliance of patient record documentation (source data documentation) recorded in the clinical site electronic health record system (ALBIS):
+
+Lack of audit trail, non-compliance with ALCOA principles 
+1. The electronic patient record, which was initially defined as a medium for recording source data, is not technically suitable for ensuring the traceability of entries: An audit trail is not available. Changed entries are provided with a current time stamp, but the nature of the change is not apparent. Furthermore, it is possible to delete entries completely. A log file generated by the system, which stores accesses to records, is overwritten by the system on a quarterly basis. The integrity of the data stored in the electronic file was thus negatively affected in that any modifications and deletions are not clearly represented. This is particularly relevant for data that was subsequently printed after the facts described in deficiency D2 became known.
+
+Inadequate or missing verification of the suitability of the conditions and processes at the study site with regard to the source data documentation.
+2.	The information provided by the study site to the sponsor regarding the technical conditions (survey using the Electronic Source Data Compliance Assessment Questionnaire) was repeatedly incorrect, even after the conditions described in item 1 and in deficiency D2 became known.
+3.	Formally, the electronic patient record is still defined in the document ""Source Document Identification and Agreement"" is still defined as an electronic medium for source data, even if it was newly created on August 20, 2019. This is also supported by the fact that an additional ""Electronic Source Data Compliance Assessment Questionnaire"" was completed, which according to the form is only required if an electronic system is used as the source data medium.
+4.	There is a lack of specifications regarding the frequency and type of printouts of the electronic file to ensure that changes are mapped or that the ALCOA principles are fulfilled.
+5.	It is unclear why the present systems were accepted by the sponsor. An initial check of the information provided by the study site is not evident.
+
+
+	Reference: ICH E6 (R2) [EMA/CHMP/ICH/135/1995]: 4.9.0 together with 2.10 and 2.13, also 5.6.1 and 5.18.4 b)
+	Guideline on computerized systems and electronic data in clinical trials (Draft): 4.1, 4.3, 4.5, 4.7 and 4.10 in conjunction with 
+	6.2.1
+
+Noted by the inspector in the final report: The critical identified at the time of the inspection is unlikely to impact patient safety, but is systematic with respect to the conduct of the clinical study at the site. The deficiency did not affect the approval of the clinical study, but it did negatively affect the validity and trustworthiness of the data collected (procedures for implementing electronic systems and their documented validation).  The data entered into the ALBIS system is printed and stored in patient binders. The inspector reviewed two of the seven printed patient files against the clinical site electronic data base (ALBIS) and the inspectors were provided access to the eCRF and did not reveal any apparent discrepancies
+
+In February 2019, Janssen conducted a site visit and identified the compliance gaps the electr",Closed,Janssen Pharmaceutical,Pharma - R&D,2021-11-16 21:22:50.000,"KOHAR, CHRISTOPHER","The scope of the HA inspection was related to CNTO1959PSO3012, the scope of the investigation related to the critical finding will be expanded to include CNTO1275PSO4051.",No Subsequent Escalation,
+"01966ca2-7ddd-7085-bc3d-0966f1ce7f5a-3d61d755-ca11-424c-b271-fb80b8ee5de3-1234-$record.itemRef","3d61d755-ca11-424c-b271-fb80b8ee5de3","01966ca2-7ddd-7085-bc3d-0966f1ce7f5a",CypressTC2 – Streamer Test,"1234",2025-05-03 00:00:00.000,"2074502","75220795NAS1001 – physical exams and ECGs conducted at discharge visits not listed in the Study Procedures table of ICF","Trigger(s) for escalation: 
+Improper Informed Consent (ICF) practices; patients did not consent to study procedures at discharge visit (physical exam and ECG) 
+
+Issue Background and Description:
+During the ICF review of the tracked changes being prepared to update the Master clinical ICF, the Sr. Trial Manager noted that the physical exam and ECG activities scheduled to be conducted at ‘discharge visits’ were not previously listed in the Study Procedures table of the ICF. The protocol Schedule of Activities does have Physical Exams and ECGs listed to be conducted on Day 3 at discharge.  To date, 13 subjects in the study have not provided consent for the Physical Exam (PE) and ECG procedures performed at the discharge visit specific time point.
+
+Impact is on patient rights and usability of the Day 3 PE and ECG data.",Closed,Janssen Pharmaceutical,Pharma - R&D,2022-01-28 14:38:36.000,"DALTON, PATRICK",The study team is in the process of revising the ICF table of events to include further clarification and alignment with the Schedule of Activities.,No Subsequent Escalation,
+"01966ca2-7ddd-7085-bc3d-0966f1ce7f5a-373395be-5c80-4b4b-8875-a452f3c7b609-1234-$record.itemRef","373395be-5c80-4b4b-8875-a452f3c7b609","01966ca2-7ddd-7085-bc3d-0966f1ce7f5a",CypressTC2 – Streamer Test,"1234",2025-05-03 00:00:00.000,"2101112",COV19VAC: Inaccurate neutralizing antibody data for 67 samples previously submitted to EMA/FDA for VAC31518COV2001 study,"Trigger for Escalation: Self-Identified issue with potential significant risk to clinical trial data integrity as inaccurate data was submitted data to EMA/FDA. 
+Public Health England, which is a governmental institute under UK Health Security Agency, informed approached  Janssen on 31-Mar-22 that this issue could result in a potential serious breach reporting event, according to PHE procedures.
+
+Issue 
+67 humoral samples to assess neutralizing antibodies against SARS CoV 2 across 2 assays for the VAC31518COV2001 (COV2001) trial analyzed at Public Health England (PHE) were found to be invalid after the data was submitted to FDA and EMA. COV2001 Group 9 10 DAY 197 data became available in the form of Tables, Listings and Figures on 18 Jan 2022. Review of these data and comparison with the S-ELISA data identified unexpected results. Janssen requested for PHE to further investigate the incongruent data on 27 Jan 2022. On 16 Mar 2022 PHE informed Janssen via email of preliminary investigation results suggesting mishandling of data samples by lab operator. They opened a non-conformance in their system the next day after meeting with the Janssen team.
+
+On 29 March 2022 PHE reported the results of their non-conformance investigation confirmed 67 samples across 14 plates conducted across 2 assays were invalidated due to incorrect handling by the lab operator and data previously uploaded to Janssen in June 2021 were inaccurate. Janssen requested a retest of all 67 samples the same day. 
+
+Impact
+The results of the 2 inaccurate assays were reported in multiple regulatory submissions including:
+
+•	COV2001 TLR used for EMA and FDA booster applications: EDMS RIM 518007
+•	ACO for FDA booster application: EDMS RIM 515644
+•	ACO for EMA booster application: EDMS RIM 535303
+•	VRBPAC briefing book for booster: EDMS RIM 550372
+•	IB addendum 4 to Edition 4: EDMS RIM 459058
+•	EMA Scientific Advice briefing book on pediatric strategy: EDMS RIM 453437
+•	COV2001 Primary analysis CSR: EDMS RIM 463865
+•	COV2001 Primary analysis CSR addendum: EDMS RIM 662380
+
+On 30 Mar 2022, PHE informed Janssen that per the Quality Agreement with Janssen “uploaded data submitted to a regulatory agency found to be inaccurate or invalid” will need to be assessed for potential serious breach reporting to the MHRA in accordance with their internal procedures",Closed,Janssen Pharmaceutical,Pharma - R&D,2022-04-01 17:49:26.000,"POLLARINE III, JOSEPH","1.	Janssen to invalidate the 67 results and replace them with results from the retest at PHE.  
+2.	Updated TLFs to be created by Statistic/Programming to be added as erratum to the impacted documents previously published.
+3.	Health authorities that received incorrect documents will be notified. 
+4.	PHE will continue executing actions plans associated with their nonconformance and have noted they will implement improvements with training and quality control by Summer of 2022. 
+5.	Janssen serious breach evaluation needs to be initiated per TV-SOP-25014 and TV-SOP-18636",No Subsequent Escalation,
+"01966ca2-7ddd-7085-bc3d-0966f1ce7f5a-9af2d3ef-b013-4ec9-bf6c-d29309721a08-1234-$record.itemRef","9af2d3ef-b013-4ec9-bf6c-d29309721a08","01966ca2-7ddd-7085-bc3d-0966f1ce7f5a",CypressTC2 – Streamer Test,"1234",2025-05-03 00:00:00.000,"2124622","Patient that did not meet criteria enrolled and dosed in the 75348780LYM1001 trial, experienced a fatal SAE","Trigger for escalation:
+Patient 100097 was enrolled into Cohort 12a and did not meet inclusion/exclusion criteria for the study. This patient had a fatal event (death secondary to multi-organ failure) on 09 May 2022.  
+
+The criteria selected for escalation:
+Inappropriate randomization of a subject into a clinical trial e.g. a subject that did not meet protocol inclusion/exclusion criteria was enrolled, resulting in potential/significant risk to subject's safety.
+
+Brief/succinct summary of issue
+This event is currently considered a potential Significant Quality Issue per TV-SOP-25014 as it represented an immediate risk to patient safety. 
+
+- Patient 100097 at site ES10002 (PI: Norma Carmen Gutierrez) was dosed with 400 mg of the IP as a third step up dose, as indicated by protocol (this was the 2nd highest dosing cohort in the study). After dosing, the patient developed Grade 3 CRS with Grade 5 fever, and subsequently died due to multiple organ failure. CRS is a known event with bispecific antibody therapy, having been reported 33 times in this study with 3 prior Grade 3 events. The Grade 5 fever was initially judged to be unrelated to IP.
+- During the follow-up investigation, the central team discovered that the patient did not meet multiple entry criteria for the study. Each deviation of entry criteria is considered a major protocol deviation (MPD).
+The MPDs were related to the following:
+- Last IT therapy was administered from 07 Apr 2022 to 19 Apr 2022 (day -15 to day -4). CNS disease and intrathecal therapy (IT) treatment information was not available in the eCRF during eligibility review. According to exclusion criteria 4.2 the patient cannot have prior therapy two weeks before the first administration of study drug. 
+- Patient had platelets = 50 at pre-dose without bone marrow involvement of the disease. This was out of range per inclusion criteria 4b. 
+
+Initial IND safety report submitted on 20 May 2022.  FDA sent an Information Request to Janssen on 27 May 2022, with a requirement to respond no later than 01 June 2022 (deadline extended to 03 June 2022).  Janssen response is in progress.
+
+In regards to the site:
+- This is a highly experienced JNJ investigator.  PI has been working as investigator since 2006 in phases I-IV trials. She is the PI in 2 studies (75348780LYM1001 and PCI-32765CAN3001), and as SI in the following ones: 26866138LYM3002, 53718678RSV2005, 54179060CLL3011, 64052781LYM1001, 67856633LYM1001, CNTO328SMM2001, PCI-32765CLL3001, PCI-32765FLR3001, PCI-32765LYM1002, PCI-32765MCL3002.  
+- On site protocol training was completed for this site
+- All other screened patients at this site met inclusion criteria",Closed,Janssen Pharmaceutical,Pharma - R&D,2022-06-01 11:56:53.000,"DALTON, PATRICK","- As further information from this patient is still being collected and recorded in the eCRF, and study site is being retrained in protocol/study processes, no further slots will be allocated to this site at this time. 
+- Ad hoc SMT meeting occurred on 27 May 2022 to determine acceptability of the 400 mg dose as step up 3 (SU3).  During a regular SET meeting (#10, on 18 – 19 May 2022), a detailed narrative about the fatal case was presented along with all the safety information available for the other patients being treated in cohorts 11b (5/30/400; n=4) and 12a (5/30/200 or 400/800; n= 6). SET recommended that the dose regimens for cohorts 11b (5/30/400) and 12a (5/30/200 or 400/800) continue without modification.  SMT has decided to adopt the SET recommendation and continue without dose modification for ongoing cohorts.
+- Response to FDA information request in progress and expected to be submitted on 03 June 2022.
+- Central team will continue to work with the site to ensure appropriate follow up actions are taken.",No Subsequent Escalation,
+"01966ca2-7ddd-7085-bc3d-0966f1ce7f5a-77be0fb2-e3f2-4246-9953-fa0878ae6836-1234-$record.itemRef","77be0fb2-e3f2-4246-9953-fa0878ae6836","01966ca2-7ddd-7085-bc3d-0966f1ce7f5a",CypressTC2 – Streamer Test,"1234",2025-05-03 00:00:00.000,"2170882",(Bosnia) Investigator Site Inspection Missed Commitment Due Dates - Curve 377641 Dr. Gornjakovic - CNTO1959CRD3001,"The trigger for this escalation is for 3 confirmed health authority commitments with confirmed missed due dates at the site of Dr. Gornjakovic, a principle investigator involved in CNTO1959CRD3001. 
+PAREXEL (PXL) who is responsible for the monitoring of CNTO1959CRD3001 at the site, failed to alert Janssen of the 3 confirmed health authority commitments with confirmed missed due dates. 
+
+Janssen BRQC Vendor Management contact has been made aware and participated in a meeting regarding this escalation on 27SEP2022 of these missed health authority commitments.
+
+The 3 confirmed health authority commitments with confirmed missed due dates are as follows:
+
+
+•	(TW 2147526) PREVENTIVE ACTION: Site create a SOP for all future studies with such cases, for better understanding of subsequently added dates and tasks and site CRA to follow up  accordingly.
+- Site refused to create the SOP, but has been now (27Sep) drafted SOP.  
+
+•	(TW 2148097) PREVENTIVE ACTION: CRA to instruct study Site staff, on future patient visits and in study trials, to document medical doctor decision to administer IMP to patient for every subject visit when IMP administration is planned.  Blinded CRA to check SD for other sites in BIH in order to be sure this procedure is clear and not issued on other sites. Verification will be documented in the monitoring visit reports. Site blinding plan will be updated to reflect the new process.
+- No evidence if site staff was trained.  Noted in last MVR (Open issue H60).
+- No evidence of Blinded CRA to check SD for other sites in BIH to ensure SOP is clear
+- No evidence of site blinding plan updated.
+
+•	(TW 2148122) PREVENTIVE ACTION: Blinded and unblinded CRAs to check Source Documents for other sites in Bosnia and Herzegovina and to apply similar practices in order to be sure that there is no deficiencies regarding similar issues and discrepancies and to subsequently register it in MVR first MVs.
+- We do have evidence (memo) for unblinded team but need evidence of execution from blinded team.
+
+Please note, in addition there are 6 of 9 Health Authority commitments which are at risk of not being completed on time.",Closed,Janssen Pharmaceutical,Pharma - R&D,2022-09-27 18:56:04.000,"Kapcsos, Michael",Janssen Quality Investigation to be initiated and appropriate actions to be determined.,No Subsequent Escalation,
+"01966ca2-7ddd-7085-bc3d-0966f1ce7f5a-581cc717-90d5-4b99-9acf-a66ee9530483-1234-$record.itemRef","581cc717-90d5-4b99-9acf-a66ee9530483","01966ca2-7ddd-7085-bc3d-0966f1ce7f5a",CypressTC2 – Streamer Test,"1234",2025-05-03 00:00:00.000,"2174192",Critical Observation  (DSP2022Q25988)  - Severe non-compliances to the DDI guidelines in NME data crPhage (IDP6069),"During the discovery audit (DSP2022Q25988) on data generated for NME declaration of the project crPhage PA Blood Streams Inf (IDP6069) in the Infectious Diseases Therapeutic Area, severe non-compliances to the Discovery Data Integrity (DDI) guidelines on NME Reporting, Experimental Record Keeping and Data Storage were observed resulting in a critical observation. 
+
+In summary, the identified quality concerns are related to data accuracy, data reconstruction and potential for bias. A deeper evaluation by the team will be required to further understand the extent and impact of the findings on the conclusions used for NME declaration.
+
+Further details will be included in the audit report.",Closed,Janssen Pharmaceutical,Pharma - R&D,2022-10-05 15:58:40.000,"LAVRIJSSEN, TOM","Relevant CAPA's to be developed by the auditees.
+Details outlined in audit report.",No Subsequent Escalation,
+"01966ca2-7ddd-7085-bc3d-0966f1ce7f5a-1e0ed73f-564f-4181-84b5-45a9f9bf683d-1234-$record.itemRef","1e0ed73f-564f-4181-84b5-45a9f9bf683d","01966ca2-7ddd-7085-bc3d-0966f1ce7f5a",CypressTC2 – Streamer Test,"1234",2025-05-03 00:00:00.000,"2194242",Level 2- AC-077A301 Miscommunication of Interim Analysis recommendation from IDMC to Sponsor Committee,"After interim analysis for the AC-077A301 trial the IDMC reflected in its meeting minutes a recommendation to stop the study due to efficacy in March 2022. However, the recommendation provided to the Sponsor Committee by the IDMC on 21Mar22 was to stop the study (no reason specified). The recruitment was then stopped, and patients continued in double blind phase potentially delaying their transition to open label treatment.
+
+The AC-077A301 (A DUE) trial Independent Data Monitoring Committee (IDMC) completed their review of the Interim Analysis (IA) data in March 2022 with recommendation to stop the study per the blinded IDMC meeting report.  In review of communications from March 2022 between the IDMC and the SC the understanding of this recommendation was that the study was to stop recruitment of new patients and complete the final planned analysis; however, upon review of the closed session meeting minutes in November 2022 the IDMC had recommended to stop the study due to efficacy - which was not done.  
+
+The IDMC had a regular meeting in May 2022 where a written recommendation was provided to continue study unmodified until next scheduled meeting. 
+
+The study participants continued in the double-blind phase of the A DUE trial instead of completing the end of double-blind treatment visit (EDBT) and transition to the open label phase of the trial and be receiving the Fixed-dose-combination treatment if study had stopped for efficacy.  The study participants not included in the IA primary analysis were potentially delayed in moving to the open label phase of the trial until after completion of Week 16 visit.  Impact assessment for safety and efficacy is pending.
+
+A quality investigation is in progress to assess root cause of the miscommunication and impact assessment for patients under monotherapy that continued in the double-blind phase.",Closed,Janssen Pharmaceutical,Pharma - R&D,2022-11-22 16:22:08.000,"NIZNIK, MICHELLE","Complete impact assessment for safety and efficacy for patients in monotherapy arm that did not transfer to open label phase after IDMC meeting in March 2022.
+
+Assess potential enhancements to IDMC charter or IDMC meeting report and recommendation template /script to ensure clarity  in communications and recommendations at IA.
+
+Request any additional communications from Sponsor Committee and IDMC members related to outcome of interim analysis and to recommendation made.",No Subsequent Escalation,
+"01966ca2-7ddd-7085-bc3d-0966f1ce7f5a-d5332637-8901-403c-91a7-0163b7910a1f-1234-$record.itemRef",d5332637-8901-403c-91a7-0163b7910a1f,"01966ca2-7ddd-7085-bc3d-0966f1ce7f5a",CypressTC2 – Streamer Test,"1234",2025-05-03 00:00:00.000,"2206952",Level 1-Two Quetiapine IP kits were lost at Site AR10011 for protocol TRD3013 in Argentina,"Trigger for Escalation:  Quetiapine is a controlled substance in Argentina and loss is reportable to the Health Authority.  There is no expected impact to the Esketamine 5413419TRD3013 trial or submission. 
+
+On January 2022, patient attended to a scheduled visit, and the Study Coordinator (SC) assigned 2 Quetiapine kits of 150 mg each (205981, 205982).
+Before the patient left the site, the SC noticed that kits were assigned in error, and new Quetiapine kits of 300 mg each were assigned and dispensed.
+The two 150 mg kits were not at site after the final reconciliation, and the vendor (Fisher) was requested to open all the boxes sent for destruction.
+On November 24th, Fisher confirmed that the kits were not found in any box. 
+On December 15th, the backup Site Monitor performed an Onsite Monitoring Visit for the TRD4010 study and investigated the lost kits at the site with the SC, however, was not able to locate the kits.
+
+SM review with site staff the IP return procedure and re-enforced the importance of keeping the dispensed and returned kits in a safe place, whether they contain medication or are empty.
+
+-Site staff to notify Local Police and their Ethics Committee 
+-Sponsor/Study Team will notify local regulatory Agency as applicable
+-Study Team to notify JNJ Global security and Controlled Substance Group",Closed,Janssen Pharmaceutical,Pharma - R&D,2022-12-19 21:56:03.000,"NIZNIK, MICHELLE","Site Monitor reviewed with site staff the IP return procedure and re-enforced the importance of keeping the dispensed and returned kits in a safe place, whether they contain medication or are empty.  Training to be documented.
+
+-Site staff to notify Local Police and their Ethics Committee 
+-Sponsor/Study Team will notify local regulatory Agency as applicable
+-Study Team send notification to JNJ Global security and Controlled Substance Group on 19-Dec-2022",No Subsequent Escalation,
+"01966ca2-7ddd-7085-bc3d-0966f1ce7f5a-4b97976a-96b5-4e0d-b39c-24031475d472-1234-$record.itemRef","4b97976a-96b5-4e0d-b39c-24031475d472","01966ca2-7ddd-7085-bc3d-0966f1ce7f5a",CypressTC2 – Streamer Test,"1234",2025-05-03 00:00:00.000,"2239862","LEVEL 1-54179060MCL3004 Suspected Misconduct of a Pharmacy Technician, Univ. of Istanbul","Trigger for escalation: Suspected misconduct at a clinical trial site as reported by the primary investigator and associated reporting to the Ministry of Health (HA Turkey) and EC.  The primary investigator reported to the study monitor that a pharmacy technician, delegated for preparation of rituximab, was dismissed on 03 MAR 2023 from the institution due to suspected intentional misconduct related to investigational product preparation. On 09 MAR 2023, the local team from Turkey informed the 54179060MCL3004 (VEGA) study team about the information reported by the primary investigator.  
+
+•	There is an ongoing internal investigation at the site being conducted by law enforcement and the site staff (PI and investigators) to determine impact in the preparation for the VEGA subject’s Rituximab IV administration.  
+
+•	The subject received 3 doses that were prepared by this pharmacy technician on Cycle 1 on 29 DEC 2022, Cycle 2 administered on 27 JAN 2023, and cycle 3 administered on 24 Feb 2023.  Only one subject 900003 was administered Rituximab which was prepared by this pharmacy technician.  
+
+•	The VEGA SRP confirmed there are no major safety concerns for this subject as the subject did receive Lenalidomide which is active and registered drug in this indication.  
+
+Impact: 
+The Pharmacy Tech was delegated for IP preparation for studies: 54179060MCL3004 and 64407564MMY3002.   For the MCL3004 study, Subject # 900003, 1 subject on treatment potentially impacted.  No other patients impacted at this site.  For MMY3002, there is no impact to this study since the pharmacy tech was dismissed prior to the site’s first subject’s first dose.",Closed,Janssen Pharmaceutical,Pharma - R&D,2023-03-16 18:48:43.000,"Moya, Isabelle","•	The patient will return for a study visit on 23 MAR 2023.   
+
+•	Exploring possibility of a serum test to determine trial integrity and the reporting of outcome within the CSR.  The serum test may confirm if this patient received Rituximab.  
+
+•	Additional potential actions will be determined in consultation with the Global Legal Organization",No Subsequent Escalation,
+"01966ca2-7ddd-7085-bc3d-0966f1ce7f5a-5f30a92e-70d3-4936-93af-3e15caf1057b-1234-$record.itemRef","5f30a92e-70d3-4936-93af-3e15caf1057b","01966ca2-7ddd-7085-bc3d-0966f1ce7f5a",CypressTC2 – Streamer Test,"1234",2025-05-03 00:00:00.000,"2254022",Use before date of VesiCulture product in trial 17000139BLC3002,Third party product Vesiculture was packaged in kit P&L orders T323376 and T335839 for use in trial 17000139BLC3002. The orders were released with an incorrect expiry date (1 month too long). The expiry date was based on the original expiry date listed in the CoA and commercial packaging of VesiCulture by manufacturer AJ Vaccines. It was however not noticed that AJ Vaccines had reported the expiry date as a 'Use before' date instead of Expiry date. Both orders were therefore assigned a Janssen expiry date going 1 month beyond the actual expiry of the product.,Closed,Janssen Pharmaceutical,Pharma - R&D,2023-04-25 12:25:17.000,"VAN HEUVERSWYN, Maite","1. Availability of additional stability information to cover the additional month to be requested from AJ Vaccines to complete the investigation documentation.
+2. 
+- Order T345977 will be reworked (update expiry labeling per TV-SOP-09605) at P&L facility Catalent Schorndorf, Germany as soon as possible.
+- Order T335839 will be reworked (update expiry labeling per TV-SOP-09605) at clinical sites and/or depots or will be damaged out once correct re-supply is available, to avoid immediate patient/trial impact.",No Subsequent Escalation,
+"01966ca2-7ddd-7085-bc3d-0966f1ce7f5a-834b122f-1c60-4022-a5dd-2f4a54f1dc6c-1234-$record.itemRef","834b122f-1c60-4022-a5dd-2f4a54f1dc6c","01966ca2-7ddd-7085-bc3d-0966f1ce7f5a",CypressTC2 – Streamer Test,"1234",2025-05-03 00:00:00.000,"2262672","Level 2 Failure to obtain informed consent for DNA sampling, but samples obtained, across multiple sites/countries","Trigger for escalation:  45 patients had DNA samples collected without signing ICF across multiple sites and countries, impacting patient rights. Informed consent must be collected for all procedures for all patients under ICH and GCP requirements. HA reporting will be required as a result of improper informed consent (ICF) practices. 
+
+Background:  on 14Feb2023, Parexel received information from Labcorp that DNA collection tubes were erroneously included in Week 0 kits.  Parexel local teams requested CRAs notify site teams to remove the collection tube.  MCT (subcontracted by PXL) CRAs in Jordan did not perform this task, and DNA sampling is not EC approved for any patient in Jordan, so in total 32 patients in Jordan had DNA sampling completed without informed consent.  This necessitates HA reporting in Jordan.  A total of twelve sites are impacted across eight countries.",Closed,Janssen Pharmaceutical,Pharma - R&D,2023-05-18 14:17:12.000,"PATEL, BHAVESH","PXL is conducting a Quality Investigation (307950).  Actions proposed by Parexel:
+  
+•	Communication to lab vendor (Covance/Labcorp) to be sent by Parexel describing the issue and request to destroy samples, to be followed up until destruction confirmed
+•	Communication to sites from Parexel that samples have been destroyed, when this has occurred
+•	Each individual issue reported as a PD in Parexel's system
+•	Parexel's vendor MCT to retrain sites about protocol requirements and regulations related to DNA sample collection, which will be documented in Parexel training log and monitoring visit report",No Subsequent Escalation,
+"01966ca2-7ddd-7085-bc3d-0966f1ce7f5a-6870516e-0922-4e49-a03f-931830102b17-1234-$record.itemRef","6870516e-0922-4e49-a03f-931830102b17","01966ca2-7ddd-7085-bc3d-0966f1ce7f5a",CypressTC2 – Streamer Test,"1234",2025-05-03 00:00:00.000,"2327732","Level 1: HA Italy conditional approval for SunRIse 1, 2, 3, 4, requiring device application and temp. enrollment hold","Executive Summary: 
+Trigger for Escalation:   AIFA (HA Italy) placed a conditional approval for the SunRIse trials, requesting a separate CIA (clinical investigation application) for the Urinary Placement Catheter (UPC) device, and requested a temporary enrollment hold on November 15th 2023.  
+
+Background: The UPC is used for the intravesical placement of TAR-200 in the bladder. It does not have a CE mark and is a low-risk, Class I sterile device. The four SunRIse studies were designed to evaluate TAR-200 alone or in combination with cetrelimab and are not a clinical evaluation of the UPC to demonstrate conformity nor to evaluate or establish the performance, clinical benefit, or safety of the UPC. Therefore, per Article 62 (1) of the MDR, it was the opinion of the Sponsor at the time of trial design and start that a clinical investigation application to the health authority for this Class I sterile, low-risk device separate to the CTA application for the TAR-200 integral drug-device combination product was not warranted and confirmed with the Italian HA. 
+  
+AIFA has now communicated with the local team that the UPC device should have a Clinical Investigation Agreement (CIA) submitted for each study in order to resolve this issue.  AIFA asked to place a hold on enrolment for all SunRIse studies until the CIA is approved for use of the UPC device for SR 1, 2, 3, and 4 studies.   This impacts patients in screening (no ICF signed) by November 15th 2023, but patients on treatment can continue treatment.
+
+The Sponsor acknowledges the understanding device-related requirements have evolved in the past years and has agreed to submit a separate CIA application as soon as possible.
+
+Next Steps:
+A Clinical Investigation Application (CIA) for the UPC device will be submitted for all SunRIse studies (SunRIse, 1, 2, 3, 4) to the AIFA.  An enrolment hold for new patients will be put in place until approval, which is expected to be expedited in under 60 days to minimize impact.",Closed,Janssen Pharmaceutical,Pharma - R&D,2023-11-15 20:14:36.000,"CLAES, ROBBY","Next Steps:
+A Clinical Investigation Application (CIA) for the UPC device will be submitted for all SunRIse studies (SunRIse, 1, 2, 3, 4) to the AIFA.  An enrolment hold for new patients will be put in place until approval, which is expected to be expedited in under 60 days to minimize impact.",No Subsequent Escalation,
+"01966ca2-7ddd-7085-bc3d-0966f1ce7f5a-e4852b03-abd2-42c4-92e6-c6163f389c57-1234-$record.itemRef",e4852b03-abd2-42c4-92e6-c6163f389c57,"01966ca2-7ddd-7085-bc3d-0966f1ce7f5a",CypressTC2 – Streamer Test,"1234",2025-05-03 00:00:00.000,"2356372",Level 2- Multiple dosing errors for one subject at different time points for MOM-M281-006 (EU-CTR) at Hungary site 1605,"Protocol non-compliance at Site #1605/PI Zsolt Nagy with potential impact to subject’s rights, safety, and data integrity for the MOM-M281-006 study.
+
+Site errors in dose calculation occurred leading to 11 incorrect dosing events, either over or under-dosed, for one subject, #1605003. The site did not use the updated worksheets for dose calculation and did not record the expiration time of prepared infusion. The issue was noted by the Icon unblinded CRA during visit conducted on 26Jan2024. Icon indicated it happened during drug preparation, with first occurrence on 30Aug2023. Issue affects one subject that is in the open label extension part of the protocol. The site has one other subject that is discontinued. The trial currently has 74 randomized subjects.
+ 
+Follow up information based on J&J Study Responsible Physician (SRP) discussion with site Sub-I on the current subject included subject is doing well, no additional problems. Nipocalimab has been studied up to 60 mg/kg q2w in participants with MG, and it was generally well tolerated. Doses greater than 10% of 15 mg/kg q2w are still within the dose range that has been studied in clinical trials. It is not expected that the dosing error during the period from OLE WK28 to OLE WK48 will have a future impact. Impact to subject safety: SRP recommends subject continue in Open Label Extension study. 
+
+The JJIM team met with Icon on 15Feb2024 to discuss next steps and provided a summary from CRA visit on 14Feb2024, in which CRA confirmed confirmed that there was no AE, but 1 SAE reported for this subject that was not related to IP.",Closed,Janssen Pharmaceutical,Pharma - R&D,2024-02-26 16:41:49.000,"Swanger, Leticia","-Icon confirmed site was using correct worksheets as of 30Jan2024.
+-Icon investigation/CAPA is due 05March2024, and it is expected to include further confirmation of all the mis-dosing calculations. 
+-Potential additional actions pending Icon investigation.",No Subsequent Escalation,
+"01966ca2-7ddd-7085-bc3d-0966f1ce7f5a-018ed883-c1d1-708a-a79d-0cb6954df0a0-1234-$record.itemRef","018ed883-c1d1-708a-a79d-0cb6954df0a0","01966ca2-7ddd-7085-bc3d-0966f1ce7f5a",CypressTC2 – Streamer Test,"1234",2025-05-03 00:00:00.000,"2363822",Critical GCP Audit Observation - Lack of Principal Investigator (PI) Oversight  Protocol 17000139BLC3001 (TAR-200),"Janssen (Pharmaceutical Companies of Johnson & Johnson) Research and Development (R&D) Quality conducted a routine onsite Clinical Investigator Site Audit of Dr. Lopez Chuken, Yamil,  protocol 17000139BLC3001, site S71-MX10004. The audit was performed in Monterrey, Mexico on 12-14 Mar 2024.
+
+The auditor noted significant non-compliances at the site resulting in a Critical Observation focused on lack of Principal Investigator (PI) oversight resulting in several issues related to delegation, training, ICF, filing/ study documents review, compliance with local Ethics Committee PD and SUSAR submission timelines, SUSAR reviews and IP.
+
+Background
+The Study 17000139BLC3001 is a phase 3 study, to assess the efficacy of TAR-200 in combination with Cetrelimab versus concurrent Chemoradiotherapy in participants with Muscle-invasive urothelial carcinoma (MIBC) of the bladder who are not receiving radical cystectomy. 
+
+The audited Site S71-MX10004 was opened on 25Nov21 and has screened 21 participants starting 08Apr22 (first subject screened), and has enrolled 10 participants. 
+
+Issue description 
+•	The site staff, including study coordinators, pharmacists, sub-investigators, and nurses, were performing study procedures without the required study training. The pharmacist did not have the necessary credentials, and there were errors in the preparation and administration of investigational products including the usage of outdated forms. 
+•	Delays occurred in obtaining reconsent from study participants for multiple versions for several months, and there were issues with documentation process. 
+•	Delegation log was updated after the announcement of the audit, with numerous changes without evidence of training in some cases.
+•	Urological procedures were performed by partner institutions, leading to concerns about data completeness since only summaries are provided and not the original source. 
+•	Protocol deviations and safety reports were not handled according to required timelines outlined by their local Ethics Committee. 
+•	There were delays in reviewing study documents and SUSAR (instances were reviewed 1 year later), and not all necessary training was completed in a timely manner. 
+•	Site uses a platform with username and password for the generation of source documents, which they print and sign for the medical chart, with no procedure to explain how it should be handled. During the audit, access or over the shoulder view was not provided to the auditor to establish if it is an electronic medical records (EMR) system or not.",Closed,Janssen Pharmaceutical,Pharma - R&D,2024-04-12 16:28:40.000,"MALTESE, PHILIP",Investigate audit observation,No Subsequent Escalation,
+"01966ca2-7ddd-7085-bc3d-0966f1ce7f5a-01927335-aa1c-7a1e-9da0-4f13cabe7b90-1234-$record.itemRef","01927335-aa1c-7a1e-9da0-4f13cabe7b90","01966ca2-7ddd-7085-bc3d-0966f1ce7f5a",CypressTC2 – Streamer Test,"1234",2025-05-03 00:00:00.000,"2373232",Level 1- GCP noncompliance at Shanghai Children ‘s Medical Center for AC-065A203 and AC-065A310,"Unintentional noncompliance on source document process at Shanghai Children ‘s Medical Center, which was not fully compliant with ALCOA (Accurate, Legible, Contemporaneous, Original, & Attributable) principles, and traceability. This applies to both the AC-065A203 and AC-065A310 pediatric PAH trials (selexipag).
+ 
+Patient visits were conducted by the main Sub Investigator (main Sub-I), accompanied with another sub investigator (Sub-I). As electronic Medical Records (eMR) system was not available at the facility, the main Sub-I documented the patient visits in loose notes that were used by the other Sub-I to enter data in the eMR system.
+ 
+Summary of GCP non-conformance was confirmed during a compliance monitoring visit (4-5 June 2024):
+The eMR user access credentials were shared between the two Sub-Is
+Backdating of eMR entries and certified copies
+Retrospective entries into eMR for multiple patients’ visits based on original source documents (loose paper notes) (not all certified copies were visible in the eMR)
+Original source documents (loose paper notes) were discarded by site after eMR entries and verification against certified copies.
+ 
+The above GCP non-conformance issues present an inspection risk for this site.
+ 
+Site enrolled 6 out of 63 and 10 out of 138 enrolled patients in AC-065A203 Ped-Pk and AC-065A310 SALTO trials respectively.  
+ 
+Data were included in Interim Analysis 1 (IA1) for the SALTO study and have been used for the registration in European Union Pediatric Investigation Plan requirements and EU submissions. Data for recent IA2 are used for the benefit risk assessment for the US submission.  PI did not complete signature in EDC RAVE for IA2.
+ 
+Prior to completion of compliance monitoring visit, in April the Clinical team recommended to maintain data in the submission due to additional source data verification of both the site eMR and external sources that was conducted as part of preliminary investigation.  The team concluded that integrity of data had been confirmed as a result of this verification.",Closed,Janssen Pharmaceutical,Pharma - R&D,2024-06-24 20:23:56.000,"SELESKY, JOHN","-Documentation of the issue in the Clinical Study Report (eCRF data not signed by PI for IA2).
+-To align with various stakeholders including Local RA to confirm if notification is required for Health Authority in China and to inform site IEC/IRB and GCP officer.
+-Creation of the inspection narrative
+-Perform further impact assessment on the data integrity and to determine next step for global and local submission",No Subsequent Escalation,
+"01966ca2-7ddd-7085-bc3d-0966f1ce7f5a-01927335-aa1c-7554-9c69-199ab9661aa5-1234-$record.itemRef","01927335-aa1c-7554-9c69-199ab9661aa5","01966ca2-7ddd-7085-bc3d-0966f1ce7f5a",CypressTC2 – Streamer Test,"1234",2025-05-03 00:00:00.000,"2373662",For-cause GCP Investigational Site Inspection by Guangdong  ADR Center @ Site10023_Study CNTO1959CRD3001_CURVE#377870,"Parexel has received a formal notification regarding the for-cause site inspection of study CNTO1959CRD3001, which was scheduled on 26Jun2024. The site inspection was conducted at Site10023, The Sixth Affiliated Hospital, Sun Yat-sen University by Center for ADR monitoring of Guangdong. It was triggered by subject 101317 complaint related with insurance reimbursement due to complication from colonoscopy which as part of screening process.  According to the Clinical Team, “this subject has identified significant disease with an SESCD score 19 (severe) which in itself does bring on elevated risk of perforation with a colonoscopy.” 
+
+Due to this subject met exclusion criteria #3 and #4 (Exclusion criteria #3.1: Has had any kind of bowel resection within 6 months, or any other intra-abdominal or other major surgery within 12 weeks before baseline. #4:Has a draining (ie, functioning) stoma or ostomy. ) , subject 101317 was subsequently determined as not eligible to study enrollment on 24May2021.
+No formal report/findings has been shared with site on 26Jun2024.",Closed,Janssen Pharmaceutical,Pharma - R&D,2024-06-27 01:54:53.000,"Liu, Sha",TBD,No Subsequent Escalation,
+"01966ca2-7ddd-7085-bc3d-0966f1ce7f5a-01927335-aa20-7d5a-8775-b55367960adb-1234-$record.itemRef","01927335-aa20-7d5a-8775-b55367960adb","01966ca2-7ddd-7085-bc3d-0966f1ce7f5a",CypressTC2 – Streamer Test,"1234",2025-05-03 00:00:00.000,"2376322","Level 1 – I.H.S. Health, LLC, Dr. Syed Lateef: Allegations by PI of potential site issues","Johnson & Johnson (J&J) Innovative Medicine has been made aware by Dr. Lateef of the ongoing dissolution of the IHS Institution, stemming from irreconcilable differences between Dr. Lateef and his business partners. The ongoing dispute and pending legal action have resulted in instability at the site and raised Sponsor concerns regarding the ability of the PI to continue to provide adequate oversight to our ongoing portfolio of trials currently being conducted at this site. During this period of uncertainty, the PI has been unwilling for J&J and CRO partner (Parexel) staff to schedule on-site monitoring visits and this has raised concerns over potential impact on future study participant visits and scheduled assessments. 
+
+In addition to these concerns, J&J received a letter addressed from Dr. Lateef dated 11Jul2024, which highlighted significant concerns as to the ability of the site to continue to ensure the safety of ongoing study participants, as well as to maintain adherence to the clinical protocols, regulatory and ethical standards, and data integrity.
+
+Additional Details: 
+There are 24 enrolled / 18 active subjects across 4 trials at this site.
+- CNTO1959UCO3004 (ASTRO): 11 enrolled / 7 active subjects; in-house
+- 77242113UCO2001 (ANTHEM-UC): 4 enrolled / 4 active subjects; in-house
+- 78934804CRD2001 (DUET-CD): 6 enrolled / 5 active subjects; outsourced to Parexel
+- 78934804UCO2001 (DUET-UC): 3 enrolled / 2 active subjects; outsourced to Parexel
+
+31May2023: J&J was notified that the US Food and Drug Administration (FDA) was inspecting the site of Dr. Lateef for the CNTO1959UCO3004 (ASTRO) study.  The FDA initiated the inspection earlier in the week for a closed, non-J&J trial and then selected the ongoing ASTRO study for review.  The inspection concluded 02Jun2023. There were no findings noted for ASTRO. 
+
+05Jun2024: Date of letter from PI requesting J&J to immediately stop all payments to I.H.S. Health, LLC until further notice because of internal issues at the research site.  PI requested to redirect payment to “I.H.S. Healths”.
+
+06Jun2024: J&J regional contract manager communicated with impacted J&J teams regarding the internal conflict within I.H.S. Health, LLC. 
+
+07Jun2024: Date of certified letter sent by J&J to PI with instructions to contact Regional Contract Manager, immediately to discuss any formal CTA amendment requests. 
+
+11Jun2024: Date of the last blinded monitoring visit (MV) across the four trials. It occurred for ASTRO. The last unblinded MV occurred 20Jun2024 for DUET-UC. Routine monitoring visits across the four trials have not substantiated the claims recently being made by the PI. The PI has become increasingly unresponsive.
+
+13Jun2024: J&J site relationship lead (ISRL) and DUET team members met with the PI. He provided an overview of the status of his site’s operations. The next monitoring visit for the DUET studies was confirmed for 25-27Jun, but was later cancelled by the PI.
+
+01Jul2024: Parexel informed J&J of a legal complaint filed by Dr. Syed Lateef against his business partner available on the Florida Orange County Clerk of Courts website. There are concerning accusations within the complaint for which the impact on J&J studies is unclear. Counter allegations from the PI’s business partner are also available on the court website.
+
+02Jul2024: Parexel shared QI 373794 (for DUET-CD and DUET-UC) due to ongoing issue with PI oversight and engagement, missed and delayed participants' visits, delays in data completion and cancelled monitoring visits.
+
+05Jul2024: The certified letter, dated 07Jun2024, to the PI was returned as undeliverable – return to sender – VACANT.
+
+08Jul2024: The J&J ISRL reached out to the site and had a conversation with a site coordinator (SC). The SC confirmed that the site is open and currently seeing patients. The SC was unsure about the reason behind the undeliverable mail.
+
+11Jul2024: Date of letter from PI to J&J. Dr. Lateef alleges tha",Closed,Janssen Pharmaceutical,Pharma - R&D,2024-07-18 13:12:08.000,"NIZNIK, MICHELLE","An internal for-cause site audit is planned for Jul2024, which may result in additional actions.",No Subsequent Escalation,
+"01966ca2-7ddd-7085-bc3d-0966f1ce7f5a-01927335-aa23-7005-918e-d37556bddfd0-1234-$record.itemRef","01927335-aa23-7005-918e-d37556bddfd0","01966ca2-7ddd-7085-bc3d-0966f1ce7f5a",CypressTC2 – Streamer Test,"1234",2025-05-03 00:00:00.000,"2377512",Under-Reporting of Spontaneous ICSRs due to Causality Mapping in ArisG,"Trigger(s) for escalation:
+- Potential formal notification to Health Authorities (HA) and Business Partners (BP)
+- Significant volume of late Individual Case Safety Report (ICSR) submissions to EMA and MHRA
+
+On 11-Jun-2024, during the close-out meeting of the Belgium FAMHP supervisory inspection (4th-11th June 2024), the inspectors communicated potential findings. This included reference to under-reporting to Eudravigilance for a small number of spontaneous cases where the reporter did not provide causality and company causality was considered as Not Related.  Self-identified NC-014879 was opened on 20-Jun-2024. Inspection report received 11-Jul-2024 confirmed a major observation related to this finding.  On 29-Jul-2024, during the ongoing investigation, the escalation lead was informed of a projected number of approx. 350 submissions identified as under-reported to the EMA and MHRA respectively. Impact to overall compliance will be low. 
+
+An impact assessment on patient safety will be performed, but impact is unlikely because all cases were included in the safety database.
+
+UPDATE 01-Aug-2024:  On 31-Jul-2024, the Case Processing Director confirmed the final numbers of missed submissions to EMA and MHRA as 78 and 71 respectively, instead of the earlier projected figures. These are not considered a significant compliance impact.",Closed,Janssen Pharmaceutical,Pharma - R&D,2024-07-29 16:17:44.000,"CHAHAL, AMIT",QI and CPA in progress,No Subsequent Escalation,

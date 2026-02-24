@@ -1,0 +1,20 @@
+{
+    "devDependencies": {
+        "@playwright/test": "^1.49.1",
+        "concurrently": "^9.1.2",
+        "dayjs": "^1.11.13",
+        "dotenv": "^16.4.5",
+        "esbuild": "^0.25.2"
+    },
+    "dependencies": {
+        "html-pdf": "^3.0.1",
+        "papaparse": "^5.5.2",
+        "xlsx": "^0.18.5"
+    },
+    "scripts": {
+        "test": "npx playwright test",
+        "test:headed": "npx playwright test --headed",
+        "test:debug": "npx playwright test --debug",
+        "generateReport": "node ./exportPDF.js"
+    }
+}

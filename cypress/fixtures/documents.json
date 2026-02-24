@@ -1,0 +1,230 @@
+{
+  "accordionSections": [
+    {
+      "name": "Document Information",
+      "iconIndex": 0,
+      "initiallyOpen": true,
+      "fields": [
+        "Name:",
+        "Document title:",
+        "Document Number:",
+        "Status:",
+        "Legacy Document Number:",
+        "Document Type:",
+        "Document Sub Type:",
+        "Sub Type Description:",
+        "Document Sub Type Artifact:",
+        "Classification:",
+        "Lifecycle:",
+        "Author:",
+        "Keywords:",
+        "Supporting Documents/Attachments:",
+        "Scope:",
+        "ISO Country Code:",
+        "Country Where Used:",
+        "Region:",
+        "Approved Date:",
+        "Effective Date:",
+        "Target Effective Date:",
+        "Created By:",
+        "SOP Type:"
+      ]
+    },
+    {
+      "name": "Combo",
+      "iconIndex": 1,
+      "initiallyOpen": false,
+      "fields": [
+        "Combo Product Name:",
+        "Combo Product:",
+        "DHF:",
+        "Device Name:",
+        "DHF Element:",
+        "Method Type:"
+      ]
+    },
+    {
+      "name": "File",
+      "iconIndex": 2,
+      "initiallyOpen": false,
+      "fields": [
+        "Size:",
+        "Format:",
+        "ES Application:"
+      ]
+    },
+    {
+      "name": "Impacts",
+      "iconIndex": 3,
+      "initiallyOpen": false,
+      "fields": [
+        "Impacted Segments:",
+        "Impacted Locations:",
+        "Impacted Departments:"
+      ]
+    },
+    {
+      "name": "Lifecycle",
+      "iconIndex": 4,
+      "initiallyOpen": false,
+      "fields": [
+        "Lifecycle Categories:",
+        "Technology:",
+        "Last Periodic Review Date:",
+        "Last Periodic Review Decision:",
+        "Next Periodic Review Date:",
+        "Superseded Date:",
+        "Obsolescence Date:",
+        "Obsolescence Approved Date:",
+        "Reason For Obsolescence:",
+        "Technology Guideline Type:",
+        "Possible Destruction Review Date:",
+        "Record Retention Policy:",
+        "Retracted Date:",
+        "Page OCRed Percent:",
+        "FTP Source Location:",
+        "Preprocessed:",
+        "Source ID:"
+      ]
+    },
+    {
+      "name": "Owners",
+      "iconIndex": 5,
+      "initiallyOpen": false,
+      "fields": [
+        "Owning Segments:",
+        "Owning Organization:",
+        "Owning Locations:",
+        "Owning Department:"
+      ]
+    },
+    {
+      "name": "Product Information",
+      "iconIndex": 6,
+      "initiallyOpen": false,
+      "fields": [
+        "Therapeutic area:",
+        "Compound ID:",
+        "Trade Name:",
+        "Risk Comments:",
+        "Material Code:",
+        "Formulations:",
+        "Generic Name:",
+        "Primary Compound ID:",
+        "Material Type:",
+        "Material Code"
+      ]
+    }
+  ],
+
+  "multiChoicePickerColumns": [
+    "Status",
+    "Document Type",
+    "Document Sub-Type",
+    "Owning Segments",
+    "Owning Organization",
+    "Owning Department"
+  ],
+  
+
+  "columnNames": [
+    "Number",
+    "👁",
+    "Name",
+    "Version",
+    "Author",
+    "Status",
+    "Effective Date",
+    "Document Type",
+    "Document Sub-Type",
+    "Owning Segments",
+    "Owning Organization",
+    "Owning Department",
+    "Impacted Locations",
+    "Legacy Document Number"
+  ],
+   "availableFields": [
+    "Analytical Technique",
+    "Approved Date",
+    "Classification",
+    "Combo Product",
+    "Combo Product Name",
+    "Compound ID",
+    "Country Where Used",
+    "Created By",
+    "Creation Date",
+    "Device Name",
+    "DHF",
+    "DHF Element",
+    "Doc Obj Id",
+    "Document Number",
+    "Document Sub-Type Artifact",
+    "Document Title",
+    "ES Application",
+    "Format",
+    "Formulations",
+    "Generic Name",
+    "Grant Access to External Partners",
+    "Impacted Departments",
+    "Impacted Segments",
+    "ISO Country Code",
+    "Keywords",
+    "Last Modified By User Name",
+    "Last Modified Date",
+    "Last Periodic Review Date",
+    "Last Periodic Review Decision",
+    "Lifecycle",
+    "Lifecycle Categories",
+    "Material Code",
+    "Material Type",
+    "Method Type",
+    "Next Periodic Review Date",
+    "Obsolescence Approved",
+    "Obsolescence Approved Date",
+    "Obsolescence Date",
+    "OCR Requested",
+    "Oid",
+    "Owning Locations",
+    "Page OCR'ed Percent",
+    "Periodic Review Required",
+    "Possible Destruction Review Date",
+    "Preprocessed",
+    "Primary Compound ID",
+    "Quality Approver Required",
+    "Reason For Obsolescence",
+    "Record Retention Policy",
+    "Reference Number",
+    "Region",
+    "Rel Obj Ids",
+    "Relation Ids Type",
+    "Retracted Date",
+    "Risk Comments",
+    "Scope",
+    "Size",
+    "SOP Type",
+    "Source of Change",
+    "Sub-Type Description",
+    "Superseded Date",
+    "Supplementary Info",
+    "Supporting Documents",
+    "Supporting Documents/Attachments",
+    "Target Effective Date",
+    "Technology",
+    "Technology Guideline Type",
+    "Therapeutic Area",
+    "Trade Name",
+    "TruVAULT Name"
+   ],
+ 
+ 
+ 
+ 
+
+  "relatedObjects": [
+    "Documents",
+    "Materials",
+    "Change Controls",
+    "Nonconformances",
+    "CAPAs"
+  ]
+}

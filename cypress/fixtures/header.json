@@ -1,0 +1,35 @@
+{
+    "Content": {
+        "Tab": [
+            "Documents",
+            "Regulatory Affairs",
+            "Post Market",
+            "Quality Management",
+            "Laboratory Information",
+            "Manufacturing",
+            "Risk Documents"
+        ]
+    },
+    "Home": {
+        "Tab": [
+            "Details",
+            "Products"
+        ]
+    },
+    "Histroy": {
+        "Tab": [
+            "Property Changes",
+            "Alias Rule Changes"
+        ]
+    },
+    "Admin": {
+        "Tab": [
+            "Home",
+            "Content",
+            "Action Items",
+            "Note",
+            "Roles",
+            "Setup"
+        ]
+    }
+}

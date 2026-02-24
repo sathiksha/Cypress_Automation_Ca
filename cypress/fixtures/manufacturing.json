@@ -1,0 +1,250 @@
+{
+    "Manufacturing": {
+        "PnLOrders": {
+            "packagingSite": {
+                "columnNames": [
+                    "Number",
+                    "Name",
+                    "Owner",
+                    "Status",
+                    "Approval Status",
+                    "Street",
+                    "City",
+                    "State",
+                    "Country",
+                    "Postal Code",
+                    "Qualified For",
+                    "Owning Group",
+                    "Impacted Groups",
+                    "Audit Frequency",
+                    "Date Of Last Audit",
+                    "Date Of Next Routine Audit",
+                    "Account Auditee Category",
+                    "Account Audit Classification",
+                    "User Comments"
+                ],
+                "multiChoicePickerColumns": [
+                    "Status",
+                    "Approval Status",
+                    "Country",
+                    "Qualified For",
+                    "Owning Group",
+                    "Impacted Groups",
+                    "Audit Frequency",
+                    "Account Auditee Category",
+                    "Account Audit Classification"
+                ],
+                "relatedObjects": [
+                    "Audits",
+                    "Escalations",
+                    "CAPAs",
+                    "Contacts"
+                ],
+                "accordionSections": [
+                    {
+                        "name": "Details",
+                        "iconIndex": 0,
+                        "initiallyOpen": true,
+                        "fields": [
+                            "Number:",
+                            "Name:",
+                            "Owner:",
+                            "Status:",
+                            "Approval Status:",
+                            "Street:",
+                            "City:",
+                            "State:",
+                            "Country:",
+                            "Postal Code:",
+                            "Type:",
+                            "Qualified For:",
+                            "Owning Group:",
+                            "Impacted Groups:",
+                            "Audit Frequency:",
+                            "Date Of Last Audit:",
+                            "Date Of Next Routine Audit:",
+                            "Account Auditee Category:",
+                            "Account Audit Classification:"
+                        ]
+                    }
+                ]
+            },
+            "Nonconformances": {
+                "columnNames": [
+                    "Number",
+                    "👁",
+                    "Name",
+                    "Description",
+                    "Status",
+                    "Stage",
+                    "Owner",
+                    "Issue Type",
+                    "Source",
+                    "Recurring",
+                    "Failure Mode",
+                    "Potential Product Impact",
+                    "Site Name",
+                    "Created Date",
+                    "Occurrence Date",
+                    "Aware Date",
+                    "Open Date",
+                    "Material or Item",
+                    "Material Description",
+                    "Batch ID/Lot No",
+                    "User Comments"
+                ],
+                "multiChoicePickerColumns": [
+                    "Status",
+                    "Stage",
+                    "Issue Type",
+                    "Source",
+                    "Recurring",
+                    "Failure Mode",
+                    "Potential Product Impact",
+                    "Site Name"
+                ],
+                "accordionSections": [
+                    {
+                        "name": "Details",
+                        "iconIndex": 0,
+                        "initiallyOpen": true,
+                        "fields": [
+                            "Number:",
+                            "Name:",
+                            "Description:",
+                            "Issue Type:",
+                            "Owner:",
+                            "Stage:",
+                            "Occurrence Date:",
+                            "Aware Date:",
+                            "Open Date:",
+                            "Material or Item:",
+                            "Material Description:",
+                            "Batch ID/Lot No:",
+                            "Potential Product Impact:",
+                            "Source:",
+                            "Source Details:"
+                        ]
+                    },
+                    {
+                        "name": "Triage Details",
+                        "iconIndex": 1,
+                        "initiallyOpen": false,
+                        "fields": [
+                            "Failure Mode:",
+                            "Failure Model Level 2:",
+                            "Failure Mode Level 3:",
+                            "PV Relevant:",
+                            "Inv. Required for Suspect Lab Result:",
+                            "Is NC GxP System Related:",
+                            "Is Potential Escalation Required:",
+                            "Controlled Substances Related:",
+                            "Primary Finding:"
+                        ]
+                    },
+                    {
+                        "name": "Ownership",
+                        "iconIndex": 2,
+                        "initiallyOpen": false,
+                        "fields": [
+                            "Created By:",
+                            "J&J Segment:",
+                            "J&J Business Unit:",
+                            "J&J Site Name:",
+                            "J&J Functional Area:",
+                            "J&J Functional Area 1:",
+                            "J&J Functional Area 2:",
+                            "J&J Org Visibility:",
+                            "Impacted J&J Segment:"
+                        ]
+                    },
+                    {
+                        "name": "Document References",
+                        "iconIndex": 3,
+                        "initiallyOpen": false,
+                        "fields": [
+                            "Document Number:",
+                            "Document Title:",
+                            "Effective Date:",
+                            "Version:"
+                        ]
+                    }
+                ],
+                "relatedObjects": [
+                    "Immediate Causes",
+                    "NC Investigations",
+                    "Laboratory Investigations",
+                    "CAPAs",
+                    "Actions",
+                    "Change Controls",
+                    "Escalations",
+                    "Batches",
+                    "Documents",
+                    "Others"
+                ]
+            }
+        },
+        "BatchFlowsAPRPQR": 
+        {
+                "columnNames": [
+                    "O/P Batch Code",
+                    "O/P Localized Batch Code",
+                    "O/P Vendor Batch No.",
+                    "O/P Product Code",
+                    "O/P Process Order",
+                    "O/P Product Code Description",
+                    "O/P International Brand",
+                    "O/P Product Type",
+                    "O/P Disposition Status",
+                    "O/P Plant Code",
+                    "O/P Plant Name",
+                    "O/P Source System",
+                    "O/P Last Good Receipt",
+                    "O/P Date of Manufacture",
+                    "O/P Packaging Date",
+                    "O/P QA Release Date",
+                    "O/P Shelf Life Exp Date",
+                    "O/P TECO Date",
+                    "I/P Batch Code",
+                    "I/P Localized Batch Code",
+                    "I/P Vendor Batch No.",
+                    "I/P Product Code",
+                    "I/P Product Code Description",
+                    "I/P Product Type",
+                    "I/P Plant Code",
+                    "I/P Plant Name",
+                    "I/P Last Good Receipt",
+                    "I/P Date of Manufacture",
+                    "I/P QA Release Date",
+                    "I/P Shelf Life Exp Date",
+                    "I/P TECO Date"
+                ],
+                "multiChoicePickerColumns": [
+                    "O/P Product Type",
+                    "O/P Disposition Status",
+                    "O/P Plant Code",
+                    "O/P Plant Name"
+                ],
+                "relatedObjects": [
+                    "Nonconformances",
+                    "Escalations",
+                    "CAPAs",
+                    "Change Controls",
+                    "Stability Studies",
+                    "Stability Data",
+                    "Release Data",
+                    "Specifications",
+                    "Complaints"
+                ],
+                "accordionSections": [
+                    {
+                        "name": "Details",
+                        "fields": [
+                            "Name:",
+                            "Description:"
+                        ]
+                    }
+                ]
+            }
+    }
+}

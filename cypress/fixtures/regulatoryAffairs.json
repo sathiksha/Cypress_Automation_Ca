@@ -1,0 +1,560 @@
+{
+    "CTDSubmissionRecords": {
+        "columnNames": [
+            "EDMS Number",
+            "Artifact Name",
+            "File Type",
+            "Compound Asset",
+            "CTD Section",
+            "eCTD Leaf Title",
+            "Country/Region",
+            "Group",
+            "Sub-Group",
+            "Generic Name",
+            "Trade Name(s)",
+            "Compound Name",
+            "Status"
+        ],
+        "multiChoicePickerColumns": [
+            "File Type",
+            "Group",
+            "Sub-Group",
+            "Status"
+        ],
+        "accordionSections": [
+            {
+                "name": "Document Info",
+                "iconIndex": 0,
+                "initiallyOpen": true,
+                "fields": [
+                    "Co-Authors:",
+                    "Object ID:",
+                    "Version Label:",
+                    "Status:",
+                    "Type:",
+                    "Notification List:"
+                ]
+            },
+            {
+                "name": "Classification",
+                "iconIndex": 1,
+                "initiallyOpen": true,
+                "fields": [
+                    "eCTD Leaf File Name:",
+                    "eCTD Leaf Title:",
+                    "Object Name:",
+                    "EDMS Number:",
+                    "Group:",
+                    "Title:",
+                    "Author:",
+                    "Language:",
+                    "Artifact Name:",
+                    "Is Redacted:",
+                    "CTD Section:",
+                    "Artifact Short Name:",
+                    "Sub-Group:"
+                ]
+            },
+            {
+                "name": "Process Info",
+                "iconIndex": 2,
+                "initiallyOpen": false,
+                "fields": [
+                    "External Approval Date:",
+                    "Created:",
+                    "Modified:",
+                    "Modified By:",
+                    "Creator Name:",
+                    "Original Version Creator:",
+                    "Approved Date:"
+                ]
+            },
+            {
+                "name": "Quality Info",
+                "iconIndex": 3,
+                "initiallyOpen": false,
+                "fields": [
+                    "Country/Region:"
+                ]
+            },
+            {
+                "name": "Product Info",
+                "iconIndex": 4,
+                "initiallyOpen": true,
+                "fields": [
+                    "Product Name Alias:",
+                    "Compound Name:", 
+                    "Product Display Name:",
+                    "Compound Asset:",
+                    "Trade Name(s):",
+                    "Generic Name:",
+                    "Application Type:",
+                    "Associated Products:",
+                    "Product Code:"
+                ]
+            }
+        ]
+    },
+    "Products": {
+        "columnNames": [
+            "Product ID",
+            "👁",
+            "Product Name",
+            "Product Code / JNJ Number",
+            "Product Status",
+            "Intended Use",
+            "Product Dose Form",
+            "Family Name",
+            "Family Code",
+            "Therapeutic Area",
+            "Associated Trade Names",
+            "Active Ingredients",
+            "Max Shelf Life - Climate Zone I",
+            "Max Shelf Life - Climate Zone II",
+            "Max Shelf Life - Climate Zone III",
+            "Max Shelf Life - Climate Zone IVa",
+            "Max Shelf Life - Climate Zone IVb"
+        ],
+        "multiChoicePickerColumns": [
+            "Product Status",
+            "Therapeutic Area"
+        ],
+         "relatedObjects": [
+            "Applications",
+            "Registrations",
+            "Package Sets",
+            "Material Codes"
+         ],
+        "accordionSections": [
+            {
+                "name": "Details",
+                "iconIndex": 0,
+                "initiallyOpen": true,
+                "fields": [
+                    "Product ID:",
+                    "Product Name:",
+                    "Product Code / JNJ Number:",
+                    "Product Status:",
+                    "Intended Use:",
+                    "Product Dose Form:",
+                    "Family Name:",
+                    "Family Code:",
+                    "Therapeutic Area:",
+                    "Associated Trade Names:",
+                    "Active Ingredients:",
+                    "Max Shelf Life - Climate Zone I:",
+                    "Max Shelf Life - Climate Zone II:",
+                    "Max Shelf Life - Climate Zone III:",
+                    "Max Shelf Life - Climate Zone IVa:",
+                    "Max Shelf Life - Climate Zone IVb:"
+                ]
+            }
+        ]
+    },
+    "Applications": {
+        "columnNames": [
+            "Application ID",
+            "👁",
+            "Product Family Code",
+            "Product Family Name",
+            "Application Code",
+            "Application Name",
+            "Application Type",
+            "Application Reviewing Country",
+            "Application Countries",
+            "Application Status",
+            "Application Status Date",
+            "Procedure Identifier",
+            "Procedure Type",
+            "Application Description",
+            "Application Comments"
+        ],
+        "multiChoicePickerColumns": [
+            "Application Type",
+            "Application Reviewing Country",
+            "Application Countries",
+            "Application Status",
+            "Procedure Type"
+        ],
+        "relatedObjects": [
+            "Products",
+            "Registrations",
+            "CTA-IND Events",
+            "BLA-NDA Events"
+        ],
+        "accordionSections": [
+            {
+                "name": "Details",
+                "iconIndex": 0,
+                "initiallyOpen": true,
+                "fields": [
+                    "Application ID:",
+                    "Application Code:",
+                    "Application Name:",
+                    "Application Type:",
+                    "Application Reviewing Country:",
+                    "Application Countries:",
+                    "Procedure Identifier:",
+                    "Procedure Type:",
+                    "Application Description:",
+                    "Application Comments:"
+                ]
+            },
+            {
+                "name": "Status",
+                "iconIndex": 1,
+                "initiallyOpen": false,
+                "fields": [
+                    "Application Status:",
+                    "Application Status Date:"
+                ]
+            }
+        ]
+    },
+    "Registrations": {
+    "columnNames": [
+      "Authorization Number",
+      "👁",
+      "Authorization Status",
+      "Authorization Status Date",
+      "Application Name",
+      "Application Status",
+      "Initial/Original Authorization Date",
+      "Reviewing Country",
+      "PDS Country",
+      "Country Trade Name",
+      "Product Family Name",
+      "Product Family Code",
+      "Therapeutic Area",
+      "Package Set Name",
+      "Package Set Status",
+      "Authorizing Health Authority",
+      "Application Type",
+      "Currently Marketed Registration Package Set Country"
+    ],
+    "multiChoicePickerColumns": [
+      "Authorization Status",
+      "Application Status",
+      "Reviewing Country",
+      "PDS Country",
+      "Country Trade Name",
+      "Therapeutic Area",
+      "Package Set Status",
+      "Application Type",
+      "Currently Marketed Registration Package Set Country"
+    ],
+    "accordionSections": [
+      {
+        "name": "Registration Information",
+        "iconIndex": 0,
+        "initiallyOpen": true,
+        "fields": [
+          "Authorization Number",
+          "Initial Authorization Date",
+          "Expiration Date/Authorization Valid Until",
+          "MAH",
+          "MAH Last Updated",
+          "Authorizing Health Authority:",
+          "Registration Description"
+        ]
+      },
+      {
+        "name": "Renewal Information",
+        "iconIndex": 1,
+        "initiallyOpen": false,
+        "fields": [
+          "Renewal Required",
+          "Next Renewal Submission Deadline Date",
+          "Last Renewal Date"
+        ]
+      },
+      {
+        "name": "Marketing Information",
+        "iconIndex": 2,
+        "initiallyOpen": false,
+        "fields": [
+          "First Package Set Marketed Date",
+          "Last Package Set Removed From the Market Date"
+        ]
+      },
+      {
+        "name": "Registration Status",
+        "iconIndex": 3,
+        "initiallyOpen": false,
+        "fields": ["Authorization Status", "Authorization Status Date"]
+      },
+      {
+        "name": "ATC Code Information",
+        "iconIndex": 4,
+        "initiallyOpen": false,
+        "fields": ["ATC Code(s)", "ATC Code(s) Last Updated"]
+      }
+    ],
+    "relatedObjects": ["Applications", "Package Sets"]
+  },
+  "PackageSets": {
+    "columnNames": [
+      "Product Detail Set ID",
+      "👁",
+      "Product Detail Set Code",
+      "Product Family Code",
+      "Application Code",
+      "Product Detail Set Name",
+      "Product Detail Set Status",
+      "Package Set Name",
+      "Package Set Status",
+      "Package Set Status Date",
+      "Package Set QC Status",
+      "Package Set QC Date",
+      "Package Set Last Updated",
+      "Function",
+      "Manufacturer/Site",
+      "API Shelf Life",
+      "API Storage Condition",
+      "API Shelf Life Unit",
+      "API Storage Container",
+      "Shelf Life",
+      "Shelf Life Category",
+      "Shelf Life Type",
+      "Shelf Life Unit",
+      "Storage Conditions",
+      "Tab Name"
+    ],
+    "multiChoicePickerColumns": [
+      "Product Detail Set Status",
+      "Package Set Status",
+      "Package Set QC Status",
+      "Function",
+      "Manufacturer/Site",
+      "Shelf Life Category",
+      "Shelf Life Type",
+      "Shelf Life Unit",
+      "Tab Name"
+    ],
+    "accordionSections": [
+      {
+        "name": "Qualified Supply Chain",
+        "iconIndex": 0,
+        "initiallyOpen": true,
+        "fields": []
+      },
+      {
+        "name": "Details",
+        "iconIndex": 1,
+        "initiallyOpen": false,
+        "fields": ["Family Name", "Application Code", "Product Detail Set Name"]
+      },
+      {
+        "name": "Shelf Life Details",
+        "iconIndex": 2,
+        "initiallyOpen": false,
+        "fields": [
+          "Shelf Life Type",
+          "Shelf Life",
+          "Shelf Life Unit",
+          "Shelf Life Category",
+          "Storage Conditions"
+        ]
+      },
+      {
+        "name": "API Details",
+        "iconIndex": 3,
+        "initiallyOpen": false,
+        "fields": [
+          "Active Ingredient Name",
+          "API Storage Container",
+          "API Storage Condition",
+          "API Shelf Life",
+          "API Shelf Life Unit",
+          "API Status",
+          "API Status Date",
+          "Active Ingredients QC Status",
+          "Active Ingredients QC Date",
+          "API Retest",
+          "API Retest Unit"
+        ]
+      }
+    ],
+    "relatedObjects": ["Products", "Applications", "Registrations"]
+  },
+    "BLANDAEvents": {
+        "columnNames": [
+            "Event ID",
+            "👁",
+            "Product Family Name",
+            "Product Family Code",
+            "Therapeutic Area",
+            "Event Name",
+            "Event Type",
+            "Secondary Event Type",
+            "Change Control Number",
+            "Regulatory Impact",
+            "Regulatory Activity Impacts",
+            "Regulatory Assessment Required",
+            "Regulatory Rationale",
+            "Event Country",
+            "Event Closed As",
+            "Event Closed",
+            "Application Type",
+            "Application ID",
+            "Application Code",
+            "Application Name",
+            "Procedure Type",
+            "Application Status",
+            "Product Detail Set Code",
+            "Product Detail Set Name"
+        ],
+        "multiChoicePickerColumns": [
+            "Therapeutic Area",
+            "Event Type",
+            "Secondary Event Type",
+            "Regulatory Impact",
+            "Regulatory Activity Impacts",
+            "Regulatory Assessment Required",
+            "Event Country",
+            "Event Closed As",
+            "Event Closed",
+            "Application Type",
+            "Procedure Type",
+            "Application Status"
+        ],
+        "accordionSections": [
+            {
+                "name": "Details",
+                "iconIndex": 0,
+                "initiallyOpen": true,
+                "fields": [
+                    "Event ID:",
+                    "Product Family Name:",
+                    "Product Family Code:",
+                    "Therapeutic Area:",
+                    "Event Name:",
+                    "Event Type:",
+                    "Secondary Event Type:",
+                    "Change Control Number:",
+                    "Regulatory Impact:",
+                    "Regulatory Activity Impacts:",
+                    "Regulatory Assessment Required:",
+                    "Regulatory Rationale:", 
+                    "Event Country:",
+                    "Event Closed As:",
+                    "Event Closed:",
+                    "Application Type:",
+                    "Application ID:",
+                    "Application Code:",
+                    "Application Name:",
+                    "Procedure Type:",
+                    "Application Status:",
+                    "Product Detail Set Code:",
+                    "Product Detail Set Name:"
+                ]
+            }
+        ],
+         "relatedObjects": [
+            "Applications",
+            "Change Controls"
+         ]
+    },
+
+    "CTAINDEvents": {
+        "columnNames": [
+            "Event ID",
+            "👁",
+            "Product Family Name",
+            "Therapeutic Area",
+            "Event Name",
+            "Event Country",
+            "Event Closed As",
+            "Event Closed",
+            "Application Code",
+            "Application Name",
+            "Protocol Number",
+            "Application Status",
+            "Procedure Type"
+        ],
+        "multiChoicePickerColumns": [
+            "Therapeutic Area",
+            "Event Country",
+            "Event Closed As",
+            "Event Closed",
+            "Application Status",
+            "Procedure Type"
+        ],
+        "accordionSections": [
+            {
+                "name": "Details",
+                "iconIndex": 0,
+                "initiallyOpen": true,
+                "fields": [
+                    "Event ID:",
+                    "Product Family Name:",
+                    "Event Name:",
+                    "Event Country:",
+                    "Event Closed As:",
+                    "Event Closed:",
+                    "Application Code:",
+                    "Application Name:",
+                    "Protocol Number:",
+                    "Application Status:",
+                    "Procedure Type:"
+                ]
+    }
+        ],
+
+        "relatedObjects": [
+            "Applications"
+        ]
+    },
+     "IncludedLOC": {
+    "columnNames": [
+      "SKU Code (LLM)",
+      "Match Confidence",
+      "Country Trade Name",
+      "Product",
+      "Package Set Name",
+      "Country",
+      "Shelf-Life (Months)",
+      "Currently Marketed (Registration Package Set Country)",
+      "Registration Package Set On Market Date",
+      "Registration Package Set Off Market Date",
+      "Marketing Company",
+      "Authorization Status",
+      "User Comments"
+    ],
+    "multiChoicePickerColumns": [
+      "Country Trade Name",
+      "Country",
+      "Shelf-Life (Months)",
+      "Currently Marketed (Registration Package Set Country)",
+      "Marketing Company",
+      "Authorization Status"
+
+    ]
+  },
+   "ExcludedLOC": {
+    "columnNames": [
+      "SKU Code (LLM)",
+      "Match Confidence",
+      "Country Trade Name",
+      "Product",
+      "Package Set Name",
+      "Country",
+      "Shelf-Life (Months)",
+      "Currently Marketed (Registration Package Set Country)",
+      "Registration Package Set On Market Date",
+      "Registration Package Set Off Market Date",
+      "Marketing Company",
+      "Authorization Status",
+      "User Comments"
+    ],
+    "multiChoicePickerColumns": [
+      "Country Trade Name",
+      "Country",
+      "Shelf-Life (Months)",
+      "Currently Marketed (Registration Package Set Country)",
+      "Marketing Company",
+      "Authorization Status"
+
+    ]
+  }
+}

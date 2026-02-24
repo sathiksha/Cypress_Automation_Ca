@@ -1,0 +1,212 @@
+{
+  "complaints": {
+    "columnNames": [
+      "Tracking Number",
+      "👁",
+      "Reporter Description",
+      "General Notes",
+      "Product Name",
+      "Product Family Name",
+      "Lot Number",
+      "Company",
+      "Region",
+      "Issue Status",
+      "JnJ Awareness Date",
+      "Issue Entered GCC",
+      "Issue Entered PQMS",
+      "Issue Closed Date"
+    ],
+    "multiChoicePickerColumns": [
+      "Product Family Name",
+      "Region",
+      "Issue Status"
+    ],
+    "ChartTabs": [
+      "Analytics",
+      "Status",
+      "Company",
+      "Region"
+    ],
+    "chartTypes": [
+      "Area",
+      "Column",
+      "Bar",
+      "Line",
+      "Radar",
+      "Pie",
+      "Doughnut",
+      "Histogram"
+    ],
+    "accordionSections": [
+      {
+        "name": "General Information",
+        "iconIndex": 0,
+        "initiallyOpen": true,
+        "fields": [
+          "Tracking #:",
+          "Company:",
+          "Awareness Date:",
+          "Entered in PQMS:",
+          "Enterind in GCC:",
+          "ID of Closer:",
+          "Close Date:",
+          "Region:",
+          "Status:",
+          "Type:",
+          "Owner:",
+          "Translated Reported Description:",
+          "Country:",
+          "Reporter Description:",
+          "General Notes:"
+        ]
+      },
+      {
+        "name": "Complaint Records",
+        "iconIndex": 1,
+        "initiallyOpen": false,
+        "fields": [
+          "Awareness Date:",
+          "Issue Entered in PQMS Date:",
+          "Issue Entered in GCC Date:",
+          "Issue Close Date:",
+          "Issue Status:",
+          "Company:",
+          "Issue Country:",
+          "Issue Reporter Description:",
+          "Translated Reported Description:",
+          "General Notes:",
+          "Product Family Name:",
+          "Product Name:",
+          "Lot Number:",
+          "Lot Verified:",
+          "Regulatory Class:",
+          "Product Manufacturing:",
+          "Packager:",
+          "Issue Type:",
+          "Manufacturing Extension:",
+          "Product Manufacturing Group:",
+          "Packaging Extension:",
+          "Packaging Product Manufacturing Group:",
+          "DVC Component:",
+          "Combo Product:",
+          "Product Same As:",
+          "Product Same:",
+          "Category Level 1 Description:",
+          "Category Level 2 Description:",
+          "Category Level 3 Description:",
+          "Root Cause Level 1 Description:",
+          "Root Cause Level 2 Description:",
+          "Seriousness:",
+          "Category Manufacturing:",
+          "Category Manufacturing Extension:",
+          "Category Manufacturing Group:",
+          "Investigation CAPA Reference Number:",
+          "CMPL Investigation Title:"
+        ]
+      }
+    ],
+    "relatedObjects": [
+      "Batches",
+      "Nonconformances",
+      "CAPAs"
+    ]
+  },
+  "ComplaintsRecords": {
+    "columnNames": [
+      "Tracking Number",
+      "👁",
+      "Product Family Name",
+      "Product Name",
+      "Lot Number",
+      "CMPL Investigation Title",
+      "Seriousness",
+      "Aware Date",
+      "Issue Status",
+      "Category Level 1 Description",
+      "Category Level 2 Description",
+      "Category Level 3 Description",
+      "Product Manufacturing",
+      "Product Manufacturing Group",
+      "Root Cause Level 1 Description",
+      "Root Cause Level 2 Description"
+    ],
+    "multiChoicePickerColumns": [
+      "Product Family Name",
+      "Seriousness",
+      "Issue Status",
+      "Category Level 1 Description",
+      "Category Level 2 Description",
+      "Category Level 3 Description",
+      "Product Manufacturing Group",
+      "Root Cause Level 1 Description",
+      "Root Cause Level 2 Description"
+    ],
+    "ChartTabs": [
+      "Analytics",
+      "Seriousness",
+      "Status"
+    ],
+    "chartTypes": [
+      "Area",
+      "Column",
+      "Bar",
+      "Line",
+      "Radar",
+      "Pie",
+      "Doughnut",
+      "Histogram"
+    ],
+    "accordionSections": [
+      {
+        "name": "No Headers",
+        "iconIndex": 0,
+        "initiallyOpen": true,
+        "fields": [
+          "Awareness Date:",
+          "Issue Entered in GCC Date:",
+          "Issue Status:",
+          "Issue Country:",
+          "Translated Reported Description:",
+          "Product Family Name:",
+          "Lot Number:",
+          "Regulatory Class:",
+          "Packager:",
+          "Manufacturing Extension:",
+          "Packaging Extension:",
+          "DVC Component:",
+          "Product Same As:",
+          "Category Level 1 Description:",
+          "Category Level 3 Description:",
+          "Root Cause Level 2 Description:",
+          "Issue Entered in PQMS Date:",
+          "Issue Close Date:",
+          "Company:",
+          "Issue Reporter Description:",
+          "General Notes:",
+          "Product Name:",
+          "Lot Verified:",
+          "Product Manufacturing:",
+          "Issue Type:",
+          "Product Manufacturing Group:",
+          "Packaging Product Manufacturing Group:",
+          "Combo Product:",
+          "Product Same:",
+          "Category Level 2 Description:",
+          "Root Cause Level 1 Description:",
+          "Seriousness:",
+          "Category Manufacturing:",
+          "Category Manufacturing Extension:",
+          "Category Manufacturing Group:",
+          "Investigation CAPA Reference Number:",
+          "CMPL Investigation Title:"
+        ]
+      }
+    ],
+    "relatedObjects": [
+      "Complaint",
+      "Batches",
+      "Nonconformances",
+      "CAPAs"
+    ]
+  }
+}

@@ -1,0 +1,98 @@
+# ============================================================
+# 🌿 Azure DevOps - Cypress Parallel Execution Pipeline
+# ============================================================
+
+trigger: none
+
+pool:
+  vmImage: ubuntu-latest
+
+variables:
+  CYPRESS_CACHE_FOLDER: $(Pipeline.Workspace)/.cache/Cypress
+  CI: true
+
+stages:
+  - stage: Run_Regression_Test
+    displayName: Run Cypress Tests in Parallel
+    jobs:
+
+      # ---------------------------------------------------------
+      # 🧩 0️⃣ Install Dependencies (runs once)
+      # ---------------------------------------------------------
+      - job: Install
+        displayName: 'Install Dependencies Once'
+        pool:
+          vmImage: ubuntu-latest
+        steps:
+          - task: NodeTool@0
+            inputs:
+              versionSpec: '18.x'
+            displayName: 'Use Node.js 18'
+
+          - task: Cache@2
+            inputs:
+              key: 'cypress | "$(Agent.OS)"'
+              restoreKeys: |
+                cypress | "$(Agent.OS)"
+              path: '$(CYPRESS_CACHE_FOLDER)'
+            displayName: 'Cache Cypress Binary'
+
+          - script: npm install
+            displayName: 'Install npm Dependencies'
+            workingDirectory: test/e2e
+
+          - publish: $(System.DefaultWorkingDirectory)
+            artifact: cypress-install
+            displayName: 'Publish Installed Cypress Dependencies'
+
+      # ---------------------------------------------------------
+      # ⚙️ Parallel Test Execution (matrix strategy)
+      # ---------------------------------------------------------
+      - job: RunCypressInParallel
+        dependsOn: Install
+        displayName: 'Run Cypress Specs in Parallel'
+        strategy:
+          matrix:
+            Product:
+              spec: "00.Product"
+            Documents:
+              spec: "01.Documents"
+            Regulatory:
+              spec: "02.Regulatory Affairs"
+            PostMarket:
+              spec: "03.Post Market"
+            Quality:
+              spec: "04.Quality Management"
+            Laboratory:
+              spec: "05.Laboratory Information"
+            PQM:
+              spec: "06.PQM Res Management"
+            Tutorials:
+              spec: "07.360 tutorials"
+            Suppliers:
+              spec: "08.Suppliers"
+            Manufacturing:
+              spec: "09.Manufacturing"
+            ProcessDevelopment:
+              spec: "10.Process Development"
+            Risk:
+              spec: "11.Risk"
+            Binders:
+              spec: "Binders"
+            DomainSetup:
+              spec: "Domain-setup"
+            ElementLibrary:
+              spec: "Element Library"
+            Settings:
+              spec: "Settings"
+            UAT:
+              spec: "UAT"
+
+        steps:
+          - download: current
+            artifact: cypress-install
+
+          - script: |
+              npx cypress run --spec "cypress/e2e-regression/jj/jj-scripts/$(spec)/**/*.cy.js"
+            displayName: "Run Cypress Tests for $(spec)"
+            workingDirectory: test/e2e

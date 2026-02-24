@@ -1,0 +1,143 @@
+{
+    "RiskDocument": {
+    "columnNames": [
+        "Product",
+        "Trade Name",
+        "Formulations",
+        "Product Family",
+        "Number",
+        "Type",
+        "Therapeutic Area",
+        "Stage",
+        "State"
+    ],
+    "multiChoicePickerColumns": [
+        "Type",
+        "Therapeutic Area",
+        "Stage",
+        "State"
+    ],
+    "Tab": [
+        "File",
+        "Details",
+        "Related Objects"
+    ],
+    "accordionSections": [
+        {
+            "name": "Document Information",
+            "iconIndex": 0,
+            "initiallyOpen": true,
+            "fields": [
+                "Name:",
+                "Document title:",
+                "Document Number:",
+                "Status:",
+                "Legacy Document Number:",
+                "Document Type:",
+                "Document Sub Type:",
+                "Sub Type Description:",
+                "Document Sub Type Artifact:",
+                "Classification:",
+                "Lifecycle:",
+                "Author:",
+                "Keywords:",
+                "Supporting Documents/Attachments:",
+                "Scope:",
+                "ISO Country Code:",
+                "Country Where Used:",
+                "Region:",
+                "Approved Date:",
+                "Effective Date:",
+                "Target Effective Date:",
+                "Created By:",
+                "SOP Type:"
+            ]
+        },
+        {
+            "name": "Combo",
+            "iconIndex": 1,
+            "initiallyOpen": false,
+            "fields": [
+                "Combo Product Name:",
+                "Combo Product:",
+                "DHF:",
+                "Device Name:",
+                "DHF Element:",
+                "Method Type:"
+            ]
+        },
+        {
+            "name": "File",
+            "iconIndex": 2,
+            "initiallyOpen": false,
+            "fields": [
+                "Size:",
+                "Format:",
+                "ES Application:"
+            ]
+        },
+        {
+            "name": "Impacts",
+            "iconIndex": 3,
+            "initiallyOpen": false,
+            "fields": [
+                "Impacted Segments:",
+                "Impacted Locations:",
+                "Impacted Departments:"
+            ]
+        },
+        {
+            "name": "Lifecycle",
+            "iconIndex": 4,
+            "initiallyOpen": false,
+            "fields": [
+                "Lifecycle Categories:",
+                "Technology:",
+                "Last Periodic Review Date:",
+                "Last Periodic Review Decision:",
+                "Next Periodic Review Date:",
+                "Superseded Date:",
+                "Obsolescence Date:",
+                "Obsolescence Approved Date:",
+                "Reason For Obsolescence:",
+                "Technology Guideline Type:",
+                "Possible Destruction Review Date:",
+                "Record Retention Policy:",
+                "Retracted Date:",
+                "Page OCRed Percent:",
+                "FTP Source Location:",
+                "Preprocessed:",
+                "Source ID:"
+            ]
+        },
+        {
+            "name": "Owners",
+            "iconIndex": 5,
+            "initiallyOpen": false,
+            "fields": [
+                "Owning Segments:",
+                "Owning Locations:"
+            ]
+        },
+        {
+            "name": "Product Information",
+            "iconIndex": 6,
+            "initiallyOpen": false,
+            "fields": [
+                "Therapeutic area:",
+                "Compound ID:",
+                "Trade Name:",
+                "Risk Comments:",
+                "Material Code:"
+            ]
+        }
+    ],
+    "relatedObjects": [
+        "Documents",
+        "Materials",
+        "Change Controls",
+        "Nonconformances",
+        "CAPAs"
+    ]
+}
+}

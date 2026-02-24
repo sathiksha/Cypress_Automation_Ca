@@ -1,0 +1,58 @@
+{
+  "dataManagement": {
+    "adminDataBinder": {
+      "regulatoryAffairs": [
+        "CTD/Submission Records",
+        "Products",
+        "Applications",
+        "Registrations",
+        "Package Sets",
+        "CTA-IND Events",
+        "BLA-NDA Events"
+      ],
+      "postMarket": ["Complaints", "Complaint Records", "AIMI Analytics"],
+      "qualityManagement": [
+        "Change Controls",
+        "Escalations",
+        "Nonconformances",
+        "CAPAs",
+        "Audits",
+        "Accounts"
+      ],
+      "laboratoryInformation": [
+        "Stability Studies",
+        "Stability Data",
+        "Release Data",
+        "Specifications"
+      ],
+      "manufacturing": ["Materials", "Batches", "Batch Flows", "SC Maps"]
+    },
+    "userDataBinder": {
+      "regulatoryAffairs": [
+        "CTD/Submission Records",
+        "Products",
+        "Applications",
+        "Registrations",
+        "Package Sets",
+        "CTA-IND Events",
+        "BLA-NDA Events"
+      ],
+      "postMarket": ["Complaints", "Complaint Records", "AIMI Analytics"],
+      "qualityManagement": [
+        "Change Controls",
+        "Escalations",
+        "Nonconformances",
+        "CAPAs",
+        "Audits",
+        "Accounts"
+      ],
+      "laboratoryInformation": [
+        "Stability Studies",
+        "Stability Data",
+        "Release Data",
+        "Specifications"
+      ],
+      "manufacturing": ["Materials", "Batches", "Batch Flows", "SC Maps"]
+    }
+  }
+}

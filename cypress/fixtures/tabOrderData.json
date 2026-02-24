@@ -1,0 +1,524 @@
+{
+    "Documents": {
+        "Documents": {
+            "tabs": [
+                "File",
+                "Details",
+                "Related Objects"
+            ],
+            "columns": [
+                "Documents",
+                "Materials",
+                "Change Controls",
+                "Nonconformances",
+                "CAPAs"
+            ]
+        }
+    },
+    "Regulatory Affairs": {
+        "CTD": {
+            "tabs": [
+                "File",
+                "Details"
+            ]
+        },
+        "Products": {
+            "tabs": [
+                "Details",
+                "Related Objects"
+            ],
+            "columns": [
+                "Applications",
+                "Registrations",
+                "Package Sets",
+                "Material codes"
+            ]
+        },
+        "Applications": {
+            "tabs": [
+                "Details",
+                "Related Objects"
+            ],
+            "columns": [
+                "Products",
+                "Registrations",
+                "CTA-IND Events",
+                "BLA-NDA Events"
+            ]
+        },
+        "Registrations": {
+            "Registrations": {
+                "tabs": [
+                    "Details",
+                    "Related Objects"
+                ],
+                "columns": [
+                    "Applications",
+                    "Package Sets"
+                ]
+            },
+            "LOC Product List (LLM)": {
+                "tabs": [
+                    "LLM Candidate Materials",
+                    "LLM Match Explanation",
+                    "All Materials"
+                ]
+            }
+        },
+        "Package Sets": {
+            "tabs": [
+                "Details",
+                "Related Objects"
+            ],
+            "columns": [
+                "Products",
+                "Applications",
+                "Registrations"
+            ]
+        },
+        "CTA-IND Events": {
+            "tabs": [
+                "Details",
+                "Related Objects"
+            ],
+            "columns": [
+                "Applications"
+            ]
+        },
+        "BLA-NDA Events": {
+            "tabs": [
+                "Details",
+                "Related Objects"
+            ],
+            "columns": [
+                "Applications",
+                "Change Controls"
+            ]
+        }
+    },
+    "Post Market": {
+        "Complaints": {
+            "tabs": [
+                "Details",
+                "Related Objects"
+            ],
+            "columns": [
+                "Batches",
+                "Nonconformances",
+                "CAPAs"
+            ]
+        },
+        "Complaint Records": {
+            "tabs": [
+                "Details",
+                "Related Objects"
+            ],
+            "columns": [
+                "Complaint",
+                "Batches",
+                "Nonconformances",
+                "CAPAs"
+            ]
+        }
+    },
+    "Quality Management": {
+        "Change Controls": {
+            "Change Controls": {
+                "tabs": [
+                    "Details",
+                    "Related Objects"
+                ],
+                "columns": [
+                    "Change Controls",
+                    "Impacted Documents",
+                    "Impacted Products",
+                    "Impacted Equipments",
+                    "Impacted Organizations",
+                    "Assessment Executions",
+                    "Implementations",
+                    "Escalations",
+                    "CAPAs",
+                    "Nonconformances",
+                    "Accounts",
+                    "Batches",
+                    "Clinical Studies"
+                ]
+            },
+            "Assessment Executions": {
+                "tabs": [
+                    "Details",
+                    "Related Objects"
+                ],
+                "columns": [
+                    "Change Controls",
+                    "CMC Global/Device Regulatory Assessments"
+                ]
+            },
+            "Implementations": {
+                "tabs": [
+                    "Details",
+                    "Related Objects"
+                ],
+                "columns": [
+                    "Change Controls"
+                ]
+            },
+            "Change Controls-tw": {
+                "tabs": [
+                    "Details",
+                    "Related Objects"
+                ],
+                "columns": [
+                    "Change Controls",
+                    "Assessment Plans",
+                    "Escalations",
+                    "CAPAs",
+                    "Nonconformances",
+                    "Accounts",
+                    "Batches",
+                    "Specifications",
+                    "Test Methods"
+                ]
+            }
+        },
+        "Escalations": {
+            "Escalations": {
+                "tabs": [
+                    "Details",
+                    "Related Objects"
+                ],
+                "columns": [
+                    "Assessments",
+                    "Serious Breaches",
+                    "Meetings",
+                    "Change Controls",
+                    "Nonconformances",
+                    "CAPAs",
+                    "Audit Observations",
+                    "Accounts"
+                ]
+            },
+            "Assessments": {
+                "tabs": [
+                    "Details"
+                ]
+            },
+            "Meetings": {
+                "tabs": [
+                    "Details"
+                ]
+            }
+        }
+    },
+    "Nonconformances": {
+        "Nonconformances": {
+            "tabs": [
+                "Details",
+                "Related Objects"
+            ],
+            "columns": [
+                "Immediate Causes",
+                "NC Investigations",
+                "Laboratory Investigations",
+                "CAPAs",
+                "Actions",
+                "Change Controls",
+                "Escalations",
+                "Batches",
+                "Documents",
+                "Others"
+            ]
+        },
+        "Containments": {
+            "tabs": [
+                "Details",
+                "Related Objects"
+            ],
+            "columns": [
+                "Nonconformances"
+            ]
+        },
+        "NC Investigations": {
+            "tabs": [
+                "Details",
+                "Related Objects"
+            ],
+            "columns": [
+                "Nonconformances",
+                "Immediate Causes",
+                "NC Corrections"
+            ]
+        },
+        "Supplemental Investigations": {
+            "tabs": [
+                "Details",
+                "Related Objects"
+            ],
+            "columns": [
+                "NC Investigations"
+            ]
+        },
+        "Laboratory Investigations": {
+            "tabs": [
+                "Details",
+                "Related Objects"
+            ],
+            "columns": [
+                "Specifications",
+                "Test Methods",
+                "Nonconformances",
+                "Stability Studies",
+                "Batches"
+            ]
+        },
+        "NC Corrections": {
+            "tabs": [
+                "Details",
+                "Related Objects"
+            ],
+            "columns": [
+                "NC Investigations",
+                "Actions",
+                "Nonconformances",
+                "Immediate Causes"
+            ]
+        },
+        "Actions": {
+            "tabs": [
+                "Details",
+                "Related Objects"
+            ],
+            "columns": [
+                "NC Corrections"
+            ]
+        },
+        "Risk Assessments": {
+            "tabs": [
+                "Details"
+            ]
+        }
+    },
+    "CAPAs": {
+        "CAPAs": {
+            "tabs": [
+                "Details",
+                "Related Objects"
+            ],
+            "columns": [
+                "Documents",
+                "Interim Controls",
+                "CAPA Investigations",
+                "CAPA Implementation",
+                "Actions",
+                "Effectiveness Reviews",
+                "Team Members",
+                "Escalations",
+                "Nonconformances",
+                "Batches",
+                "Extensions"
+            ]
+        },
+        "Interim Controls": {
+            "tabs": [
+                "Details",
+                "Related Objects"
+            ],
+            "columns": [
+                "CAPAs"
+            ]
+        },
+        "CAPA Investigations": {
+            "tabs": [
+                "Details",
+                "Related Objects"
+            ],
+            "columns": [
+                "CAPAs",
+                "Root Causes",
+                "CAPA Implementations"
+            ]
+        },
+        "Supplemental Investigations": {
+            "tabs": [
+                "Details",
+                "Related Objects"
+            ],
+            "columns": [
+                "CAPA Investigations"
+            ]
+        },
+        "CAPA Implementation": {
+            "tabs": [
+                "Details",
+                "Related Objects"
+            ],
+            "columns": [
+                "CAPA Investigations",
+                "Actions",
+                "Root Causes",
+                "CAPAs"
+            ]
+        },
+        "Actions": {
+            "tabs": [
+                "Details",
+                "Related Objects"
+            ],
+            "columns": [
+                "CAPA Implementations"
+            ]
+        },
+        "Effectiveness Plan": {
+            "tabs": [
+                "Details",
+                "Related Objects"
+            ],
+            "columns": [
+                "CAPAs"
+            ]
+        },
+        "Effectiveness Review": {
+            "tabs": [
+                "Details",
+                "Related Objects"
+            ],
+            "columns": [
+                "CAPAs"
+            ]
+        }
+    },
+    "Audits": {
+        "Audits": {
+            "tabs": [
+                "Details",
+                "Related Objects"
+            ],
+            "columns": [
+                "Audit Observations",
+                "Nonconformances",
+                "CAPAs"
+            ]
+        },
+        "Audits Observations": {
+            "tabs": [
+                "Details",
+                "Related Objects"
+            ],
+            "columns": [
+                "Audits",
+                "Documents",
+                "Escalations",
+                "CAPAs"
+            ]
+        }
+    },
+    "Accounts": {
+        "Accounts": {
+            "tabs": [
+                "Details",
+                "Related Objects"
+            ],
+            "columns": [
+                "Audits",
+                "Escalations",
+                "CAPAs",
+                "Contacts"
+            ]
+        }
+    },
+    "Laboratory Information": {
+        "Stability Stuides": {
+            "tabs": [
+                "Results",
+                "Analysis",
+                "Forecasts",
+                "Details",
+                "Inventories",
+                "Related Objects"
+            ],
+            "columns": [
+                "Protocols",
+                "Specifications",
+                "Test Methods",
+                "Change Controls",
+                "Nonconformances",
+                "Laboratory Investigations",
+                "Batches",
+                "Samples"
+            ]
+        },
+        "Specifications": {
+            "tabs": [
+                "Details",
+                "Related Objects"
+            ],
+            "columns": [
+                "Documents",
+                "Stability Studies",
+                "Batches"
+            ]
+        }
+    },
+    "Manufacturing": {
+        "Materials": {
+            "tabs": [
+                "Batches",
+                "Details"
+            ]
+        },
+        "Batches": {
+            "tabs": [
+                "Batch Explorer",
+                "Batch Flow",
+                "Material Flow",
+                "Related Objects"
+            ],
+            "columns": [
+                "Nonconformances",
+                "Escalations",
+                "CAPAs",
+                "Change Controls",
+                "Stability Studies",
+                "Stability Data",
+                "Release Data",
+                "Specifications",
+                "Complaints"
+            ]
+        },
+        "Batch Flow": {
+            "tabs": [
+                "Batch Explorer",
+                "Batch Flow",
+                "Material Flow",
+                "Related Objects"
+            ],
+            "columns": [
+                "Nonconformances",
+                "Escalations",
+                "CAPAs",
+                "Change Controls",
+                "Stability Studies",
+                "Stability Data",
+                "Release Data",
+                "Specifications",
+                "Complaints"
+            ]
+        }
+    },
+    "Risk": {
+        "Product": {
+            "tabs": [
+                "File",
+                "Details",
+                "Related Objects"
+            ],
+            "columns": [
+                "Documents",
+                "Materials",
+                "Change Controls",
+                "Nonconformances",
+                "CAPAs"
+            ]
+        }
+    }
+}

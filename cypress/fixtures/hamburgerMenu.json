@@ -1,0 +1,55 @@
+{
+    "Licensing":{
+        "accordionSections":[
+            {
+                "fields": [
+                            "Workcenter Licenses",
+                            "Intelliwriter Licenses",
+                            "IntelliStreamer Product Licenses",
+                            "Inactivated Time Period"
+                        ]
+            }
+        ]
+    },
+
+    "MyAccount":{
+        "accordionSections":[
+            {
+                "name": "User Information",
+                "iconIndex": 0,
+                "initiallyOpen": true,
+                "fields": [
+                    "First Name",
+                    "Last Name",
+                    "Title",
+                    "Phone",
+                    "Email",
+                    "Address",
+                    "Employee WWID"
+                ]
+            },
+            {
+                "name": "User Reporting",
+                "iconIndex": 1,
+                "initiallyOpen": true,
+                "fields": [
+                    "Organization:",
+                    "Function:",
+                    "Department:",
+                    "Site:"
+                ]
+            },
+            {
+                "name": "Account Information",
+                "iconIndex": 2,
+                "initiallyOpen": true,
+                "fields": [
+                    "Account Name:",
+                    "eSignature ID:",
+                    "WorkCenter License",
+                    "IntelliWriter License"
+                ]
+            }
+        ]
+    }
+}

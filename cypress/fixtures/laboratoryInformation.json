@@ -1,0 +1,377 @@
+{
+    "StabilityStudies": {
+        "Stabilitystudies": {
+            "columnNames": [
+                "Study",
+                "👁",
+                "Study Description",
+                "Product/Material Description",
+                "Study Status",
+                "Active",
+                "Stability Study Type",
+                "Protocol Number",
+                "Batch Number",
+                "Manufacture Date",
+                "Manufacture Location",
+                "Packaging Site",
+                "Packaging Date",
+                "Initiated Site",
+                "Stability Site",
+                "Start Date",
+                "Shelf Life"
+            ],
+            "multiChoicePickerColumns": [
+                "Study Status",
+                "Active",
+                "Stability Study Type",
+                "Manufacture Location",
+                "Packaging Site",
+                "Initiated Site",
+                "Stability Site"
+            ],
+            "accordionSections": [
+                {
+                    "name": "General Information",
+                    "iconIndex": 0,
+                    "initiallyOpen": true,
+                    "fields": [
+                        "Study ID:",
+                        "Study Status:",
+                        "Start Date:",
+                        "Study Description:",
+                        "Initiated Site:",
+                        "Stability Site:",
+                        "Department:",
+                        "Stability Study Type:",
+                        "Protocol Number:",
+                        "Partial Pull:",
+                        "Purpose:",
+                        "Notes:"
+                    ]
+                },
+                {
+                    "name": "Batch/Material",
+                    "iconIndex": 1,
+                    "initiallyOpen": true,
+                    "fields": [
+                        "Batch Number:",
+                        "Product ID:",
+                        "Material Type:",
+                        "Product Description:",
+                        "Forumalation:",
+                        "JNJ Product Number:",
+                        "Manufacture Date:",
+                        "Manufacture Location:",
+                        "Packaging Date:",
+                        "Packaging Site:",
+                        "T0 Sample ID:"
+                    ]
+                },
+                {
+                    "name": "Container/Closure",
+                    "iconIndex": 2,
+                    "initiallyOpen": true,
+                    "fields": [
+                        "Container:",
+                        "Size:",
+                        "Units:",
+                        "Container Description:",
+                        "Container Supplier:",
+                        "Closure Description:",
+                        "Closure Supplier:"
+                    ]
+                },
+                {
+                    "name": "Shelf Life/Storage",
+                    "iconIndex": 3,
+                    "initiallyOpen": true,
+                    "fields": [
+                        "Shelf Life:",
+                        "Expiry Date:",
+                        "Expirary Perior:",
+                        "Retest Period:",
+                        "Batch Size:",
+                        "Market Place:",
+                        "Storage Instruction:"
+                    ]
+                }
+            ],
+            "relatedObjects": [
+                "Protocols",
+                "Specifications",
+                "Test Methods",
+                "Change Controls",
+                "Nonconformances",
+                "Laboratory Investigations",
+                "Batches",
+                "Samples"
+            ]
+        },
+        "StabilityStudiesAPRPQR": {
+            "columnNames": [
+                "Study",
+                "👁",
+                "Batch Number",
+                "Manufacture Date",
+                "Manufacture Location",
+                "Packaging Site",
+                "Packaging Date",
+                "Initiated Site",
+                "Stability Site",
+                "Material Code",
+                "Formulation",
+                "Container Description",
+                "Closure Description",
+                "Stability Study Type",
+                "Purpose",
+                "Start Date"
+            ],
+            "multiChoicePickerColumns": [
+                "Manufacture Location",
+                "Packaging Site",
+                "Initiated Site",
+                "Stability Site",
+                "Stability Study Type",
+                "Stability Site"
+            ],
+            "accordionSections": [
+                {
+                    "name": "General Information",
+                    "iconIndex": 0,
+                    "initiallyOpen": true,
+                    "fields": [
+                        "Study ID:",
+                        "Study Status:",
+                        "Start Date:",
+                        "Study Description:",
+                        "Initiated Site:",
+                        "Stability Site:",
+                        "Department:",
+                        "Stability Study Type:",
+                        "Protocol Number:",
+                        "Partial Pull:",
+                        "Purpose:",
+                        "Notes:"
+                    ]
+                },
+                {
+                    "name": "Batch/Material",
+                    "iconIndex": 1,
+                    "initiallyOpen": true,
+                    "fields": [
+                        "Batch Number:",
+                        "Product ID:",
+                        "Material Type:",
+                        "Product Description:",
+                        "Forumalation:",
+                        "JNJ Product Number:",
+                        "Manufacture Date:",
+                        "Manufacture Location:",
+                        "Packaging Date:",
+                        "Packaging Site:",
+                        "T0 Sample ID:"
+                    ]
+                },
+                {
+                    "name": "Container/Closure",
+                    "iconIndex": 2,
+                    "initiallyOpen": true,
+                    "fields": [
+                        "Container:",
+                        "Size:",
+                        "Units:",
+                        "Container Description:",
+                        "Container Supplier:",
+                        "Closure Description:",
+                        "Closure Supplier:"
+                    ]
+                },
+                {
+                    "name": "Shelf Life/Storage",
+                    "iconIndex": 3,
+                    "initiallyOpen": true,
+                    "fields": [
+                        "Shelf Life:",
+                        "Expiry Date:",
+                        "Expirary Perior:",
+                        "Retest Period:",
+                        "Batch Size:",
+                        "Market Place:",
+                        "Storage Instruction:"
+                    ]
+                }
+            ],
+            "relatedObjects": [
+                "Protocols",
+                "Specifications",
+                "Test Methods",
+                "Change Controls",
+                "Nonconformances",
+                "Laboratory Investigations",
+                "Batches",
+                "Samples"
+            ]
+        },
+        "Forecasts": {
+            "columnNames": [
+                "Stability Site",
+                "Study ID",
+                "Product/Material Description",
+                "Batch Number",
+                "Storage Condition",
+                "Date In Chamber",
+                "Time Point",
+                "Scheduled Pull Date",
+                "Stability Protocol",
+                "Packaging Site",
+                "Manufacture Location",
+                "Initiated Site"
+            ],
+            "multiChoicePickerColumns": [
+                "Stability Site",
+                "Storage Condition",
+                "Time Point",
+                "Packaging Site",
+                "Manufacture Location",
+                "Initiated Site"
+            ]
+        },
+        "Inventories": {
+            "columnNames": [
+                "Study ID",
+                "Batch No.",
+                "Material ID",
+                "Product/Material Description",
+                "Stability Site",
+                "Condition",
+                "Storage Unit",
+                "Location",
+                "Initial Quantity",
+                "Future Quantity Required",
+                "Current Quantity"
+            ],
+            "multiChoicePickerColumns": [
+                "Stability Site",
+                "Condition",
+                "Storage Unit",
+                "Location"
+            ]
+        }
+    },
+    "StabilityData": {
+        "columnNames": [
+            "Study ID",
+            "Batch Number",
+            "Material",
+            "Sample ID",
+            "Manufacture Site",
+            "Stability Site",
+            "Analysis",
+            "Measurement",
+            "Condition",
+            "Time Point",
+            "Actual Pull Date",
+            "Display Result",
+            "Entered Result",
+            "Units",
+            "Limit Type ID",
+            "COA Limit",
+            "Verification Status"
+        ],
+        "multiChoicePickerColumns": [
+            "Manufacture Site",
+            "Stability Site",
+            "Analysis",
+            "Measurement",
+            "Condition",
+            "Time Point",
+            "Limit Type ID",
+            "Verification Status"
+        ]
+    },
+    "ReleaseData": {    
+        "columnNames": [
+            "Batch Number",
+            "Material",
+            "Product/Material Description",
+            "Sample ID",
+            "Analysis",
+            "Measurement",
+            "Condition",
+            "Time Point",
+            "Display Result",
+            "Entered Result",
+            "Units",
+            "Limit Type ID",
+            "COA Limit",
+            "Verification Status",
+            "SMD Reference",
+            "Site",
+            "Manufacture Site",
+            "Manufacture Date",
+            "Testing Date",
+            "QC Release Date"
+        ],
+        "multiChoicePickerColumns": [      
+            "Verification Status"            
+        ]
+    },
+    "Specifications": {
+        "columnNames": [
+            "Spec ID",
+            "Version",
+            "Product/Material Description",
+            "Version Status",
+            "Spec Name",
+            "Notes",
+            "Common",
+            "Local Ref",
+            "Create By",
+            "Approved By",
+            "Approval Reason",
+            "SMD Reference",
+            "Make Current",
+            "Analysis",
+            "Measurement",
+            "Concatenate CQA",
+            "Limit Type ID",
+            "Limit 1",
+            "Limit 2",
+            "Units",
+            "Stability"
+        ],
+        "multiChoicePickerColumns": [
+            "Version Status",
+            "Common",
+            "Analysis",
+            "Measurement",
+            "Limit Type ID",
+            "Stability"
+        ],
+        "accordionSections": [
+            {
+                "name": "Details",
+                "iconIndex": 0,
+                "initiallyOpen": true,
+                "fields": [
+                    "Specification:",
+                    "Description:",
+                    "Specification Name:",
+                    "Common:",
+                    "Version Status:",
+                    "Approved Reason:",
+                    "Notes:",
+                    "Local References:",
+                    "Version:",
+                    "Approved By:",
+                    " Make Current On:"
+                ]
+            }
+        ],
+        "relatedObjects": [
+            "Documents",
+            "Stability Studies",
+            "Batches"
+        ]
+    }
+}

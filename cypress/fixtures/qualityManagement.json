@@ -1,0 +1,4704 @@
+{
+  "ChangeControls": {
+    "changecontrols": {
+      "columnNames": [
+        "Number",
+        "👁",
+        "Title",
+        "Current State",
+        "Future State",
+        "Change Type",
+        "Lifecycle Stage",
+        "Regulatory Signal",
+        "Change Category",
+        "Stability Indicating",
+        "Reason for Change",
+        "Owner",
+        "Change Risk Level",
+        "Overall Change Risk Level",
+        "Status",
+        "Stage",
+        "Workflow Status",
+        "Implementation Status",
+        "Implementation Check Outcome",
+        "Overall Implementation Check Outcome",
+        "Legacy Reference Number",
+        "Legacy CC Level",
+        "Impacted Organizations",
+        "Impacted Material Item",
+        "Impacted Material Description",
+        "Impacted Batch No.",
+        "Impacted Products",
+        "Impacted Documents",
+        "Impacted Equipments Overview",
+        "Impacted Equipment List",
+        "Impacted Equipment Information",
+        "Impacted Site w/ Child CC#",
+        "User Comments"
+      ],
+      "multiChoicePickerColumns": [
+        "Change Type",
+        "Lifecycle Stage",
+        "Regulatory Signal",
+        "Change Category",
+        "Stability Indicating",
+        "Change Risk Level",
+        "Overall Change Risk Level",
+        "Status",
+        "Stage",
+        "Workflow Status",
+        "Implementation Status"
+      ],
+      "chartTypes": [
+        "Area",
+        "Column",
+        "Bar",
+        "Line",
+        "Radar",
+        "Pie",
+        "Doughnut",
+        "Histogram"
+      ],
+      "relatedObjects": [
+        "Change Controls",
+        "Impacted Documents",
+        "Impacted Products",
+        "Impacted Equipments",
+        "Impacted Organizations",
+        "Assessment Executions",
+        "Implementations",
+        "Escalations",
+        "CAPAs",
+        "Nonconformances",
+        "Accounts",
+        "Batches",
+        "Clinical Studies"
+      ],
+      "accordionSections": [
+        {
+          "name": "General",
+          "iconIndex": 0,
+          "initiallyOpen": true,
+          "fields": [
+            "Number:",
+            "Change Type:",
+            "Regulatory Signal:",
+            "Reason for Change:",
+            "Change Risk Level:",
+            "Status:",
+            "Workflow Status:",
+            "Implementation Check Outcome:",
+            "Legacy Reference Number:",
+            "Impacted Organizations:",
+            "Impacted Material Item:",
+            "Impacted Material Description:",
+            "Impacted Batch No.:",
+            "Impacted Products:",
+            "Impacted Documents:",
+            "Impacted Equipments Overview:",
+            "Impacted Equipment List:",
+            "Impacted Equipment Information:",
+            "Impacted Site w/ Child CC#:",
+            "Title:",
+            "Lifecycle Stage:",
+            "Change Category:",
+            "Change Due Date:",
+            "Overall Change Risk Level:",
+            "Stage:",
+            "Implementation Status:",
+            "Overall Implementation Check Outcome:",
+            "Legacy CC Level:"
+          ]
+        },
+        {
+          "name": "Change Description",
+          "iconIndex": 1,
+          "initiallyOpen": true,
+          "fields": [
+            "Current State:",
+            "Future State:",
+            "Justification:",
+            "Change Strategy:",
+            "Site/Function Details:"
+          ]
+        },
+        {
+          "name": "Ownership",
+          "iconIndex": 2,
+          "initiallyOpen": false,
+          "fields": [
+            "J&J Segment:",
+            "J&J Business Unit:",
+            "J&J Functional Area:",
+            "J&J Functional Area 2:",
+            "Owner:",
+            "J&J Org Visibility:",
+            "J&J Site Name:",
+            "J&J Functional Area 1:",
+            "Reporting Organization:"
+          ]
+        },
+        {
+          "name": "Impacted",
+          "iconIndex": 3,
+          "initiallyOpen": false,
+          "fields": [
+            "Products:",
+            "Materials:",
+            "Documents:",
+            "Equipment:"
+          ]
+        },
+        {
+          "name": "Product Release Strategy",
+          "iconIndex": 4,
+          "initiallyOpen": true,
+          "fields": [
+            "Product Release Strategy:",
+            "Product Release Strategy Details:"
+          ]
+        },
+        {
+          "name": "Due Dates",
+          "iconIndex": 5,
+          "initiallyOpen": true,
+          "fields": [
+            "Assessment Stage Start Date:",
+            "Change Plan Approval Date:",
+            "Change Closure Date:",
+            "Change Plan Approval Due Date:",
+            "Implementation Date:"
+          ]
+        },
+        {
+          "name": "Preliminary Risk Assessment of Potential Impact",
+          "iconIndex": 6,
+          "initiallyOpen": true,
+          "fields": [
+            "Regulatory:",
+            "Manufacturing Process:",
+            "Materials or Indirect Materials:",
+            "Laboratory Testing & Specification:",
+            "Stability:",
+            "Controlled Substance:",
+            "Artwork:",
+            "Buildings & Facilities or Utilities:",
+            "Equipment Cleaning/Sterilization:",
+            "Equipment or Computerized Systems:",
+            "Storage and Distribution:",
+            "Combination Product:",
+            "EHS Process:"
+          ]
+        }
+      ]
+    },
+    "changecontrolsAPRPQR":{
+      "columnNames":[
+        "Number",
+        "Change Risk Level",
+        "Title",
+        "Change Category",
+        "Reason for Change",
+        "Status",
+        "Stage",
+        "Legacy Reference Number",
+        "Change Plan Approval Date",
+        "Impacted Site w/Child CC #",
+        "J&J Site Name",
+        "J&J Site Name (Impacted Organization)",
+        "Site/Function Details",
+        "Material Description",
+        "Material Item",
+        "Materials or Indirect Materials",
+        "Batch ID/Lot Number",
+        "Related Batches",
+        "Trackwise Type Of Change",
+        "Trackwise Source Of Change",
+        "Impacted Equipment List",
+        "Impacted Equipment Information"
+      ],
+      "multiChoicePickerColumns":[
+        "Change Risk Level",
+        "Change Category",
+        "Reason for Change",
+        "Status",
+        "Stage",
+        "J&J Site Name",
+        "J&J Site Name (Impacted Organization)",
+        "Material Item"
+      ],
+      "relatedObjects":[
+        "Change Controls",
+        "Impacted Documents",
+        "Impacted Products",
+        "Impacted Equipments",
+        "Impacted Organizations",
+        "Assessment Executions",
+        "Implementations",
+        "Escalations",
+        "CAPAs",
+        "Nonconformances",
+        "Accounts",
+        "Batches",
+        "Clinical Studies"
+      ],
+      "accordionSections":[
+        {
+          "name": "General",
+          "iconIndex": 0,
+          "initiallyOpen": true,
+          "fields": [
+            "Number:",
+            "Title:",
+            "Change Type:",
+            "Lifecycle Stage:",
+            "Regulatory Signal:",
+            "Change Category:",
+            "Reason for Change:",
+            "Change Due Date:",
+            "Change Risk Level:",
+            "Overall Change Risk Level:",
+            "Status:",
+            "Stage:",
+            "Workflow Status:",
+            "Implementation Status:",
+            "Implementation Check Outcome:",
+            "Overall Implementation Check Outcome:",
+            "Legacy Reference Number:",
+            "Legacy CC Level:",
+            "Impacted Organizations:",
+            "Impacted Material Item:",
+            "Impacted Material Description:",
+            "Impacted Batch No.:",
+            "Impacted Products:",
+            "Impacted Documents:",
+            "Impacted Equipments Overview:",
+            "Impacted Equipment List:",
+            "Impacted Equipment Information:",
+            "Impacted Site w/ Child CC#:"
+          ]
+        },
+        {
+          "name": "Change Description",
+          "iconIndex": 1,
+          "initiallyOpen": false,
+          "fields": [
+            "Current State:",
+            "Future State:",
+            "Justification:",
+            "Change Strategy:",
+            "Site/Function Details:"
+          ]
+        },
+        {
+          "name": "Ownership",
+          "iconIndex": 2,
+          "initiallyOpen": false,
+          "fields": [
+            "J&J Segment:",
+            "J&J Org Visibility:",
+            "J&J Business Unit:",
+            "J&J Site Name:",
+            "J&J Functional Area:",
+            "J&J Functional Area 1:",
+            "J&J Functional Area 2:",
+            "Reporting Organization:",
+            "Owner:"
+          ]
+        },
+        {
+          "name": "Impacted",
+          "iconIndex": 3,
+          "initiallyOpen": false,
+          "fields": [
+            "Products:",
+            "Materials:",
+            "Documents:",
+            "Equipment:"
+          ]
+        },
+        {
+          "name": "Product Release Strategy",
+          "iconIndex": 4,
+          "initiallyOpen": false,
+          "fields": [
+            "Product Release Strategy:",
+            "Product Release Strategy Details:"
+          ]
+        },
+        {
+          "name": "Due Dates",
+          "iconIndex": 5,
+          "initiallyOpen": false,
+          "fields": [
+            "Assessment Stage Start Date:",
+            "Change Plan Approval Due Date:",
+            "Change Plan Approval Date:",
+            "Implementation Date:",
+            "Change Closure Date:"
+          ]
+        },
+        {
+          "name": "Preliminary Risk Assessment of Potential Impact",
+          "iconIndex": 6,
+          "initiallyOpen": false,
+          "fields": [
+            "Regulatory:",
+            "Buildings & Facilities or Utilities:",
+            "Manufacturing Process:",
+            "Equipment Cleaning/Sterilization:",
+            "Materials or Indirect Materials:",
+            "Equipment or Computerized Systems:",
+            "Laboratory Testing & Specification:",
+            "Storage and Distribution:",
+            "Stability:",
+            "Combination Product:",
+            "Controlled Substance:",
+            "EHS Process:",
+            "Artwork:"
+          ]
+        }
+      ]
+    },
+    "changecontrolsParentCCImplementations":{
+      "columnNames":[
+        "Number",
+        "Change Plan Approval Date",
+        "J&J Site Name",
+        "Overall Change Risk Level",
+        "Title",
+        "Change Category",
+        "Reason for Change",
+        "Status",
+        "Stage",
+        "Implementation",
+        "Implementation J&J Site Name",
+        "Implementation Status",
+        "Implementation Stage",
+        "Implementation Task Completion Date"
+      ],
+      "multiChoicePickerColumns":[
+        "J&J Site Name",
+        "Overall Change Risk Level",
+        "Change Category",
+        "Reason for Change",
+        "Status",
+        "Stage",
+        "Implementation J&J Site Name",
+        "Implementation Status",
+        "Implementation Stage"
+      ],
+      "relatedObjects":[
+        "Change Controls",
+        "Impacted Documents",
+        "Impacted Products",
+        "Impacted Equipments",
+        "Impacted Organizations",
+        "Assessment Executions",
+        "Implementations",
+        "Escalations",
+        "CAPAs",
+        "Nonconformances",
+        "Accounts",
+        "Batches",
+        "Clinical Studies"
+      ],
+      "accordionSections":[
+        {
+          "name": "General",
+          "iconIndex": 0,
+          "initiallyOpen": true,
+          "fields": [
+            "Number:",
+            "Title:",
+            "Change Type:",
+            "Lifecycle Stage:",
+            "Regulatory Signal:",
+            "Change Category:",
+            "Reason for Change:",
+            "Change Due Date:",
+            "Change Risk Level:",
+            "Overall Change Risk Level:",
+            "Status:",
+            "Stage:",
+            "Workflow Status:",
+            "Implementation Status:",
+            "Implementation Check Outcome:",
+            "Overall Implementation Check Outcome:",
+            "Legacy Reference Number:",
+            "Legacy CC Level:",
+            "Impacted Organizations:",
+            "Impacted Material Item:",
+            "Impacted Material Description:",
+            "Impacted Batch No.:",
+            "Impacted Products:",
+            "Impacted Documents:",
+            "Impacted Equipments Overview:",
+            "Impacted Equipment List:",
+            "Impacted Equipment Information:",
+            "Impacted Site w/ Child CC#:"
+          ]
+        },
+        {
+          "name": "Change Description",
+          "iconIndex": 1,
+          "initiallyOpen": false,
+          "fields": [
+            "Current State:",
+            "Future State:",
+            "Justification:",
+            "Change Strategy:",
+            "Site/Function Details:"
+          ]
+        },
+        {
+          "name": "Ownership",
+          "iconIndex": 2,
+          "initiallyOpen": false,
+          "fields": [
+            "J&J Segment:",
+            "J&J Org Visibility:",
+            "J&J Business Unit:",
+            "J&J Site Name:",
+            "J&J Functional Area:",
+            "J&J Functional Area 1:",
+            "J&J Functional Area 2:",
+            "Reporting Organization:",
+            "Owner:"
+          ]
+        },
+        {
+          "name": "Impacted",
+          "iconIndex": 3,
+          "initiallyOpen": false,
+          "fields": [
+            "Products:",
+            "Materials:",
+            "Documents:",
+            "Equipment:"
+          ]
+        },
+        {
+          "name": "Product Release Strategy",
+          "iconIndex": 4,
+          "initiallyOpen": false,
+          "fields": [
+            "Product Release Strategy:",
+            "Product Release Strategy Details:"
+          ]
+        },
+        {
+          "name": "Due Dates",
+          "iconIndex": 5,
+          "initiallyOpen": false,
+          "fields": [
+            "Assessment Stage Start Date:",
+            "Change Plan Approval Due Date:",
+            "Change Plan Approval Date:",
+            "Implementation Date:",
+            "Change Closure Date:"
+          ]
+        },
+        {
+          "name": "Preliminary Risk Assessment of Potential Impact",
+          "iconIndex": 6,
+          "initiallyOpen": false,
+          "fields": [
+            "Regulatory:",
+            "Buildings & Facilities or Utilities:",
+            "Manufacturing Process:",
+            "Equipment Cleaning/Sterilization:",
+            "Materials or Indirect Materials:",
+            "Equipment or Computerized Systems:",
+            "Laboratory Testing & Specification:",
+            "Storage and Distribution:",
+            "Stability:",
+            "Combination Product:",
+            "Controlled Substance:",
+            "EHS Process:",
+            "Artwork:"
+          ]
+        }
+      ]
+    },
+    "changecontrolsChildCCImplementations":{
+      "columnNames":[
+        "Number",
+        "Change Plan Approval Date",
+        "J&J Site Name",
+        "Overall Change Risk Level",
+        "Title",
+        "Change Category",
+        "Reason for Change",
+        "Status",
+        "Stage",
+        "Child Change Control",
+        "Child CC: J&J Site Name",
+        "Child CC: Implementation",
+        "Child CC: Implementation J&J Site Name",
+        "Child CC: Implementation Status",
+        "Child CC: Implementation Stage",
+        "Child CC: Implementation Task Completion Date"
+      ],
+      "multiChoicePickerColumns":[
+        "J&J Site Name",
+        "Overall Change Risk Level",
+        "Change Category",
+        "Reason for Change",
+        "Status",
+        "Stage",
+        "Child CC: J&J Site Name",
+        "Child CC: Implementation Status",
+        "Child CC: Implementation Stage"
+      ],
+      "relatedObjects":[
+        "Change Controls",
+        "Impacted Documents",
+        "Impacted Products",
+        "Impacted Equipments",
+        "Impacted Organizations",
+        "Assessment Executions",
+        "Implementations",
+        "Escalations",
+        "CAPAs",
+        "Nonconformances",
+        "Accounts",
+        "Batches",
+        "Clinical Studies"
+      ],
+      "accordionSections":[
+        {
+          "name": "General",
+          "iconIndex": 0,
+          "initiallyOpen": true,
+          "fields": [
+            "Number:",
+            "Title:",
+            "Change Type:",
+            "Lifecycle Stage:",
+            "Regulatory Signal:",
+            "Change Category:",
+            "Reason for Change:",
+            "Change Due Date:",
+            "Change Risk Level:",
+            "Overall Change Risk Level:",
+            "Status:",
+            "Stage:",
+            "Workflow Status:",
+            "Implementation Status:",
+            "Implementation Check Outcome:",
+            "Overall Implementation Check Outcome:",
+            "Legacy Reference Number:",
+            "Legacy CC Level:",
+            "Impacted Organizations:",
+            "Impacted Material Item:",
+            "Impacted Material Description:",
+            "Impacted Batch No.:",
+            "Impacted Products:",
+            "Impacted Documents:",
+            "Impacted Equipments Overview:",
+            "Impacted Equipment List:",
+            "Impacted Equipment Information:",
+            "Impacted Site w/ Child CC#:"
+          ]
+        },
+        {
+          "name": "Change Description",
+          "iconIndex": 1,
+          "initiallyOpen": false,
+          "fields": [
+            "Current State:",
+            "Future State:",
+            "Justification:",
+            "Change Strategy:",
+            "Site/Function Details:"
+          ]
+        },
+        {
+          "name": "Ownership",
+          "iconIndex": 2,
+          "initiallyOpen": false,
+          "fields": [
+            "J&J Segment:",
+            "J&J Org Visibility:",
+            "J&J Business Unit:",
+            "J&J Site Name:",
+            "J&J Functional Area:",
+            "J&J Functional Area 1:",
+            "J&J Functional Area 2:",
+            "Reporting Organization:",
+            "Owner:"
+          ]
+        },
+        {
+          "name": "Impacted",
+          "iconIndex": 3,
+          "initiallyOpen": false,
+          "fields": [
+            "Products:",
+            "Materials:",
+            "Documents:",
+            "Equipment:"
+          ]
+        },
+        {
+          "name": "Product Release Strategy",
+          "iconIndex": 4,
+          "initiallyOpen": false,
+          "fields": [
+            "Product Release Strategy:",
+            "Product Release Strategy Details:"
+          ]
+        },
+        {
+          "name": "Due Dates",
+          "iconIndex": 5,
+          "initiallyOpen": false,
+          "fields": [
+            "Assessment Stage Start Date:",
+            "Change Plan Approval Due Date:",
+            "Change Plan Approval Date:",
+            "Implementation Date:",
+            "Change Closure Date:"
+          ]
+        },
+        {
+          "name": "Preliminary Risk Assessment of Potential Impact",
+          "iconIndex": 6,
+          "initiallyOpen": false,
+          "fields": [
+            "Regulatory:",
+            "Buildings & Facilities or Utilities:",
+            "Manufacturing Process:",
+            "Equipment Cleaning/Sterilization:",
+            "Materials or Indirect Materials:",
+            "Equipment or Computerized Systems:",
+            "Laboratory Testing & Specification:",
+            "Storage and Distribution:",
+            "Stability:",
+            "Combination Product:",
+            "Controlled Substance:",
+            "EHS Process:",
+            "Artwork:"
+          ]
+        }
+      ]
+    },
+    "changecontrolsTW": {
+      "columnNames": [
+        "Number",
+        "👁",
+        "Name",
+        "Change Type",
+        "Type Of Change",
+        "State",
+        "Site Name",
+        "Sites Affected",
+        "CC Level",
+        "CC Approval Date",
+        "Creation Date",
+        "Current Target Closing Date",
+        "Material/Item",
+        "Material Description",
+        "Batch ID/Lot Number",
+        "International Name",
+        "Assigned To",
+        "QA Approver",
+        "GCCB Approver",
+        "User Comments"
+      ],
+      "multiChoicePickerColumns": [
+        "Change Type",
+        "Type Of Change",
+        "State",
+        "Site Name",
+        "Sites Affected",
+        "CC Level"
+      ],
+      "relatedObjects": [
+        "Change Controls",
+        "Assessment Plans",
+        "Escalations",
+        "CAPAs",
+        "Nonconformances",
+        "Accounts",
+        "Batches",
+        "Specifications",
+        "Test Methods"
+      ],
+      "accordionSections": [
+        {
+          "name": "Change Control Information",
+          "iconIndex": 0,
+          "initiallyOpen": true,
+          "fields": [
+            "Name:",
+            "ID:",
+            "Originator:",
+            "Assigned To:",
+            "Material Description:",
+            "Creation Date:",
+            "Date Closed:",
+            "Batch ID/Lot Number:",
+            "Site(s) Affected:",
+            "Affected Markets:",
+            "Current State:",
+            "Proposed State:",
+            "Amendment Justification:",
+            "Project Name:",
+            "State:",
+            "International Name:",
+            "Current Target Closing Date:",
+            "CC Approval Date:",
+            "Material Item:",
+            "Justification Details:",
+            "Device Assessment Required:",
+            "Regulatory Assessment Required:",
+            "Combination Product:",
+            "Implementation Strategy:",
+            "CC Level:",
+            "GCCB Approver:",
+            "Source of Change:",
+            "QA Approver:",
+            "Type of Change:",
+            "Regulatory Comments:"
+          ]
+        }
+      ]
+    },
+    "AssessmentExecutions": {
+      "columnNames": [
+        "Number",
+        "👁",
+        "Name",
+        "Overall Business Outcome",
+        "Assessment Risk",
+        "Performed By",
+        "Created Date",
+        "Performed Date",
+        "Impacted Product Family",
+        "Impacted Product Trade Name",
+        "Impacted Product JNJ Number",
+        "J&J Site Name",
+        "Functional Area",
+        "Functional Area 1",
+        "Functional Area 2"
+      ],
+      "multiChoicePickerColumns": [
+        "Overall Business Outcome",
+        "Assessment Risk",
+        "J&J Site Name",
+        "Functional Area",
+        "Functional Area 1",
+        "Functional Area 2"
+      ],
+      "accordionSections": [
+        {
+          "name": "Details",
+          "iconIndex": 0,
+          "initiallyOpen": true,
+          "fields": [
+            "Number:",
+            "Performed By:",
+            "Assessment Risk:"
+          ]
+        },
+        {
+          "name": "Impacted Product",
+          "iconIndex": 1,
+          "initiallyOpen": true,
+          "fields": [
+            "Impacted Product ID:",
+            "Impacted Product JNJ Number:",
+            "Impacted Product Filing Type:"
+          ]
+        },
+        {
+          "name": "Site License Assessment Details",
+          "iconIndex": 2,
+          "initiallyOpen": false,
+          "fields": [
+            "Overall Business Outcome:",
+            "Site License Risk Assessment Details:"
+          ]
+        },
+        {
+          "name": "Global/Device Regulatory Assessment Details",
+          "iconIndex": 3,
+          "initiallyOpen": false,
+          "fields": [
+            "Overall Business Outcome:",
+            "Global/Device Reg. Assessment Details:"
+          ]
+        },
+        {
+          "name": "Local Regulatory Product Assessment Details",
+          "iconIndex": 4,
+          "initiallyOpen": true,
+          "fields": [
+            "Overall Business Outcome:",
+            "Local Regulatory Product Risk Assessment:"
+          ]
+        }
+      ],
+      "relatedObjects": [
+        "Change Controls",
+        "CMC Global/Device Regulatory Assessments"
+      ]
+    },
+    "Implementations": {
+      "columnNames": [
+        "Number",
+        "👁",
+        "Title",
+        "Description",
+        "Task Type",
+        "Task Subtype",
+        "Assignee",
+        "Due Date",
+        "Status",
+        "J&J Site Name",
+        "Functional Area",
+        "Functional Area 1",
+        "Functional Area 2",
+        "Task Results",
+        "Change Order",
+        "Related Change",
+        "Related Nonconformance",
+        "Task Completion Date"
+      ],
+      "multiChoicePickerColumns": [
+        "Task Type",
+        "Task Subtype",
+        "Status",
+        "J&J Site Name",
+        "Functional Area",
+        "Functional Area 1",
+        "Functional Area 2"
+      ],
+      "chartTypes": [
+        "Area",
+        "Column",
+        "Bar",
+        "Line",
+        "Radar",
+        "Pie",
+        "Doughnut",
+        "Histogram"
+      ],
+      "accordionSections": [
+        {
+          "name": "Details",
+          "iconIndex": 0,
+          "initiallyOpen": true,
+          "fields": [
+            "Change Order:",
+            "Title:",
+            "Task Type:",
+            "Assignee:",
+            "Status:",
+            "Task Subtype:",
+            "Due Date:"
+          ]
+        },
+        {
+          "name": "Organizational Information",
+          "iconIndex": 1,
+          "initiallyOpen": true,
+          "fields": [
+            "J&J Site Name:",
+            "Functional Area:",
+            "Functional Area 1:",
+            "Functional Area 2:"
+          ]
+        },
+        {
+          "name": "Description",
+          "iconIndex": 2,
+          "initiallyOpen": false,
+          "fields": [
+            "Description:",
+            "Task Results:",
+            "Related Change:",
+            "Related Nonconformance:",
+            "Task Completion Date:"
+          ]
+        }
+      ],
+      "relatedObjects": [
+        "Change Controls"
+      ]
+    }
+  },
+  "Escalations": {
+    "Escalations": {
+      "columnNames": [
+        "Number",
+        "👁",
+        "Title",
+        "Description of Issue",
+        "Current Level",
+        "Owner",
+        "Quality Head",
+        "Escalation Category",
+        "Issue Meets Escalation Criteria",
+        "Customer Patient Impact",
+        "Status",
+        "Stage",
+        "Rationale Description Of Issue Change",
+        "Additional Information",
+        "Proposed Action/Plan",
+        "Additional Sites Affected",
+        "Related Product Info",
+        "Related Batches",
+        "User Comments"
+      ],
+      "multiChoicePickerColumns": [
+        "Current Level",
+        "Escalation Category",
+        "Issue Meets Escalation Criteria",
+        "Customer Patient Impact",
+        "Status",
+        "Stage"
+      ],
+      "chartTypes": [
+        "Area",
+        "Column",
+        "Bar",
+        "Line",
+        "Radar",
+        "Pie",
+        "Doughnut",
+        "Histogram"
+      ],
+      "relatedObjects": [
+        "Assessments",
+        "Serious Breaches",
+        "Meetings",
+        "Change Controls",
+        "Nonconformances",
+        "CAPAs",
+        "Audit Observations",
+        "Accounts"
+      ],
+      "accordionSections": [
+        {
+          "name": "When/Who",
+          "iconIndex": 0,
+          "initiallyOpen": true,
+          "fields": [
+            "Date Occurred:",
+            "Quality Awareness Date:",
+            "Escalation Created Date:",
+            "Created By:",
+            "J&J Employee/Contractor Contact:",
+            "Date Identified:",
+            "Escalation Lead Awareness Date:",
+            "Owner:",
+            "Quality Head:",
+            "Other Key Contacts:"
+          ]
+        },
+        {
+          "name": "Source of Issue",
+          "iconIndex": 1,
+          "initiallyOpen": true,
+          "fields": [
+            "Source:",
+            "Therapeutic Areas:",
+            "Related to Clinical Trial:",
+            "Site Type:",
+            "Site Category:",
+            "GxP Scope:",
+            "Source Details:",
+            "Control Substances Related:",
+            "Customer Patient Impact:",
+            "Account:",
+            "Impacted Countries:"
+          ]
+        },
+        {
+          "name": "Proposed Action/Plan",
+          "iconIndex": 2,
+          "initiallyOpen": false,
+          "fields": [
+            "Proposed Action/Plan:"
+          ]
+        }
+      ]
+    },
+    "Escalations_TW": {
+      "columnNames": [
+        "Number",
+        "👁",
+        "Name",
+        "Description Of Issue",
+        "State",
+        "Operating Company",
+        "Segment",
+        "Creation Date",
+        "Escalation Lead/Quality Rep",
+        "Action Plan/Proposed Action",
+        "Highest Escalation Level Reached",
+        "User Comments"
+      ],
+      "multiChoicePickerColumns": [
+        "State",
+        "Operating Company",
+        "Segment"
+      ],
+      "relatedObjects": [
+        "Meetings",
+        "Change Controls",
+        "Nonconformances",
+        "Accounts",
+        "Batches"
+      ],
+      "accordionSections": [
+        {
+          "name": "Origination/Reporting",
+          "iconIndex": 0,
+          "initiallyOpen": true,
+          "fields": [
+            "Name:",
+            "Record ID:",
+            "Operating Company:",
+            "State:",
+            "Pie Segment Scope:",
+            "Event Date:",
+            "Escalation Submission Date:",
+            "Description Of Issue:",
+            "Source of Issue:",
+            "Source of Issue Description:",
+            "Countries Affected:",
+            "Site Name:",
+            "Project Name:",
+            "Creation Date:",
+            "Originator:",
+            "Theraputic Area:",
+            "Issue Awareness Date:",
+            "Date Closed:",
+            "Segment:",
+            "Escalation Lead Or Quality Rep:"
+          ]
+        },
+        {
+          "name": "Pharma Escalation",
+          "iconIndex": 1,
+          "initiallyOpen": true,
+          "fields": [
+            "Product/Compound Info:",
+            "Initial Escalation Level:",
+            "Highest Escalation Level Reached:",
+            "Product Impact:",
+            "Potential Sites Affected:",
+            "Products Placed On Hold:",
+            "Type Of Customer Impact:",
+            "Customer Or Patient Imp Details:",
+            "Issue Management Lead:",
+            "Action Plan Or Proposed Action:",
+            "Escalation Assessment Approver:",
+            "Escalation Required:",
+            "Planned Initial Escalation MTG Date:",
+            "Date Escalation Notification Sent Out:",
+            "Potential Customer Or Patient Imp:",
+            "Product Lot Impacted:"
+          ]
+        },
+        {
+          "name": "PAM/QRB",
+          "iconIndex": 2,
+          "initiallyOpen": false,
+          "fields": [
+            "QRB Required:",
+            "QRB Decision:",
+            "PAM Decision Date:"
+          ]
+        }
+      ]
+    },
+    "Assessments": {
+      "columnNames": [
+        "Number",
+        "Key Phrase",
+        "Created By",
+        "Escalation Criteria",
+        "Related Escalation",
+        "Related Escalation Level",
+        "Product Quality Issue",
+        "Regulatory Compliance Issue",
+        "Non-GMP Issue",
+        "Issue Type",
+        "Created By",
+        "Event",
+        "Event ID"
+      ],
+      "multiChoicePickerColumns": [
+        "Related Escalation Level",
+        "Product Quality Issue",
+        "Regulatory Compliance Issue",
+        "Non-GMP Issue",
+        "Issue Type"
+      ],
+      "accordionSections": [
+        {
+          "name": "Details",
+          "iconIndex": 0,
+          "initiallyOpen": true,
+          "fields": [
+            "Number:",
+            "Key Phrase:",
+            "Created By:",
+            "Escalation Criteria:",
+            "Related Escalation:",
+            "Related Escalation Level:",
+            "Product Quality Issue:",
+            "Regulatory Compliance Issue:",
+            "Non-GMP Issue:",
+            "Issue Type:",
+            "Event:",
+            "Event ID:"
+          ]
+        }
+      ]
+    }
+  },
+  "Nonconformances": {
+    "NonConformances": {
+      "columnNames": [
+        "Number",
+        "Name",
+        "Description",
+        "Status",
+        "Stage",
+        "Owner",
+        "Issue Type",
+        "Source",
+        "Recurring",
+        "Failure Mode",
+        "Potential Product Impact",
+        "Site Name",
+        "Created Date",
+        "Occurrence Date",
+        "Aware Date",
+        "Open Date",
+        "Material or Item",
+        "Material Description",
+        "Batch ID/Lot No",
+        "User Comments"
+      ],
+      "multiChoicePickerColumns": [
+        "Status",
+        "Stage",
+        "Issue Type",
+        "Source",
+        "Recurring",
+        "Failure Mode",
+        "Potential Product Impact",
+        "Site Name"
+      ],
+      "analyticsDropdownValues": [
+        "Source",
+        "Status",
+        "J&J Site Name",
+        "Highest Risk Score",
+        "Functional Area",
+        "Functional Area 1",
+        "Functional Area 2",
+        "Issue Type",
+        "Owner",
+        "Investigation Level",
+        "Stage"
+      ],
+      "accordionSections": [
+        {
+          "name": "Details",
+          "fields": [
+            "Number:",
+            "Name:",
+            "Description:",
+            "Issue Type:",
+            "Owner:",
+            "Status:",
+            "Stage:",
+            "Occurrence Date:",
+            "Aware Date:",
+            "Open Date:",
+            "Due Date:",
+            "Material or Item:",
+            "Material Description:",
+            "Batch ID/Lot No:",
+            "Potential Product Impact:",
+            "Source:",
+            "Source Details:",
+            "Reccurring:"
+          ]
+        },
+        {
+          "name": "Triage Details",
+          "fields": [
+            "Failure Mode:",
+            "Failure Model Level 2:",
+            "Failure Mode Level 3:",
+            "PV Relevant:",
+            "Inv. Required for Suspect Lab Result:",
+            "Is NC GxP System Related:",
+            "Is Potential Escalation Required:",
+            "Controlled Substances Related:",
+            "Primary Finding:"
+          ]
+        },
+        {
+          "name": "Ownership",
+          "fields": [
+            "Created By:",
+            "J&J Segment:",
+            "J&J Business Unit:",
+            "J&J Site Name:",
+            "J&J Functional Area:",
+            "J&J Functional Area 1:",
+            "J&J Functional Area 2:",
+            "J&J Org Visibility:",
+            "Impacted J&J Segment:"
+          ]
+        },
+        {
+          "name": "Document References",
+          "fields": [
+            "Document Number:",
+            "Document Title:",
+            "Effective Date:",
+            "Version:"
+          ]
+        }
+      ],
+      "relatedObjects": [
+        "Immediate Causes",
+        "NC Investigations",
+        "Laboratory Investigations",
+        "CAPAs",
+        "Actions",
+        "Change Controls",
+        "Escalations",
+        "Batches",
+        "Documents",
+        "Others"
+      ],
+      "chartValues": [
+        "Area",
+        "Column",
+        "Bar",
+        "Line",
+        "Radar",
+        "Pie",
+        "Doughnut",
+        "Histogram"
+      ],
+      "otherRelatedObjects": [
+        "Containments",
+        "NC Corrections",
+        "Risk Assessments",
+        "Audits",
+        "Audit Observations",
+        "Accounts",
+        "Extensions",
+        "Team Members"
+      ]
+    },
+    "NonconformancesAPRPQR": {
+      "columnNames": [
+        "Number",
+        "Name",
+        "Description",
+        "Status",
+        "Stage",
+        "Level 1 Immediate Cause",
+        "Level 2 Immediate Cause",
+        "Batch ID/Lot No",
+        "Material or Item",
+        "Disposition Type",
+        "Related Correction and State (ACT)",
+        "Title (ACT)",
+        "Investigation Number",
+        "Plain Text Investigation Summary",
+        "Laboratory Investigation: Confirmed OOS/OOT/OOL",
+        "Material Description",
+        "Product Type",
+        "Disposition Details",
+        "Material Continuation Decision",
+        "Created Date",
+        "Site Name",
+        "Risk Score",
+        "Highest Risk Score",
+        "Conclusion of NC Risk Assessment",
+        "Source",
+        "Issue Type",
+        "Immediate Cause Sub Category",
+        "Level 1 Root Cause",
+        "Level Root 2 Cause",
+        "Root Cause Sub Category",
+        "Date Closed",
+        "Product Grouping",
+        "Disposition Justification",
+        "Release from Investigation",
+        "Reoccuring",
+        "J&J Functional Area",
+        "J&J Functional Area 1",
+        "J&J Functional Area 2",
+        "Action Plan Number (APN)",
+        "Action Type (ACT)",
+        "Stage (ACT)",
+        "Related Effectiveness Review and Status",
+        "Laboratory Investigation: Record Number",
+        "Related CAPA and State",
+        "Title (CAPA)"
+      ],
+      "multiChoicePickerColumns": [
+        "Status",
+        "Stage",
+        "Site Name",
+        "Risk Score",
+        "Highest Risk Score",
+        "Source",
+        "Issue Type",
+        "Reoccurring",
+        "J&J Functional Area",
+        "J&J Functional Area 1",
+        "J&J Functional Area 2"
+      ],
+      "accordionSections": [
+        {
+          "name": "Details",
+          "iconIndex": 0,
+          "initiallyOpen": true,
+          "fields": [
+            "Number:",
+            "Name:",
+            "Description:",
+            "Issue Type:",
+            "Owner:",
+            "Status:",
+            "Stage:",
+            "Occurrence Date:",
+            "Aware Date:",
+            "Open Date:",
+            "Due Date:",
+            "Material or Item:",
+            "Material Description:",
+            "Batch ID/Lot No:",
+            "Potential Product Impact:",
+            "Source:",
+            "Source Details:",
+            "Reccurring:"
+          ]
+        },
+        {
+          "name": "Triage Details",
+          "iconIndex": 1,
+          "initiallyOpen": false,
+          "fields": [
+            "Failure Mode:",
+            "Failure Model Level 2:",
+            "Failure Mode Level 3:",
+            "PV Relevant:",
+            "Inv. Required for Suspect Lab Result:",
+            "Is NC GxP System Related:",
+            "Is Potential Escalation Required:",
+            "Controlled Substances Related:",
+            "Primary Finding:"
+          ]
+        },
+        {
+          "name": "Ownership",
+          "iconIndex": 2,
+          "initiallyOpen": false,
+          "fields": [
+            "Created By:",
+            "J&J Segment:",
+            "J&J Business Unit:",
+            "J&J Site Name:",
+            "J&J Functional Area:",
+            "J&J Functional Area 1:",
+            "J&J Functional Area 2:",
+            "J&J Org Visibility:",
+            "Impacted J&J Segment:"
+          ]
+        },
+        {
+          "name": "Document References",
+          "iconIndex": 3,
+          "initiallyOpen": false,
+          "fields": [
+            "Document Number:",
+            "Document Title:",
+            "Effective Date:",
+            "Version:"
+          ]
+        }
+      ],
+      "relatedObjects": [
+        "Immediate Causes",
+        "NC Investigations",
+        "Laboratory Investigations",
+        "CAPAs",
+        "Actions",
+        "Change Controls",
+        "Escalations",
+        "Batches",
+        "Documents",
+        "Others"
+      ],
+      "otherRelatedObjects": [
+        "Containments",
+        "NC Corrections",
+        "Risk Assessments",
+        "Audits",
+        "Audit Observations",
+        "Accounts",
+        "Extensions",
+        "Team Members"
+      ],
+      "chartValues": [
+        "Area",
+        "Column",
+        "Bar",
+        "Line",
+        "Radar",
+        "Pie",
+        "Doughnut",
+        "Histogram"
+      ]
+    },
+    "NonConformancesTW": {
+      "columnNames": [
+        "Number",
+        "Name",
+        "Description of Issue",
+        "State",
+        "Assigned To",
+        "Event Type",
+        "Sources",
+        "Recurring Issue",
+        "Assignable Causes",
+        "Product or Process",
+        "Impact Classification",
+        "Site Name",
+        "Creation Date",
+        "Date Due",
+        "Material/Item",
+        "Material Description",
+        "Batch ID/Lot Number",
+        "User Comments"
+      ],
+      "multiChoicePickerColumns": [
+        "State",
+        "Event Type",
+        "Sources",
+        "Recurring Issue",
+        "Assignable Causes",
+        "Product or Process",
+        "Impact Classification",
+        "Site Name"
+      ],
+      "accordionSections": [
+        {
+          "name": "General Information",
+          "fields": [
+            "Name:",
+            "Record ID:",
+            "Project Name:",
+            "State:",
+            "Assigned To:",
+            "Originator:",
+            "Creation Date:",
+            "Date Due:",
+            "Quality Leader:",
+            "QC Owner:",
+            "QI Submitter:",
+            "Issue Reported By:",
+            "Date Identified:",
+            "Date Occurred:",
+            "Date Closed:",
+            "Source(s):",
+            "Source Details:"
+          ]
+        },
+        {
+          "name": "Owning Site Details",
+          "fields": [
+            "Region:",
+            "Segment:",
+            "Business Unit:",
+            "Funtional Area 1:",
+            "Funtional Area 2:",
+            "Additional Sites Affected:"
+          ]
+        },
+        {
+          "name": "Issue Details",
+          "fields": [
+            "Material Description:",
+            "Product Grouping:",
+            "Therapeutic Area:",
+            "Issue Description:",
+            "Planned/Unplanned:",
+            "Immediate Actions/Corrections:",
+            "Recurring Issue:"
+          ]
+        },
+        {
+          "name": "Product/Process Details",
+          "fields": [
+            "Product/Process:",
+            "GxP:",
+            "Products:",
+            "MFG Products Affected:",
+            "MFG Process Step:",
+            "MFG Equipment List:",
+            "MFG Technology:",
+            "Site Name:"
+          ]
+        },
+        {
+          "name": "Impact Assessment",
+          "fields": [
+            "Impact Score:",
+            "Impact Classification:",
+            "Impact Category:",
+            "Impact Desc/Potential Consequence:",
+            "Other Impact Description:",
+            "Impact Assessment Summary:",
+            "Recommended INV Level:",
+            "Material Continuation Decision:",
+            "Investigation Level Rationale:",
+            "Formal Escalation Required:"
+          ]
+        },
+        {
+          "name": "Investigation Details",
+          "fields": [
+            "Investigation Level:",
+            "RC Method Used:",
+            "Assignable/Root Cause Analysis:",
+            "Assignable Causes:",
+            "Root Causes:",
+            "Investigation Summary:",
+            "Supplier Issue:",
+            "Supplier Investigation Required:",
+            "Is Supplier INV Prod Related:",
+            "Vendor Supplier Name:",
+            "Vendor Supplier Number:",
+            "OOS/OOT/OOL:",
+            "OOW:",
+            "Closure Summary:",
+            "Overall Effectiveness:",
+            "Date Investigation Complete:"
+          ]
+        }
+      ],
+      "relatedObjects": [
+        "Change Controls",
+        "Escalations",
+        "CAPAs",
+        "Nonconformances",
+        "Accounts",
+        "Batches"
+      ],
+      "chartValues": [
+        "Area",
+        "Column",
+        "Bar",
+        "Line",
+        "Radar",
+        "Pie",
+        "Doughnut",
+        "Histogram"
+      ],
+      "analyticsDropdownValues": [
+        "Number",
+        "Name",
+        "Event Type",
+        "Segment",
+        "Assigned To",
+        "Functional Area 1",
+        "Root Causes",
+        "Assignable Causes",
+        "State",
+        "Disposition",
+        "Impact Classification",
+        "Investigation Level",
+        "Investigation Summary",
+        "Stability Indicating",
+        "Site Name"
+      ]
+    },
+    "Containments": {
+      "columnNames": [
+        "Number",
+        "Description",
+        "Source NC",
+        "Assignee",
+        "Due Date",
+        "Status",
+        "Containment Summary",
+        "Completion Date",
+        "Created Date",
+        "Created By",
+        "Responsible Person"
+      ],
+      "multiChoicePickerColumns": [
+        "Status"
+      ],
+      "accordionSections": [
+        "Number:",
+        "Description:",
+        "Source NC:",
+        "Assignee:",
+        "Due Date:",
+        "Status:",
+        "Containment Summary:",
+        "Completion Date:",
+        "Created Date:",
+        "Created By:",
+        "Responsible Person:"
+      ],
+      "relatedObjects": [
+        "Nonconformances"
+      ]
+    },
+    "NCInvestigations": {
+      "columnNames": [
+        "Number",
+        "What",
+        "Source NC",
+        "Created Date",
+        "Owner",
+        "Status",
+        "Stage",
+        "INV Type",
+        "Completed By",
+        "Completed On"
+      ],
+      "multiChoicePickerColumns": [
+        "Status",
+        "Stage"
+      ],
+      "chartTypes": [
+        "Area",
+        "Column",
+        "Bar",
+        "Line",
+        "Radar",
+        "Pie",
+        "Doughnut",
+        "Histogram"
+      ],
+      "relatedObjects": [
+        "Nonconformances",
+        "Immediate Causes",
+        "NC Corrections"
+      ],
+      "accordionSections": [
+        {
+          "name": "Details",
+          "iconIndex": 0,
+          "initiallyOpen": true,
+          "fields": [
+            "Number:",
+            "Source NC:",
+            "Created Date:",
+            "Owner:",
+            "Status:",
+            "Stage:",
+            "INV Type:",
+            "What:",
+            "When:",
+            "Where:",
+            "Which:",
+            "Who:",
+            "How:",
+            "How Many:"
+          ]
+        },
+        {
+          "name": "Investigation Summary",
+          "iconIndex": 1,
+          "initiallyOpen": false,
+          "fields": [
+            "Investigation Summary:"
+          ]
+        },
+        {
+          "name": "Conclusion",
+          "iconIndex": 2,
+          "initiallyOpen": false,
+          "fields": [
+            "Conclusion:",
+            "Completed By:",
+            "Completed On:"
+          ]
+        }
+      ]
+    },
+    "SupplementalInvestigations": {
+      "columnNames": [
+        "Number",
+        "👁",
+        "Name",
+        "Description",
+        "Related NC",
+        "Parent Investigation",
+        "Due Date",
+        "Assignee",
+        "Status"
+      ],
+      "chartTypes": [
+        "Area",
+        "Column",
+        "Bar",
+        "Line",
+        "Radar",
+        "Pie",
+        "Doughnut",
+        "Histogram"
+      ],
+      "multiChoicePickerColumns": [
+        "Status"
+      ],
+      "relatedObjects": [
+        "NC Investigations"
+      ],
+      "accordionSections": [
+        {
+          "name": "Details",
+          "iconIndex": 0,
+          "initiallyOpen": true,
+          "fields": [
+            "Number:",
+            "Name:",
+            "Description:",
+            "Related NC:",
+            "Parent Investigation:",
+            "Due Date:",
+            "Assignee:",
+            "Status:"
+          ]
+        },
+        {
+          "name": "Ownership",
+          "iconIndex": 1,
+          "initiallyOpen": false,
+          "fields": [
+            "J&J Segment:",
+            "J&J Business Unit:",
+            "J&J Site Name:",
+            "J&J Functional Area:",
+            "J&J Functional Area 1:",
+            "J&J Functional Area 2:",
+            "J&J Org Visibility:",
+            "Responsible Person:"
+          ]
+        }
+      ]
+    },
+    "LaboratoryInvestigations": {
+      "columnNames": [
+        "Number",
+        "👁",
+        "Name",
+        "Related NC",
+        "Date Occurred",
+        "Type",
+        "Owner",
+        "Status",
+        "Stage",
+        "Sample ID",
+        "Sample Type",
+        "Test Method",
+        "Test Method Version",
+        "Technique"
+      ],
+      "multiChoicePickerColumns": [
+        "Type",
+        "Status",
+        "Stage",
+        "Sample Type"
+      ],
+      "relatedObjects": [
+        "Specifications",
+        "Test Methods",
+        "Nonconformances",
+        "Stability Studies",
+        "Batches"
+      ],
+      "accordionSections": [
+        {
+          "name": "Details",
+          "iconIndex": 0,
+          "initiallyOpen": true,
+          "fields": [
+            "Number:",
+            "Name:",
+            "Description:",
+            "Related NC:",
+            "Date Occurred:",
+            "Date Identified:",
+            "Laboratory Issue Type:",
+            "Owner:",
+            "Status:",
+            "Stage:",
+            "LIMS Sample ID:",
+            "Sample Type:",
+            "Technique:",
+            "Raw Data Reference:",
+            "Test Method Procedure:",
+            "Test Method Version:"
+          ]
+        },
+        {
+          "name": "Ownership",
+          "iconIndex": 1,
+          "initiallyOpen": false,
+          "fields": [
+            "J&J Segment:",
+            "J&J Business Unit:",
+            "J&J Site Name:",
+            "J&J Functional Area:",
+            "J&J Functional Area 1:",
+            "J&J Functional Area 2:",
+            "J&J Org Visibility:"
+          ]
+        },
+        {
+          "name": "Closure Summary",
+          "iconIndex": 2,
+          "initiallyOpen": false,
+          "fields": [
+            "Closure Summary:"
+          ]
+        }
+      ]
+    },
+    "NCCorrections": {
+      "columnNames": [
+        "Number",
+        "Name",
+        "Description",
+        "Related NC",
+        "Action Category",
+        "Action Plan Type",
+        "PV Relevant",
+        "Assignee",
+        "Approved",
+        "Days Required",
+        "Created Date",
+        "Is Complete",
+        "Completion Date",
+        "Completed By"
+      ],
+      "multiChoicePickerColumns": [
+        "Action Category",
+        "Action Plan Type",
+        "PV Relevant",
+        "Approved",
+        "Is Complete"
+      ],
+      "ChartTabs": [
+        "Analytics"
+      ],
+      "accordionSections": [
+        {
+          "name": "Details",
+          "iconIndex": 0,
+          "initiallyOpen": true,
+          "fields": [
+            "Number:",
+            "Description:",
+            "Related NC:",
+            "Action Plan Type:",
+            "Assignee:",
+            "Days Required:",
+            "Is Complete:",
+            "Completed By:",
+            "Action Category:",
+            "PV Relevant:",
+            "Approved:",
+            "Created Date:",
+            "Completion Date:"
+          ]
+        },
+        {
+          "name": "Ownership",
+          "iconIndex": 1,
+          "initiallyOpen": false,
+          "fields": [
+            "J&J Segment:",
+            "J&J Site Name:",
+            "J&J Functional Area 1:",
+            "Impacted J&J Segment:",
+            "J&J Business Unit:",
+            "J&J Functional Area 2:"
+          ]
+        }
+      ],
+      "relatedObjects": [
+        "NC Investigations",
+        "Actions",
+        "Nonconformances",
+        "Immediate Causes"
+      ]
+    },
+    "Actions": {
+      "columnNames": [
+        "Number",
+        "👁",
+        "Name",
+        "Related NC",
+        "Status",
+        "Stage",
+        "Created Date",
+        "Description",
+        "Action Type",
+        "Related Action Plan",
+        "Related Action Plan Type",
+        "Material or Item",
+        "Owner",
+        "Assignee",
+        "Due Date",
+        "Completion Date",
+        "Completion Comment"
+      ],
+      "multiChoicePickerColumns": [
+        "Status",
+        "Stage",
+        "Action Type",
+        "Related Action Plan Type"
+      ],
+      "relatedObjects": [
+        "NC Corrections"
+      ],
+      "chartTypes": [
+        "Area",
+        "Column",
+        "Bar",
+        "Line",
+        "Radar",
+        "Pie",
+        "Doughnut",
+        "Histogram"
+      ],
+      "accordionSections": [
+        {
+          "name": "Details",
+          "iconIndex": 0,
+          "initiallyOpen": true,
+          "fields": [
+            "Number:",
+            "Name:",
+            "Related NC:",
+            "Status:",
+            "Stage:",
+            "Created Date:",
+            "Description:",
+            "Action Type:",
+            "Related Action Plan:",
+            "Related Action Plan Type:",
+            "Material or Item:",
+            "Owner:",
+            "Assignee:",
+            "Due Date:",
+            "Completion Date:",
+            "Completion Comment:"
+          ]
+        },
+        {
+          "name": "Ownership",
+          "iconIndex": 1,
+          "initiallyOpen": false,
+          "fields": [
+            "J&J Segment:",
+            "J&J Business Unit:",
+            "J&J Site Name:",
+            "J&J Functional Area:",
+            "J&J Functional Area 1:",
+            "J&J Functional Area 2:"
+          ]
+        }
+      ]
+    },
+    "riskAssessments": {
+      "columnNames": [
+        "Number",
+        "👁",
+        "Source NC",
+        "Risk Model",
+        "Risk Score",
+        "Conclusion",
+        "Created Date",
+        "Created By"
+      ],
+      "multiChoicePickerColumns": [
+        "Risk Model",
+        "Risk Score",
+        "Conclusion"
+      ],
+      "accordionSections": [
+        {
+          "name": "Details",
+          "iconIndex": 0,
+          "initiallyOpen": true,
+          "fields": [
+            "Number:",
+            "Source NC:",
+            "Risk Model:",
+            "Risk Score:",
+            "Conclusion:",
+            "Created Date:",
+            "Created By:"
+          ]
+        }
+      ]
+    }
+  },
+  "CAPAs": {
+    "CAPAsAPRPQR": {
+      "columnNames": [
+        "Number",
+        "Related Nonconformances",
+        "Name",
+        "Description",
+        "Status",
+        "Stage",
+        "Level 1 Cause",
+        "Level 2 Cause",
+        "Batch ID/Lot No",
+        "Material or Item",
+        "Disposition Type",
+        "Related CPA/Correction and State",
+        "Related CPA/Correction and Stage",
+        "Title (ACT)",
+        "Action Type (ACT)",
+        "Related Effectiveness Plan Number",
+        "Related Effectiveness Plan Status",
+        "Related Effectiveness Plan Completion Date",
+        "Related Effectiveness Review and Status",
+        "Related Effectiveness Review Title",
+        "Related Effectiveness Review Resolution",
+        "Product Type",
+        "Disposition Details",
+        "Material Continuation Decision",
+        "Created Date",
+        "Site Name",
+        "CAPA Type",
+        "Completed On",
+        "Cause Sub-Category",
+        "Product Grouping",
+        "Material Description"
+      ],
+      "multiChoicePickerColumns": [
+        "Status",
+        "Stage",
+        "Action Type (ACT)"
+      ],
+      "chartTypes": [
+        "Area",
+        "Column",
+        "Bar",
+        "Line",
+        "Radar",
+        "Pie",
+        "Doughnut",
+        "Histogram"
+      ],
+      "accordionSections": [
+        {
+          "name": "Details",
+          "iconIndex": 0,
+          "initiallyOpen": true,
+          "fields": [
+            "Number:",
+            "Name:",
+            "Description:",
+            "CAPA Type:",
+            "Coordinator:",
+            "Owner:",
+            "Status:",
+            "Stage:",
+            "Created Date:",
+            "Expected Impl. Dt.:",
+            "Source NC Numbers:",
+            "Completed On:",
+            "Completed By:",
+            "Material or Item:",
+            "Material Description:",
+            "Batch ID/Lot No:"
+          ]
+        },
+        {
+          "name": "Ownership",
+          "iconIndex": 1,
+          "initiallyOpen": false,
+          "fields": [
+            "J&J Segment:",
+            "J&J Business Unit:",
+            "J&J Site Name:",
+            "J&J Functional Area:",
+            "J&J Functional Area 1:",
+            "J&J Functional Area 2:",
+            "J&J Org Visibility:",
+            "Impacted J&J Segment:"
+          ]
+        },
+        {
+          "name": "Closure",
+          "iconIndex": 2,
+          "initiallyOpen": false,
+          "fields": [
+            "Resolution:",
+            "Comments:"
+          ]
+        }
+      ],
+      "relatedObjects": [
+        "Documents",
+        "Interim Controls",
+        "CAPA Investigations",
+        "CAPA Implementation",
+        "Actions",
+        "Effectiveness Reviews",
+        "Team Members",
+        "Escalations",
+        "Nonconformances",
+        "Batches",
+        "Extensions"
+      ]
+    },
+    "CAPAsTW": {
+      "columnNames": [
+        "Number",
+        "👁",
+        "Name",
+        "State",
+        "Originator",
+        "Assigned To",
+        "Created Date",
+        "Date Due",
+        "Material/Item",
+        "Material Description",
+        "Batch ID/Lot No",
+        "User Comments"
+      ],
+      "multiChoicePickerColumns": [
+        "State"
+      ],
+      "ChartTabs": [
+        "Analytics",
+        "State",
+        "State/Assigned To"
+      ],
+      "chartValues": [
+        "Area",
+        "Column",
+        "Bar",
+        "Line",
+        "Radar",
+        "Pie",
+        "Doughnut",
+        "Histogram"
+      ],
+      "accordionSections": [
+        {
+          "name": "General Information",
+          "fields": [
+            "Name:",
+            "Record ID:",
+            "Parent ID:",
+            "Project Name:",
+            "Creation Date:",
+            "Date Due:",
+            "State:",
+            "Date Closed:",
+            "Originator:",
+            "Assigned To:",
+            "Quality Leader:",
+            "Description:",
+            "J&J Site Name:",
+            "Region:",
+            "Segment:",
+            "Franchise:",
+            "Business Unit:",
+            "Funtional Area 1:",
+            "Functional Area 2:",
+            "Additional Site(s) Affected:",
+            "All Segments Affected",
+            "(Parent) RC Method Used",
+            "(Parent) Assinable/Root Cause Analysis",
+            "Root Cause(s):",
+            "Interim Update Summary:",
+            "Cancellation Summary:"
+          ]
+        },
+        {
+          "name": "CAPA",
+          "fields": [
+            "Action Type:",
+            "Action Plan:",
+            "Action Execution Summary:",
+            "CPA Closure Summary"
+          ]
+        },
+        {
+          "name": "Effectiveness Check",
+          "fields": [
+            "Effectiveness Check Required:",
+            "Effectiveness Check Due Date:",
+            "Eff. Check Rationale/Plan:",
+            "EC Interim Control Required:",
+            "EC Interim Control Details:",
+            "Actions:",
+            "Metric:",
+            "Duration/Activity:",
+            "Criteria For Success:"
+          ]
+        },
+        {
+          "name": "EXtension",
+          "fields": [
+            "Extension Status - Due Date:",
+            "No. of Extensions Completed:",
+            "Extension Status - EC Due Date:",
+            "No. of Extensions Completed 2:"
+          ]
+        }
+      ],
+      "relatedObjects": [
+        "Change Controls",
+        "Nonconformances",
+        "CAPAs",
+        "Audits",
+        "Batches"
+      ]
+    },
+    "CAPAs": {
+      "columnNames": [
+        "Number",
+        "👁",
+        "Name",
+        "Description",
+        "Source NC",
+        "CAPA Type",
+        "Coordinator",
+        "Owner",
+        "Status",
+        "Stage",
+        "Created Date",
+        "Expected Impl. Dt.",
+        "Completed On",
+        "Completed By",
+        "Material or Item",
+        "Material Description",
+        "Batch ID/Lot No"
+      ],
+      "multiChoicePickerColumns": [
+        "CAPA Type",
+        "Status",
+        "Stage"
+      ],
+      "chartTypes": [
+        "Area",
+        "Column",
+        "Bar",
+        "Line",
+        "Radar",
+        "Pie",
+        "Doughnut",
+        "Histogram"
+      ],
+      "accordionSections": [
+        {
+          "name": "Details",
+          "iconIndex": 0,
+          "initiallyOpen": true,
+          "fields": [
+            "Number:",
+            "Name:",
+            "Description:",
+            "CAPA Type:",
+            "Coordinator:",
+            "Owner:",
+            "Status:",
+            "Stage:",
+            "Created Date:",
+            "Expected Impl. Dt.:",
+            "Source NC Numbers:",
+            "Completed On:",
+            "Completed By:",
+            "Material or Item:",
+            "Material Description:",
+            "Batch ID/Lot No:"
+          ]
+        },
+        {
+          "name": "Ownership",
+          "iconIndex": 1,
+          "initiallyOpen": false,
+          "fields": [
+            "J&J Segment:",
+            "J&J Business Unit:",
+            "J&J Site Name:",
+            "J&J Functional Area:",
+            "J&J Functional Area 1:",
+            "J&J Functional Area 2:",
+            "J&J Org Visibility:",
+            "Impacted J&J Segment:"
+          ]
+        },
+        {
+          "name": "Closure",
+          "iconIndex": 2,
+          "initiallyOpen": false,
+          "fields": [
+            "Resolution:",
+            "Comments:"
+          ]
+        }
+      ],
+      "relatedObjects": [
+        "Documents",
+        "Interim Controls",
+        "CAPA Investigations",
+        "CAPA Implementation",
+        "Actions",
+        "Effectiveness Reviews",
+        "Team Members",
+        "Escalations",
+        "Nonconformances",
+        "Batches",
+        "Extensions"
+      ]
+    },
+    "InterimControls": {
+      "columnNames": [
+        "Number",
+        "👁",
+        "Description",
+        "Source CAPA",
+        "Assignee",
+        "Due Date",
+        "Status",
+        "Containment Summary",
+        "Completion Date",
+        "Created Date",
+        "Created By",
+        "Responsible Person"
+      ],
+      "multiChoicePickerColumns": [
+        "Status"
+      ],
+      "accordionSections": [
+        {
+          "name": "Details",
+          "iconIndex": 0,
+          "initiallyOpen": true,
+          "fields": [
+            "Number:",
+            "Description:",
+            "Source CAPA:",
+            "Assignee:",
+            "Due Date:",
+            "Status:",
+            "Containment Summary:",
+            "Completion Date:",
+            "Created Date:",
+            "Created By:",
+            "Responsible Person:"
+          ]
+        }
+      ],
+      "relatedObjects": [
+        "CAPAs"
+      ],
+      "chartTypes": [
+        "Area",
+        "Column",
+        "Bar",
+        "Line",
+        "Radar",
+        "Pie",
+        "Doughnut",
+        "Histogram"
+      ]
+    },
+    "CAPAInvestigations": {
+      "columnNames": [
+        "Number",
+        "👁",
+        "What",
+        "Source CAPA",
+        "Created Date",
+        "Owner",
+        "Status",
+        "Stage",
+        "Investigation Type",
+        "Completed By",
+        "Completed On"
+      ],
+      "multiChoicePickerColumns": [
+        "Status",
+        "Stage"
+      ],
+      "accordionSections": [
+        {
+          "name": "Details",
+          "iconIndex": 0,
+          "initiallyOpen": true,
+          "fields": [
+            "Number:",
+            "Source CAPA:",
+            "Created Date:",
+            "Owner:",
+            "Status:",
+            "Stage:",
+            "Investigation Type:",
+            "What:",
+            "When:",
+            "Where:",
+            "Which:",
+            "Who:",
+            "How:",
+            "How Many:"
+          ]
+        },
+        {
+          "name": "Investigation Summary",
+          "iconIndex": 1,
+          "initiallyOpen": false,
+          "fields": [
+            "Investigation Summary:"
+          ]
+        },
+        {
+          "name": "Conclusion",
+          "iconIndex": 2,
+          "initiallyOpen": false,
+          "fields": [
+            "Conclusion:",
+            "Completed By",
+            "Completed On"
+          ]
+        }
+      ],
+      "relatedObjects": [
+        "CAPAs",
+        "Root Causes",
+        "CAPA Implementations"
+      ],
+      "chartTypes": [
+        "Area",
+        "Column",
+        "Bar",
+        "Line",
+        "Radar",
+        "Pie",
+        "Doughnut",
+        "Histogram"
+      ]
+    },
+    "SupplementalInvestigations": {
+      "columnNames": [
+        "Number",
+        "👁",
+        "Name",
+        "Description",
+        "Related CAPA",
+        "Parent Investigation",
+        "Due Date",
+        "Assignee",
+        "Status"
+      ],
+      "multiChoicePickerColumns": [
+        "Status"
+      ],
+      "accordionSections": [
+        {
+          "name": "Details",
+          "iconIndex": 0,
+          "initiallyOpen": true,
+          "fields": [
+            "Number:",
+            "Name:",
+            "Description:",
+            "Related CAPA:",
+            "Parent Investigation:",
+            "Due Date:",
+            "Assignee:",
+            "Status:"
+          ]
+        },
+        {
+          "name": "Ownership",
+          "iconIndex": 1,
+          "initiallyOpen": true,
+          "fields": [
+            "J&J Segment:",
+            "J&J Business Unit:",
+            "J&J Site Name:",
+            "J&J Functional Area:",
+            "J&J Functional Area 1:",
+            "J&J Functional Area 2:",
+            "J&J Org Visibility:",
+            "Responsible Person:"
+          ]
+        }
+      ],
+      "relatedObjects": [
+        "CAPA Investigations"
+      ],
+      "chartTypes": [
+        "Area",
+        "Column",
+        "Bar",
+        "Line",
+        "Radar",
+        "Pie",
+        "Doughnut",
+        "Histogram"
+      ]
+    },
+     "CAPAImplementations": {
+            "columnNames":[
+                "Number",
+                "Name",
+                "Description",
+                "Related CAPA",
+                "Action Category",
+                "Action Plan Type",
+                "PV Relevant",
+                "Assignee",
+                "Approved",
+                "Days Required",
+                "Created Date",
+                "Is Complete",
+                "Completion Date",
+                "Completed By"
+            ],
+            "multiChoicePickerColumns":[
+                "Action Category",
+                "Action Plan Type",
+                "PV Relevant",
+                "Approved",
+                "Is Complete"
+            ],
+            "relatedObjects":[
+                "CAPA Investigations",
+                "Actions",
+                "Root Causes",
+                "CAPAs"
+            ],
+            "accordionSections":[
+                {
+                    "name": "Details",
+                    "iconIndex": 0,
+                    "initiallyOpen": true,
+                    "fields": [
+                                "Number:",
+                                "Name:",
+                                "Description:",
+                                "Related CAPA:",
+                                "Action Category:",
+                                "Action Plan Type:",
+                                "PV Relevant:",
+                                "Assignee:",
+                                "Approved:",
+                                "Days Required:",
+                                "Created Date:",
+                                "Is Complete:",
+                                "Completion Date:",
+                                "Completed By:"
+                            ]
+                },
+                {
+                    "name": "Ownership",
+                    "iconIndex": 1,
+                    "initiallyOpen": false,
+                    "fields": [
+                        "J&J Segment:",
+                        "J&J Business Unit:",
+                        "J&J Site Name:",
+                        "J&J Functional Area:",
+                        "J&J Functional Area 1:",
+                        "J&J Functional Area 2:",
+                        "Impacted J&J Segment:"
+                    ]
+                }
+            ],
+
+            "chartTypes": [
+                "Area",
+                "Column",
+                "Bar",
+                "Line",
+                "Radar",
+                "Pie",
+                "Doughnut",
+                "Histogram"
+            ]
+        },
+        "Actions": {
+            "columnNames": [
+                "Number",
+                "Name",
+                "Related CAPA",
+                "Status",
+                "Stage",
+                "Created Date",
+                "Description",
+                "Action Type",
+                "Related Action Plan",
+                "Related Action Plan Type",
+                "Material or Item",
+                "Owner",
+                "Assignee",
+                "Due Date",
+                "Completion Date",
+                "Completion Comment"
+            ],
+            "multiChoicePickerColumns": [
+                "Status",
+                "Stage",
+                "Action Type",
+                "Related Action Plan Type"
+            ],
+            "accordionSections": [
+                {
+                    "name": "Details",
+                    "iconIndex": 0,
+                    "initiallyOpen": true,
+                    "fields": [
+                        "Number:",
+                        "Name:",
+                        "Related CAPA:",
+                        "Status:",
+                        "Stage:",
+                        "Created Date:",
+                        "Description:",
+                        "Action Type:",
+                        "Related Action Plan:",
+                        "Related Action Plan Type:",
+                        "Material or Item:",
+                        "Owner:",
+                        "Assignee:",
+                        "Due Date:",
+                        "Completion Date:",
+                        "Completion Comment:"
+                    ]
+                },
+                {
+                    "name": "Ownership",
+                    "iconIndex": 1,
+                    "initiallyOpen": false,
+                    "fields": [
+                        "J&J Segment:",
+                        "J&J Business Unit:",
+                        "J&J Site Name:",
+                        "J&J Functional Area:",
+                        "J&J Functional Area 1:",
+                        "J&J Functional Area 2:"
+                    ]
+                }
+            ],
+            "relatedObjects": [
+                "CAPA Implementations"
+            ],
+            "chartTypes": [
+                "Area",
+                "Column",
+                "Bar",
+                "Line",
+                "Radar",
+                "Pie",
+                "Doughnut",
+                "Histogram"
+            ]
+        },
+        "EffectivenessPlan": {
+            "columnNames": [
+                "Number",
+                "Name",
+                "Description",
+                "Related CAPA",
+                "Metric",
+                "Days To Monitor",
+                "Success Criteria",
+                "Outcome",
+                "Due Date",
+                "Status",
+                "Responsible Person"
+            ],
+            "multiChoicePickerColumns": [
+                "Status"
+            ],
+            "accordionSections": [
+                {
+                    "name": "Details",
+                    "iconIndex": 0,
+                    "initiallyOpen": true,
+                    "fields": [
+                        "Number:",
+                        "Name:",
+                        "Description:",
+                        "Related CAPA:",
+                        "Metric:",
+                        "Days To Monitor:",
+                        "Success Criteria:",
+                        "Outcome:",
+                        "Due Date:",
+                        "Status:",
+                        "Duration/Quantity:",
+                        "Neg impact to product, process or QS:",
+                        "Impact Summary:",
+                        "Approval Date:"
+                    ]
+                },
+                {
+                    "name": "Ownership Details",
+                    "iconIndex": 1,
+                    "initiallyOpen": false,
+                    "fields": [
+                        "J&J Business Unit:",
+                        "J&J Segment:",
+                        "J&J Site Name:",
+                        "J&J Functional Area:",
+                        "J&J Functional Area 1:",
+                        "J&J Functional Area 2:",
+                        "Responsible Person:"
+                    ]
+                }
+            ],
+            "relatedObjects": ["CAPAs"],
+            "chartTypes": [
+                "Area",
+                "Column",
+                "Bar",
+                "Line",
+                "Radar",
+                "Pie",
+                "Doughnut",
+                "Histogram"
+            ]
+        },
+    "EffectivenessReview": {
+      "columnNames": [
+        "Number",
+        "Name",
+        "Source CAPA",
+        "Source NC",
+        "Related Effectiveness Plan",
+        "Effectiveness Plan Status",
+        "Effectiveness Plan Outcome",
+        "Approval Status",
+        "Status",
+        "Reviewed On",
+        "Reviewed By",
+        "Resolution",
+        "Owner",
+        "Extensions Requested",
+        "Extensions Granted"
+      ],
+      "multiChoicePickerColumns": [
+        "Effectiveness Plan Status",
+        "Approval Status",
+        "Status",
+        "Resolution",
+        "Extensions Requested"
+      ],
+      "accordionSections": [
+        {
+          "name": "Details",
+          "fields": [
+            "Number:",
+            "Name:",
+            "Source CAPA:",
+            "Source NC:",
+            "Approval Status:",
+            "Status:",
+            "Reviewed On:",
+            "Reviewed By:",
+            "Resolution:",
+            "Owner:"
+          ]
+        },
+        {
+          "name": "Extensions Request:",
+          "fields": [
+            "Extensions Requested:",
+            "Extensions Granted:"
+          ]
+        }
+      ],
+      "relatedObjects": [
+        "CAPAs"
+      ],
+      "chartValues": [
+        "Area",
+        "Column",
+        "Bar",
+        "Line",
+        "Radar",
+        "Pie",
+        "Doughnut",
+        "Histogram"
+      ],
+      "analyticsDropdownValues": [
+        "Approval Status",
+        "Status",
+        "Reviewed By",
+        "Resolution",
+        "Owner",
+        "Extensions Requested",
+        "Extensions Granted",
+        "Effectiveness Plan Status"
+      ]
+    }
+  },
+  "Audits": {
+    "Audits": {
+      "columnNames": [
+        "Number",
+        "Name",
+        "Created Date",
+        "Detailed Scope/Description",
+        "Audit Type",
+        "Status",
+        "Stage",
+        "Audit Program Approval Status",
+        "J&J Site Name",
+        "Plan Period",
+        "Start Date",
+        "End Date",
+        "Lead Auditor",
+        "Owner",
+        "User Comments"
+      ],
+      "multiChoicePickerColumns": [
+        "Audit Type",
+        "Status",
+        "Stage",
+        "Audit Program Approval Status",
+        "J&J Site Name",
+        "Plan Period"
+      ],
+      "accordionSections": [
+        {
+          "name": "Details",
+          "fields": [
+            "Number:",
+            "Name:",
+            "Detailed Scope/Description:",
+            "System Name/Description:",
+            "Audit Type:",
+            "Status:",
+            "Stage:",
+            "Audit Program Approval Status:",
+            "J&J Site Name:",
+            "Plan Period:",
+            "Start Date:",
+            "End Date:",
+            "Lead Auditor:",
+            "Owner:"
+          ]
+        },
+        {
+          "name": "Auditee:",
+          "fields": [
+            "Auditee Contact:",
+            "Owning Group:",
+            "J&J Segment:",
+            "J&J Org Visibility:",
+            "J&J Business Unit:",
+            "J&J Site Name:",
+            "J&J Functional Area:",
+            "J&J Functional Area 1:",
+            "J&J Functional Area 2:",
+            "J&J Region:",
+            "Report Organization:"
+          ]
+        },
+        {
+          "name": "Information:",
+          "fields": [
+            "Audit Format:",
+            "Audit Reason:",
+            "Audit Universe:",
+            "PV Relevant:",
+            "Audit Subtype:",
+            "Plan Period:",
+            "Plan Year:",
+            "Scheduled Start Date:",
+            "Start Date:",
+            "Scheduled End Date:",
+            "End Date:",
+            "Audit Classification:"
+          ]
+        },
+        {
+          "name": "Audit Owning Group:",
+          "fields": [
+            "Owning Group:",
+            "J&J Segment:",
+            "J&J Org Visibility:",
+            "J&J Business Unit:",
+            "J&J Site Name:",
+            "J&J Functional Area:",
+            "J&J Functional Area 1:",
+            "J&J Functional Area 2:",
+            "J&J Region:",
+            "Report Organization:"
+          ]
+        },
+        {
+          "name": "Audit Report:",
+          "fields": [
+            "Due Date to Issue Audit Report:",
+            "Final Audit Report Approved On:",
+            "Final Report Issued Date:",
+            "Report Issued By:",
+            "Date of Response Acceptance:"
+          ]
+        },
+        {
+          "name": "Reason for Voiding:",
+          "fields": [
+            "Reason for Voiding:"
+          ]
+        }
+      ],
+      "relatedObjects": [
+        "Audit Observations",
+        "Nonconformances",
+        "CAPAs"
+      ],
+      "chartValues": [
+        "Area",
+        "Column",
+        "Bar",
+        "Line",
+        "Radar",
+        "Pie",
+        "Doughnut",
+        "Histogram"
+      ],
+      "analyticsDropdownValues": [
+        "Audit Type",
+        "Status",
+        "Stage",
+        "Audit Program Approval Status",
+        "J&J Site Name",
+        "Plan Period",
+        "Lead Auditor",
+        "Owner",
+        "Audit Reason",
+        "Audit Classification",
+        "Functional Area",
+        "Functional Area 1",
+        "Functional Area 2"
+      ]
+    },
+    "AuditsTW": {
+      "columnNames": [
+        "Number",
+        "Name",
+        "State",
+        "Site Name",
+        "Internal/External",
+        "Type Of Audit",
+        "Audit Departments",
+        "Assigned To",
+        "Date Opened",
+        "Date Response Due",
+        "User Comments"
+      ],
+      "multiChoicePickerColumns": [
+        "State",
+        "Site Name",
+        "Internal/External",
+        "Type Of Audit"
+      ],
+      "accordionSections": [
+        {
+          "name": "General Information",
+          "fields": [
+            "Name:",
+            "Project Name:",
+            "Parent ID:",
+            "Site Name:",
+            "State:",
+            "Assigned To:",
+            "Due Date:",
+            "Date Created:",
+            "Originator:",
+            "Date Opened:",
+            "Audit:",
+            "Audit Partner:",
+            "Audit Team Members:",
+            "Audit Department(s):",
+            "Scheduled Start Date:",
+            "Scheduled End Date:",
+            "Actual Start Date:",
+            "Actual End Date:",
+            "Date Closed:",
+            "Type Of Audit:",
+            "Audit Standards:",
+            "Purpose:",
+            "Scope:",
+            "ate Response Due:",
+            "Date Initial Response:",
+            "Executive Summary:",
+            "Conclusion:",
+            "Observation(s) Escalated:",
+            "Previous CAPAs Status:",
+            "Final Review Completed:"
+          ]
+        }
+      ],
+      "relatedObjects": [
+        "Change Controls",
+        "CAPAs",
+        "Audits",
+        "Accounts"
+      ],
+      "chartValues": [
+        "Area",
+        "Column",
+        "Bar",
+        "Line",
+        "Radar",
+        "Pie",
+        "Doughnut",
+        "Histogram"
+      ],
+      "analyticsDropdownValues": [
+        "Number",
+        "Name",
+        "Internal/External",
+        "Type Of Audit",
+        "Site Name",
+        "Audit Departments",
+        "Assigned To",
+        "State"
+      ]
+    },
+    "AuditObservations": {
+      "columnNames": [],
+      "multiChoicePickerColumns": [],
+      "accordionSections": [],
+      "relatedObjects": []
+    }
+  },
+   "Accounts": {
+      "columnNames": [
+         "Number",
+            "👁",
+            "Name",
+            "Owner",
+            "Status",
+            "Street",
+            "City",
+            "State",
+            "Country",
+            "Postal Code",
+            "Qualified For",
+            "Owning Group",
+            "Impacted Groups",
+            "Audit Frequency",
+            "Date Of Last Audit",
+            "Date Of Next Routine Audit",
+            "Account Auditee Category",
+            "Account Audit Classification",
+            "User Comments"
+      ],
+      "chartTypes": [
+                "Area",
+                "Column",
+                "Bar",
+                "Line",
+                "Radar",
+                "Pie",
+                "Doughnut",
+                "Histogram"
+            ],
+      "multiChoicePickerColumns": [
+        "Status", "Country", "Qualified For", "Owning Group", "Impacted Groups", "Audit Frequency", "Account Auditee Category", "Account Audit Classification"
+      ],
+      "relatedObjects": [
+        "Audits",
+        "Escalations",
+        "CAPAs",
+        "Contacts"
+      ],
+      "accordionSections": [
+        {
+          "name": "Details",
+          "iconIndex": 0,
+          "initiallyOpen": true,
+          "fields": [
+            "Number:",
+      "Owner:",
+      "Approval Status:",
+      "City:",
+      "Country:",
+      "Type:",
+      "Owning Group:",
+      "Audit Frequency:",
+      "Date Of Next Routine Audit:",
+      "Account Audit Classification:",
+      "Name:",
+      "Status:",
+      "Street:",
+      "State:",
+      "Postal Code:",
+      "Qualified For:",
+      "Impacted Groups:"
+          ]
+        }
+      ]
+      },
+   "Accounts_TW": {
+    "columnNames": [
+      "Number",
+      "Name",
+      "Criticality Level",
+      "AIM Risk Level",
+      "Region",
+      "Audit Departments",
+      "Audit Classification",
+      "Auditee Type",
+      "Qualified Services",
+      "Assigned To",
+      "User Comments"
+    ],
+    "chartTypes": [
+      "Area",
+      "Column",
+      "Bar",
+      "Line",
+      "Radar",
+      "Pie",
+      "Doughnut",
+      "Histogram"
+    ],
+    "multiChoicePickerColumns": [
+      "Criticality Level",
+      "AIM Risk Level",
+      "Region"
+    ],
+    "relatedObjects": [
+       "Change Controls",
+  "Escalations",
+  "Nonconformances",
+  "Audits",
+  "Accounts"
+    ],
+    "accordionSections": [
+      {
+        "name": "General Information",
+        "iconIndex": 0,
+        "initiallyOpen": true,
+        "fields": [
+          "Name:",
+          "Record ID:",
+          "Originator:",
+          "AIM Risk Level:",
+          "Additional Account Owner:",
+          "Audit Frequency:",
+          "Next Audit Date:",
+          "Related System Record(s):",
+          "Project Name:",
+          "Assigned To:",
+          "Criticality Level:",
+          "Audit Department(s):",
+          "Date of Last Audit:",
+          "Audit Classification:"
+        ]
+      },
+      {
+        "name": "Audit Details - Internal",
+        "iconIndex": 1,
+        "initiallyOpen": true,
+        "fields": [
+          "Company:",
+          "Address:",
+          "Comments:",
+          "Site Name:",
+          "Region:",
+          "Reporting Segment:",
+          "Compliance Principal:"
+        ]
+      },
+      {
+        "name": "Audit Details - External",
+        "iconIndex": 2,
+        "initiallyOpen": true,
+        "fields": [
+          "Company Description:",
+          "Auditee Qualification Status:",
+          "Auditee Contact:",
+          "Auditee Contact Details:",
+          "Procurement Contact:",
+          "Procurement Contact Details:",
+          "Auditee Type:",
+          "Additional Site(s) Affected:",
+          "Quality Agreement Signed:",
+          "Quality Agreement Reference:",
+          "Quality Agreement Date:",
+          "Quality Agreement Next Rev.:",
+          "Segment Qualified By:",
+          "Specification Agreement Signed:",
+          "Specification Agreement Date:",
+          "BRR:",
+          "BRR Reference:",
+          "BRR Date:",
+          "CDA Signed:",
+          "GMP Certification:",
+          "Material/Item:",
+          "Material Description:",
+          "Additional Product Information:"
+        ]
+      }
+    ]},   
+  "QualityRecordsByUser": {
+    "ChangeControls": {
+      "changecontrols": {
+        "columnNames": [
+          "Number",
+          "👁",
+          "Title",
+          "Current State",
+          "Future State",
+          "Change Type",
+          "Lifecycle Stage",
+          "Regulatory Signal",
+          "Change Category",
+          "Stability Indicating",
+          "Reason for Change",
+          "Owner",
+          "Change Risk Level",
+          "Overall Change Risk Level",
+          "Status",
+          "Stage",
+          "Workflow Status",
+          "Implementation Status",
+          "Implementation Check Outcome",
+          "Overall Implementation Check Outcome",
+          "Legacy Reference Number",
+          "Legacy CC Level",
+          "Impacted Organizations",
+          "Impacted Material Item",
+          "Impacted Material Description",
+          "Impacted Batch No.",
+          "Impacted Products",
+          "Impacted Documents",
+          "Impacted Equipments Overview",
+          "Impacted Equipment List",
+          "Impacted Equipment Information",
+          "Impacted Site w/ Child CC#",
+          "User Comments"
+        ],
+        "multiChoicePickerColumns": [
+          "Change Type",
+          "Lifecycle Stage",
+          "Regulatory Signal",
+          "Change Category",
+          "Stability Indicating",
+          "Change Risk Level",
+          "Overall Change Risk Level",
+          "Status",
+          "Stage",
+          "Workflow Status",
+          "Implementation Status"
+        ],
+        "chartTypes": [
+          "Area",
+          "Column",
+          "Bar",
+          "Line",
+          "Radar",
+          "Pie",
+          "Doughnut",
+          "Histogram"
+        ],
+        "relatedObjects": [
+          "Change Controls",
+          "Impacted Documents",
+          "Impacted Products",
+          "Impacted Equipments",
+          "Impacted Organizations",
+          "Assessment Executions",
+          "Implementations",
+          "Escalations",
+          "CAPAs",
+          "Nonconformances",
+          "Accounts",
+          "Batches",
+          "Clinical Studies"
+        ],
+        "accordionSections": [
+          {
+            "name": "General",
+            "iconIndex": 0,
+            "initiallyOpen": true,
+            "fields": [
+              "Number:",
+              "Change Type:",
+              "Regulatory Signal:",
+              "Reason for Change:",
+              "Change Risk Level:",
+              "Status:",
+              "Workflow Status:",
+              "Implementation Check Outcome:",
+              "Legacy Reference Number:",
+              "Impacted Organizations:",
+              "Impacted Material Item:",
+              "Impacted Material Description:",
+              "Impacted Batch No.:",
+              "Impacted Products:",
+              "Impacted Documents:",
+              "Impacted Equipments Overview:",
+              "Impacted Equipment List:",
+              "Impacted Equipment Information:",
+              "Impacted Site w/ Child CC#:",
+              "Title:",
+              "Lifecycle Stage:",
+              "Change Category:",
+              "Change Due Date:",
+              "Overall Change Risk Level:",
+              "Stage:",
+              "Implementation Status:",
+              "Overall Implementation Check Outcome:",
+              "Legacy CC Level:"
+            ]
+          },
+          {
+            "name": "Change Description",
+            "iconIndex": 1,
+            "initiallyOpen": true,
+            "fields": [
+              "Current State:",
+              "Future State:",
+              "Justification:",
+              "Change Strategy:",
+              "Site/Function Details:"
+            ]
+          },
+          {
+            "name": "Ownership",
+            "iconIndex": 2,
+            "initiallyOpen": false,
+            "fields": [
+              "J&J Segment:",
+              "J&J Business Unit:",
+              "J&J Functional Area:",
+              "J&J Functional Area 2:",
+              "Owner:",
+              "J&J Org Visibility:",
+              "J&J Site Name:",
+              "J&J Functional Area 1:",
+              "Reporting Organization:"
+            ]
+          },
+          {
+            "name": "Impacted",
+            "iconIndex": 3,
+            "initiallyOpen": false,
+            "fields": [
+              "Products:",
+              "Materials:",
+              "Documents:",
+              "Equipment:"
+            ]
+          },
+          {
+            "name": "Product Release Strategy",
+            "iconIndex": 4,
+            "initiallyOpen": true,
+            "fields": [
+              "Product Release Strategy:",
+              "Product Release Strategy Details:"
+            ]
+          },
+          {
+            "name": "Due Dates",
+            "iconIndex": 5,
+            "initiallyOpen": true,
+            "fields": [
+              "Assessment Stage Start Date:",
+              "Change Plan Approval Date:",
+              "Change Closure Date:",
+              "Change Plan Approval Due Date:",
+              "Implementation Date:"
+            ]
+          },
+          {
+            "name": "Preliminary Risk Assessment of Potential Impact",
+            "iconIndex": 6,
+            "initiallyOpen": true,
+            "fields": [
+              "Regulatory:",
+              "Manufacturing Process:",
+              "Materials or Indirect Materials:",
+              "Laboratory Testing & Specification:",
+              "Stability:",
+              "Controlled Substance:",
+              "Artwork:",
+              "Buildings & Facilities or Utilities:",
+              "Equipment Cleaning/Sterilization:",
+              "Equipment or Computerized Systems:",
+              "Storage and Distribution:",
+              "Combination Product:",
+              "EHS Process:"
+            ]
+          }
+        ]
+      },
+      "changecontrolsTW": {
+        "columnNames": [
+          "Number",
+          "👁",
+          "Name",
+          "Change Type",
+          "Type Of Change",
+          "State",
+          "Site Name",
+          "Sites Affected",
+          "CC Level",
+          "CC Approval Date",
+          "Creation Date",
+          "Current Target Closing Date",
+          "Material/Item",
+          "Material Description",
+          "Batch ID/Lot Number",
+          "International Name",
+          "Assigned To",
+          "QA Approver",
+          "GCCB Approver",
+          "User Comments"
+        ],
+        "multiChoicePickerColumns": [
+          "Change Type",
+          "Type Of Change",
+          "State",
+          "Site Name",
+          "Sites Affected",
+          "CC Level"
+        ],
+        "relatedObjects": [
+          "Change Controls",
+          "Assessment Plans",
+          "Escalations",
+          "CAPAs",
+          "Nonconformances",
+          "Accounts",
+          "Batches",
+          "Specifications",
+          "Test Methods"
+        ],
+        "accordionSections": [
+          {
+            "name": "Change Control Information",
+            "iconIndex": 0,
+            "initiallyOpen": true,
+            "fields": [
+              "Name:",
+              "ID:",
+              "Originator:",
+              "Assigned To:",
+              "Material Description:",
+              "Creation Date:",
+              "Date Closed:",
+              "Batch ID/Lot Number:",
+              "Site(s) Affected:",
+              "Affected Markets:",
+              "Current State:",
+              "Proposed State:",
+              "Amendment Justification:",
+              "Project Name:",
+              "State:",
+              "International Name:",
+              "Current Target Closing Date:",
+              "CC Approval Date:",
+              "Material Item:",
+              "Justification Details:",
+              "Device Assessment Required:",
+              "Regulatory Assessment Required:",
+              "Combination Product:",
+              "Implementation Strategy:",
+              "CC Level:",
+              "GCCB Approver:",
+              "Source of Change:",
+              "QA Approver:",
+              "Type of Change:",
+              "Regulatory Comments:"
+            ]
+          }
+        ]
+      },
+      "AssessmentExecutions": {
+        "columnNames": [
+          "Number",
+          "👁",
+          "Name",
+          "Overall Business Outcome",
+          "Assessment Risk",
+          "Performed By",
+          "Created Date",
+          "Performed Date",
+          "Impacted Product Family",
+          "Impacted Product Trade Name",
+          "Impacted Product JNJ Number",
+          "J&J Site Name",
+          "Functional Area",
+          "Functional Area 1",
+          "Functional Area 2"
+        ],
+        "multiChoicePickerColumns": [
+          "Overall Business Outcome",
+          "Assessment Risk",
+          "J&J Site Name",
+          "Functional Area",
+          "Functional Area 1",
+          "Functional Area 2"
+        ],
+        "accordionSections": [
+          {
+            "name": "Details",
+            "iconIndex": 0,
+            "initiallyOpen": true,
+            "fields": [
+              "Number:",
+              "Performed By:",
+              "Assessment Risk:"
+            ]
+          },
+          {
+            "name": "Impacted Product",
+            "iconIndex": 1,
+            "initiallyOpen": true,
+            "fields": [
+              "Impacted Product ID:",
+              "Impacted Product JNJ Number:",
+              "Impacted Product Filing Type:"
+            ]
+          },
+          {
+            "name": "Site License Assessment Details",
+            "iconIndex": 2,
+            "initiallyOpen": false,
+            "fields": [
+              "Overall Business Outcome:",
+              "Site License Risk Assessment Details:"
+            ]
+          },
+          {
+            "name": "Global/Device Regulatory Assessment Details",
+            "iconIndex": 3,
+            "initiallyOpen": false,
+            "fields": [
+              "Overall Business Outcome:",
+              "Global/Device Reg. Assessment Details:"
+            ]
+          },
+          {
+            "name": "Local Regulatory Product Assessment Details",
+            "iconIndex": 4,
+            "initiallyOpen": true,
+            "fields": [
+              "Overall Business Outcome:",
+              "Local Regulatory Product Risk Assessment:"
+            ]
+          }
+        ],
+        "relatedObjects": [
+          "Change Controls",
+          "CMC Global/Device Regulatory Assessments"
+        ]
+      },
+      "Implementations": {
+        "columnNames": [
+          "Number",
+          "👁",
+          "Title",
+          "Description",
+          "Task Type",
+          "Task Subtype",
+          "Assignee",
+          "Due Date",
+          "Status",
+          "J&J Site Name",
+          "Functional Area",
+          "Functional Area 1",
+          "Functional Area 2",
+          "Task Results",
+          "Change Order",
+          "Related Change",
+          "Related Nonconformance",
+          "Task Completion Date"
+        ],
+        "multiChoicePickerColumns": [
+          "Task Type",
+          "Task Subtype",
+          "Status",
+          "J&J Site Name",
+          "Functional Area",
+          "Functional Area 1",
+          "Functional Area 2"
+        ],
+        "chartTypes": [
+          "Area",
+          "Column",
+          "Bar",
+          "Line",
+          "Radar",
+          "Pie",
+          "Doughnut",
+          "Histogram"
+        ],
+        "accordionSections": [
+          {
+            "name": "Details",
+            "iconIndex": 0,
+            "initiallyOpen": true,
+            "fields": [
+              "Change Order:",
+              "Title:",
+              "Task Type:",
+              "Assignee:",
+              "Status:",
+              "Task Subtype:",
+              "Due Date:"
+            ]
+          },
+          {
+            "name": "Organizational Information",
+            "iconIndex": 1,
+            "initiallyOpen": true,
+            "fields": [
+              "J&J Site Name:",
+              "Functional Area:",
+              "Functional Area 1:",
+              "Functional Area 2:"
+            ]
+          },
+          {
+            "name": "Description",
+            "iconIndex": 2,
+            "initiallyOpen": false,
+            "fields": [
+              "Description:",
+              "Task Results:",
+              "Related Change:",
+              "Related Nonconformance:",
+              "Task Completion Date:"
+            ]
+          }
+        ],
+        "relatedObjects": [
+          "Change Controls"
+        ]
+      }
+    },
+    "Escalations": {
+      "Escalations": {
+        "columnNames": [
+          "Number",
+          "👁",
+          "Title",
+          "Description of Issue",
+          "Current Level",
+          "Owner",
+          "Quality Head",
+          "Escalation Category",
+          "Issue Meets Escalation Criteria",
+          "Customer Patient Impact",
+          "Status",
+          "Stage",
+          "Rationale Description Of Issue Change",
+          "Additional Information",
+          "Proposed Action/Plan",
+          "Additional Sites Affected",
+          "Related Product Info",
+          "Related Batches",
+          "User Comments"
+        ],
+        "multiChoicePickerColumns": [
+          "Current Level",
+          "Escalation Category",
+          "Issue Meets Escalation Criteria",
+          "Customer Patient Impact",
+          "Status",
+          "Stage"
+        ],
+        "chartTypes": [
+          "Area",
+          "Column",
+          "Bar",
+          "Line",
+          "Radar",
+          "Pie",
+          "Doughnut",
+          "Histogram"
+        ],
+        "relatedObjects": [
+          "Assessments",
+          "Serious Breaches",
+          "Meetings",
+          "Change Controls",
+          "Nonconformances",
+          "CAPAs",
+          "Audit Observations",
+          "Accounts"
+        ],
+        "accordionSections": [
+          {
+            "name": "When/Who",
+            "iconIndex": 0,
+            "initiallyOpen": true,
+            "fields": [
+              "Date Occurred:",
+              "Quality Awareness Date:",
+              "Escalation Created Date:",
+              "Created By:",
+              "J&J Employee/Contractor Contact:",
+              "Date Identified:",
+              "Escalation Lead Awareness Date:",
+              "Owner:",
+              "Quality Head:",
+              "Other Key Contacts:"
+            ]
+          },
+          {
+            "name": "Source of Issue",
+            "iconIndex": 1,
+            "initiallyOpen": true,
+            "fields": [
+              "Source:",
+              "Therapeutic Areas:",
+              "Related to Clinical Trial:",
+              "Site Type:",
+              "Site Category:",
+              "GxP Scope:",
+              "Source Details:",
+              "Control Substances Related:",
+              "Customer Patient Impact:",
+              "Account:",
+              "Impacted Countries:"
+            ]
+          },
+          {
+            "name": "Proposed Action/Plan",
+            "iconIndex": 2,
+            "initiallyOpen": false,
+            "fields": [
+              "Proposed Action/Plan:"
+            ]
+          }
+        ]
+      },
+      "Escalations_TW": {
+        "columnNames": [
+          "Number",
+          "👁",
+          "Name",
+          "Description Of Issue",
+          "State",
+          "Operating Company",
+          "Segment",
+          "Creation Date",
+          "Escalation Lead/Quality Rep",
+          "Action Plan/Proposed Action",
+          "Highest Escalation Level Reached",
+          "User Comments"
+        ],
+        "multiChoicePickerColumns": [
+          "State",
+          "Operating Company",
+          "Segment"
+        ],
+        "relatedObjects": [
+          "Meetings",
+          "Change Controls",
+          "Nonconformances",
+          "Accounts",
+          "Batches"
+        ],
+        "accordionSections": [
+          {
+            "name": "Origination/Reporting",
+            "iconIndex": 0,
+            "initiallyOpen": true,
+            "fields": [
+              "Name:",
+              "Record ID:",
+              "Operating Company:",
+              "State:",
+              "Pie Segment Scope:",
+              "Event Date:",
+              "Escalation Submission Date:",
+              "Description Of Issue:",
+              "Source of Issue:",
+              "Source of Issue Description:",
+              "Countries Affected:",
+              "Site Name:",
+              "Project Name:",
+              "Creation Date:",
+              "Originator:",
+              "Theraputic Area:",
+              "Issue Awareness Date:",
+              "Date Closed:",
+              "Segment:",
+              "Escalation Lead Or Quality Rep:"
+            ]
+          },
+          {
+            "name": "Pharma Escalation",
+            "iconIndex": 1,
+            "initiallyOpen": true,
+            "fields": [
+              "Product/Compound Info:",
+              "Initial Escalation Level:",
+              "Highest Escalation Level Reached:",
+              "Product Impact:",
+              "Potential Sites Affected:",
+              "Products Placed On Hold:",
+              "Type Of Customer Impact:",
+              "Customer Or Patient Imp Details:",
+              "Issue Management Lead:",
+              "Action Plan Or Proposed Action:",
+              "Escalation Assessment Approver:",
+              "Escalation Required:",
+              "Planned Initial Escalation MTG Date:",
+              "Date Escalation Notification Sent Out:",
+              "Potential Customer Or Patient Imp:",
+              "Product Lot Impacted:"
+            ]
+          },
+          {
+            "name": "PAM/QRB",
+            "iconIndex": 2,
+            "initiallyOpen": false,
+            "fields": [
+              "QRB Required:",
+              "QRB Decision:",
+              "PAM Decision Date:"
+            ]
+          }
+        ]
+      },
+      "Assessments": {
+        "columnNames": [
+          "Number",
+          "Key Phrase",
+          "Created By",
+          "Escalation Criteria",
+          "Related Escalation",
+          "Related Escalation Level",
+          "Product Quality Issue",
+          "Regulatory Compliance Issue",
+          "Non-GMP Issue",
+          "Issue Type",
+          "Created By",
+          "Event",
+          "Event ID"
+        ],
+        "multiChoicePickerColumns": [
+          "Related Escalation Level",
+          "Product Quality Issue",
+          "Regulatory Compliance Issue",
+          "Non-GMP Issue",
+          "Issue Type"
+        ],
+        "accordionSections": [
+          {
+            "name": "Details",
+            "iconIndex": 0,
+            "initiallyOpen": true,
+            "fields": [
+              "Number:",
+              "Key Phrase:",
+              "Created By:",
+              "Escalation Criteria:",
+              "Related Escalation:",
+              "Related Escalation Level:",
+              "Product Quality Issue:",
+              "Regulatory Compliance Issue:",
+              "Non-GMP Issue:",
+              "Issue Type:",
+              "Event:",
+              "Event ID:"
+            ]
+          }
+        ]
+      }
+    },
+    "NonConformances": {
+      "Containments": {
+        "columnNames": [
+          "Number",
+          "Description",
+          "Source NC",
+          "Assignee",
+          "Due Date",
+          "Status",
+          "Containment Summary",
+          "Completion Date",
+          "Created Date",
+          "Created By",
+          "Responsible Person"
+        ],
+        "multiChoicePickerColumns": [
+          "Status"
+        ],
+        "relatedObjects": [
+          "Nonconformances"
+        ],
+        "accordionSections": [
+          {
+            "name": "Details",
+            "iconIndex": 0,
+            "initiallyOpen": true,
+            "fields": [
+              "Number:",
+              "Description:",
+              "Source NC:",
+              "Due Date:",
+              "Containment Summary:",
+              "Completion Date:",
+              "Created By:",
+              "Assignee:",
+              "Status:",
+              "Created Date:",
+              "Responsible Person:"
+            ]
+          }
+        ]
+      },
+     
+       "NCCorrections": {
+      "columnNames": [
+        "Number",
+        "👁",
+        "Name",
+        "Description",
+        "Related NC",
+        "Action Category",
+        "Action Plan Type",
+        "PV Relevant",
+        "Assignee",
+        "Approved",
+        "Days Required",
+        "Created Date",
+        "Is Complete",
+        "Completion Date",
+        "Completed By"
+      ],
+      "multiChoicePickerColumns": [
+        "Action Category",
+        "Action Plan Type",
+        "PV Relevant",
+        "Approved",
+        "Is Complete"
+      ],
+      "ChartTabs": [
+        "Analytics"
+      ],
+      "accordionSections": [
+        {
+          "name": "Details",
+          "iconIndex": 0,
+          "initiallyOpen": true,
+          "fields": [
+            "Number:",
+            "Description:",
+            "Related NC:",
+            "Action Plan Type:",
+            "Assignee:",
+            "Days Required:",
+            "Is Complete:",
+            "Completed By:",
+            "Action Category:",
+            "PV Relevant:",
+            "Approved:",
+            "Created Date:",
+            "Completion Date:"
+          ]
+        },
+        {
+          "name": "Ownership",
+          "iconIndex": 1,
+          "initiallyOpen": false,
+          "fields": [
+            "J&J Segment:",
+            "J&J Site Name:",
+            "J&J Functional Area 1:",
+            "Impacted J&J Segment:",
+            "J&J Business Unit:",
+            "J&J Functional Area 2:"
+          ]
+        }
+      ],
+      "relatedObjects": [
+        "NC Investigations",
+        "Actions",
+        "Nonconformances",
+        "Immediate Causes"
+      ]
+    },
+      "RiskAssessments": {
+      "columnNames": [
+        "Number",
+        "👁",
+        "Source NC",
+        "Risk Model",
+        "Risk Score",
+        "Conclusion",
+        "Created Date",
+        "Created By"
+      ],
+      "multiChoicePickerColumns": [
+        "Risk Model",
+        "Risk Score",
+        "Conclusion"
+      ],
+      "accordionSections": [
+        {
+          "name": "Details",
+          "iconIndex": 0,
+          "initiallyOpen": true,
+          "fields": [
+            "Number:",
+            "Source NC:",
+            "Risk Model:",
+            "Risk Score:",
+            "Conclusion:",
+            "Created Date:",
+            "Created By:"
+          ]
+        }
+      ]
+    },
+    "Actions": {
+      "columnNames": [
+        "Number",
+        "👁",
+        "Name",
+        "Related NC",
+        "Status",
+        "Stage",
+        "Created Date",
+        "Description",
+        "Action Type",
+        "Related Action Plan",
+        "Related Action Plan Type",
+        "Material or Item",
+        "Owner",
+        "Assignee",
+        "Due Date",
+        "Completion Date",
+        "Completion Comment"
+      ],
+      "multiChoicePickerColumns": [
+        "Status",
+        "Stage",
+        "Action Type",
+        "Related Action Plan Type"
+      ],
+      "relatedObjects": [
+        "NC Corrections"
+      ],
+      "chartTypes": [
+        "Area",
+        "Column",
+        "Bar",
+        "Line",
+        "Radar",
+        "Pie",
+        "Doughnut",
+        "Histogram"
+      ],
+      "accordionSections": [
+        {
+          "name": "Details",
+          "iconIndex": 0,
+          "initiallyOpen": true,
+          "fields": [
+            "Number:",
+            "Name:",
+            "Related NC:",
+            "Status:",
+            "Stage:",
+            "Created Date:",
+            "Description:",
+            "Action Type:",
+            "Related Action Plan:",
+            "Related Action Plan Type:",
+            "Material or Item:",
+            "Owner:",
+            "Assignee:",
+            "Due Date:",
+            "Completion Date:",
+            "Completion Comment:"
+          ]
+        },
+        {
+          "name": "Ownership",
+          "iconIndex": 1,
+          "initiallyOpen": false,
+          "fields": [
+            "J&J Segment:",
+            "J&J Business Unit:",
+            "J&J Site Name:",
+            "J&J Functional Area:",
+            "J&J Functional Area 1:",
+            "J&J Functional Area 2:"
+          ]
+        }
+      ]
+    },
+    "SupplementalInvestigations": {
+        "columnNames": [
+          "Number",
+          "👁",
+          "Name",
+          "Description",
+          "Related NC",
+          "Parent Investigation",
+          "Due Date",
+          "Assignee",
+          "Status"
+        ],
+        "multiChoicePickerColumns": [
+          "Status"
+        ],
+        "relatedObjects": [
+          "NC Investigations"
+        ],
+        "accordionSections": [
+          {
+            "name": "Details",
+            "iconIndex": 0,
+            "initiallyOpen": true,
+            "fields": [
+              "Number:",
+              "Name:",
+              "Description:",
+              "Related NC:",
+              "Parent Investigation:",
+              "Due Date:",
+              "Assignee:",
+              "Status:"
+            ]
+          },
+          {
+            "name": "Ownership",
+            "iconIndex": 1,
+            "initiallyOpen": false,
+            "fields": [
+              "J&J Segment:",
+              "J&J Business Unit:",
+              "J&J Site Name:",
+              "J&J Functional Area:",
+              "J&J Functional Area 1:",
+              "J&J Functional Area 2:",
+              "J&J Org Visibility:",
+              "Responsible Person:"
+            ]
+          }
+        ]
+      },
+    "NCInvestigations": {
+        "columnNames": [
+          "Number",
+          "👁",
+          "What",
+          "Source NC",
+          "Created Date",
+          "Owner",
+          "Status",
+          "Stage",
+          "INV Type",
+          "Completed By",
+          "Completed On"
+        ],
+        "multiChoicePickerColumns": [
+          "Status",
+          "Stage"
+        ],
+        "relatedObjects": [
+          "Nonconformances",
+          "Immediate Causes",
+          "NC Corrections"
+        ],
+        "accordionSections": [
+          {
+            "name": "Details",
+            "iconIndex": 0,
+            "initiallyOpen": true,
+            "fields": [
+              "Number:",
+              "Created Date:",
+              "Status:",
+              "INV Type:",
+              "What:",
+              "When:",
+              "Where:",
+              "Which:",
+              "Who:",
+              "How:",
+              "How Many:",
+              "Source NC:",
+              "Owner:",
+              "Stage:"
+            ]
+          },
+          {
+            "name": "Investigation Summary",
+            "iconIndex": 1,
+            "initiallyOpen": true,
+            "fields": [
+              "Investigation Summary:"
+            ]
+          },
+          {
+            "name": "Conclusion",
+            "iconIndex": 2,
+            "initiallyOpen": false,
+            "fields": [
+              "Conclusion:",
+              "Completed By:",
+              "Completed On:"
+            ]
+          }
+        ]
+      },
+      "LaboratoryInvestigations": {
+      "columnNames": [
+        "Number",
+        "👁",
+        "Name",
+        "Related NC",
+        "Date Occurred",
+        "Type",
+        "Owner",
+        "Status",
+        "Stage",
+        "Sample ID",
+        "Sample Type",
+        "Test Method",
+        "Test Method Version",
+        "Technique"
+      ],
+      "multiChoicePickerColumns": [
+        "Type",
+        "Status",
+        "Stage",
+        "Sample Type"
+      ],
+      "relatedObjects": [
+        "Specifications",
+        "Test Methods",
+        "Nonconformances",
+        "Stability Studies",
+        "Batches"
+      ],
+      "accordionSections": [
+        {
+          "name": "Details",
+          "iconIndex": 0,
+          "initiallyOpen": true,
+          "fields": [
+            "Number:",
+            "Name:",
+            "Description:",
+            "Related NC:",
+            "Date Occurred:",
+            "Date Identified:",
+            "Laboratory Issue Type:",
+            "Owner:",
+            "Status:",
+            "Stage:",
+            "LIMS Sample ID:",
+            "Sample Type:",
+            "Technique:",
+            "Raw Data Reference:",
+            "Test Method Procedure:",
+            "Test Method Version:"
+          ]
+        },
+        {
+          "name": "Ownership",
+          "iconIndex": 1,
+          "initiallyOpen": false,
+          "fields": [
+            "J&J Segment:",
+            "J&J Business Unit:",
+            "J&J Site Name:",
+            "J&J Functional Area:",
+            "J&J Functional Area 1:",
+            "J&J Functional Area 2:",
+            "J&J Org Visibility:"
+          ]
+        },
+        {
+          "name": "Closure Summary",
+          "iconIndex": 2,
+          "initiallyOpen": false,
+          "fields": [
+            "Closure Summary:"
+          ]
+        }
+      ]
+    }
+    },
+     "Audits": {
+      "Audits": {
+        "columnNames": [
+          "Number",
+          "👁",
+          "Name",
+          "Created Date",
+          "Detailed Scope/Description",
+          "Audit Type",
+          "Status",
+          "Stage",
+          "Audit Program Approval Status",
+          "J&J Site Name",
+          "Plan Period",
+          "Start Date",
+          "End Date",
+          "Lead Auditor",
+          "Owner",
+          "User Comments"
+        ],
+        "multiChoicePickerColumns": [
+          "Audit Type",
+          "Status",
+          "Stage",
+          "Audit Program Approval Status",
+          "J&J Site Name",
+          "Plan Period"
+        ],
+        "accordionSections": [
+          {
+            "name": "Details",
+            "iconIndex": 0,
+            "initiallyOpen": true,
+            "fields": [
+              "Number:",
+              "Name:",
+              "Detailed Scope/Description:",
+              "System Name/Description:",
+              "Audit Type:",
+              "Status:",
+              "Stage:",
+              "Audit Program Approval Status:",
+              "J&J Site Name:",
+              "Plan Period:",
+              "Start Date:",
+              "End Date:",
+              "Lead Auditor:",
+              "Owner:"
+            ]
+          },
+          {
+            "name": "Auditee",
+            "iconIndex": 1,
+            "initiallyOpen": false,
+            "fields": [
+              "Auditee Contact:",
+              "Owning Group:",
+              "J&J Segment:",
+              "J&J Org Visibility:",
+              "J&J Business Unit:",
+              "J&J Site Name:",
+              "J&J Functional Area:",
+              "J&J Functional Area 1:",
+              "J&J Functional Area 2:",
+              "J&J Region:",
+              "Report Organization:"
+            ]
+          },
+           {
+            "name": "Information",
+            "iconIndex": 2,
+            "initiallyOpen": true,
+            "fields": [
+               "Audit Format:",
+              "Audit Reason:",
+              "Audit Universe:",
+              "PV Relevant:",
+              "Audit Subtype:",
+              "Plan Period:",
+              "Plan Year:",
+              "Scheduled Start Date:",
+              "Start Date:",
+              "Scheduled End Date:",
+              "End Date:",
+              "Audit Classification:"
+            ]
+          },
+          {
+            "name": "Audit Owning Group",
+            "iconIndex": 2,
+            "initiallyOpen": true,
+            "fields": [
+              "Owning Group:",
+              "J&J Segment:",
+              "J&J Org Visibility:",
+              "J&J Business Unit:",
+              "J&J Site Name:",
+              "J&J Functional Area:",
+              "J&J Functional Area 1:",
+              "J&J Functional Area 2:",
+              "J&J Region:",
+              "Report Organization:"
+            ]
+          },
+          {
+            "name": "Audit Report",
+            "iconIndex": 3,
+            "initiallyOpen": true,
+            "fields": [
+              "Due Date to Issue Audit Report:",
+              "Final Audit Report Approved On:",
+              "Final Report Issued Date:",
+              "Report Issued By:",
+              "Date of Response Acceptance:"
+            ]
+          },
+          {
+            "name": "Reason for Voiding",
+            "iconIndex": 3,
+            "initiallyOpen": true,
+            "fields": [
+              "Reason for Voiding:"
+            ]
+          }
+       
+        ],
+        "relatedObjects": [
+          "Audit Observations",
+          "Nonconformances",
+          "CAPAs"
+        ],
+        "chartValues": [
+          "Area",
+          "Column",
+          "Bar",
+          "Line",
+          "Radar",
+          "Pie",
+          "Doughnut",
+          "Histogram"
+        ],
+        "analyticsDropdownValues": [
+          "Audit Type",
+          "Status",
+          "Stage",
+          "Audit Program Approval Status",
+          "J&J Site Name",
+          "Plan Period",
+          "Lead Auditor",
+          "Owner",
+          "Audit Reason",
+          "Audit Classification",
+          "Functional Area",
+          "Functional Area 1",
+          "Functional Area 2"
+        ]
+      },
+          "AuditObservation": {
+      "columnNames": [
+        "Number",
+        "👁",
+        "Name",
+        "Description",
+        "Related Audit",
+        "Observation Type",
+        "Observation Classification",
+        "Category 1",
+        "Category 2",
+        "Category 3",
+        "PV Relevant",
+        "Recurring",
+        "Date of Initial Response",
+        "Response Completion Date",
+        "Response Due Date",
+        "Assignee"
+      ],
+      "multiChoicePickerColumns": [
+        "Observation Type",
+        "Observation Classification",
+        "Category 1",
+        "Category 2",
+        "Category 3",
+        "PV Relevant",
+        "Recurring"
+      ],
+       "chartTypes": [
+            "Area",
+            "Column",
+            "Bar",
+            "Line",
+            "Radar",
+            "Pie",
+            "Doughnut",
+            "Histogram"
+        ],
+      "relatedObjects": [
+        "Audits",
+        "Documents",
+        "Escalations",
+        "CAPAs"
+      ],
+      "accordionSections": [
+        {
+          "name": "Details",
+          "iconIndex": 0,
+          "initiallyOpen": true,
+          "fields": [
+            "Observation Type",
+            "Observation Classification",
+            "Number:",
+            "Assignee:",
+            "Detailed Description:",
+            "On Behalf Of:",
+            "Observation PV Summary:",
+            "Reoccurring Evaluated:",
+            "Reoccurring:",
+            "Escalation Record Number:",
+            "Escalation Required:",
+            "Audit:",
+            "PV Relevant:",
+            "Owning Group:",
+            "Category 1:",
+            "Category 2:",
+            "Category 3:",
+            "QMS Process:"
+          ]
+        },
+        {
+          "name": "Additional Information",
+          "iconIndex": 1,
+          "initiallyOpen": false,
+          "fields": [
+            "Auditee Category:",
+            "Impacted J&J Segment:",
+            "Standard/Regulation:",
+            "Document Reference:"
+          ]
+        },
+        {
+          "name": "Ownership Information",
+          "iconIndex": 2,
+          "initiallyOpen": false,
+          "fields": [
+            "J&J Org. Visibility:",
+            "J&J Segment:",
+            "J&J Business Unit:",
+            "J&J Site Name:",
+            "J&J Functional Area:",
+            "J&J Functional Area 1:",
+            "J&J Functional Area 2:",
+            "J&J Region:",
+            "Report Organization:"
+          ]
+        },
+        {
+          "name": "Response",
+          "iconIndex": 3,
+          "initiallyOpen": false,
+          "fields": [
+            "Date Of Initial Response:",
+            "Track Response:",
+            "Response Required:",
+            "Number Of Days For Response:",
+            "Response Completion Date:",
+            "Response Due Date:",
+            "Action Required:",
+            "No Action Justification:"
+          ]
+        },
+        {
+          "name": "Closure",
+          "iconIndex": 4,
+          "initiallyOpen": false,
+          "fields": [
+            "Closed Date:",
+            "Resolution:",
+            "Closure Comment:"
+          ]
+        }
+      ]
+    }
+    },
+    "CAPAs": {
+      "EffectivenessReview": {
+        "columnNames": [
+          "Number",
+          "👁",
+          "Name",
+          "Source CAPA",
+          "Source NC",
+          "Related Effectiveness Plan",
+          "Effectiveness Plan Status",
+          "Effectiveness Plan Outcome",
+          "Approval Status",
+          "Status",
+          "Reviewed On",
+          "Reviewed By",
+          "Resolution",
+          "Owner",
+          "Extensions Requested",
+          "Extensions Granted"
+        ],
+        "multiChoicePickerColumns": [
+          "Effectiveness Plan Status",
+          "Approval Status",
+          "Status",
+          "Resolution",
+          "Extensions Requested",
+          "Extensions Granted"
+        ],
+        "relatedObjects": [
+          "CAPAs"
+        ],
+        "accordionSections": [
+          {
+            "name": "Details",
+            "iconIndex": 0,
+            "initiallyOpen": true,
+            "fields": [
+              "Number",
+              "Name",
+              "Source CAPA",
+              "Approval Status",
+              "Reviewed On",
+              "Resolution",
+              "Source NC",
+              "Status",
+              "Reviewed By",
+              "Owner"
+            ]
+          },
+          {
+            "name": "Extension Request",
+            "iconIndex": 1,
+            "initiallyOpen": true,
+            "fields": [
+              "Extensions Requested:"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

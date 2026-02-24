@@ -1,0 +1,7 @@
+cypress/reports
+cypress/tests
+cypress/qaExcelData
+cypress/screenshots
+cypress/cypress.config.js
+.azure-pipelines.yml
+package.json
