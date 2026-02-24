@@ -4,11 +4,11 @@ on:
   workflow_dispatch:
     inputs:
       spec:
-        description: "Spec file or folder path"
+        description: "Cypress spec file or folder path"
         required: true
         default: "cypress/e2e-regression"
       grep:
-        description: "Test name filter"
+        description: "Test name filter (optional)"
         required: false
         default: ""
 
@@ -28,10 +28,10 @@ jobs:
       - name: Install Dependencies
         run: npm ci
 
-      - name: Verify Cypress
+      - name: Verify Cypress Installation
         run: npx cypress verify
 
-      - name: Show Inputs
+      - name: Show Input Values
         run: |
           echo "Spec: ${{ github.event.inputs.spec }}"
           echo "Grep: ${{ github.event.inputs.grep }}"
@@ -44,7 +44,7 @@ jobs:
             npx cypress run --spec "${{ github.event.inputs.spec }}" --env grep="${{ github.event.inputs.grep }}"
           fi
 
-      - name: Upload Videos
+      - name: Upload Cypress Videos
         if: always()
         uses: actions/upload-artifact@v4
         with:
@@ -52,7 +52,7 @@ jobs:
           path: cypress/videos
           if-no-files-found: ignore
 
-      - name: Upload Screenshots
+      - name: Upload Cypress Screenshots
         if: always()
         uses: actions/upload-artifact@v4
         with:
@@ -60,7 +60,7 @@ jobs:
           path: cypress/screenshots
           if-no-files-found: ignore
 
-      - name: Upload Reports
+      - name: Upload Cypress Reports (if exists)
         if: always()
         uses: actions/upload-artifact@v4
         with:
