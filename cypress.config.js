@@ -1,5 +1,5 @@
 const { defineConfig } = require('cypress');
-const { isFileExist } = require('cy-verify-downloads');
+const { isFileExist } = require('cypress-verify-download');
 const readXlsx = require('./read-xlsx');
 const { removeDirectory } = require('cypress-delete-downloads-folder');
 const fs = require('fs');
@@ -36,7 +36,7 @@ module.exports = defineConfig({
         "!cypress/e2e-regression/jj/jj-scripts/Smoke Testing/**/*.cy.js",
         "!cypress/e2e-regression/jj/jj-scripts/bddFramework/**/*.cy.js",
         "!cypress/e2e-regression/jj/jj-scripts/IS-Scripts/**/*.cy.js",
-        ],
+      ],
     async setupNodeEvents(on, config) {
       const getCleanTimestamp = () => {
         const now = new Date();
