@@ -52,7 +52,7 @@ const OUTPUT_HTML = 'automation-coverage-report.html'
 
 // ---------- GitHub Configuration ----------
 let githubConfig = {
-  ghApi: 'https://api.github.com',
+  ghApi: '',
   ghOrg: '',
   ghRepo: '',
   ghRef: '',
@@ -727,7 +727,7 @@ const html = `<!DOCTYPE html>
   function getGh() {
     var def = DATA.config || {}
     return {
-      api:      localStorage.getItem('ghApi') || def.ghApi || 'https://api.github.com',
+      api:      localStorage.getItem('ghApi') || def.ghApi || '',
       org:      localStorage.getItem('ghOrg') || def.ghOrg || '',
       repo:     localStorage.getItem('ghRepo') || def.ghRepo || '',
       ref:      localStorage.getItem('ghRef') || def.ghRef || '',
@@ -739,12 +739,17 @@ const html = `<!DOCTYPE html>
   function saveGh(k, v) { try { localStorage.setItem(k, v) } catch(_){} }
 
   function setupGh() {
+    var pwd = prompt('🛡️ Authentication required. Enter password to configure GitHub Runner:')
+    if (pwd !== 'github@123') {
+      if (pwd !== null) alert('❌ Incorrect password. Access denied.')
+      return
+    }
     var gh = getGh()
     var org = prompt('GitHub org/owner:', gh.org); if (org === null) return; saveGh('ghOrg', org || '')
     var repo = prompt('GitHub repo:', gh.repo); if (repo === null) return; saveGh('ghRepo', repo || '')
     var ref = prompt('Git branch/ref (e.g., main):', gh.ref); if (ref === null) return; saveGh('ghRef', ref || 'main')
     var wf  = prompt('Workflow file (in .github/workflows):', gh.workflow); if (wf === null) return; saveGh('ghWorkflow', wf || 'run-tests.yml')
-    var api = prompt('GitHub API base:', gh.api); if (api === null) return; saveGh('ghApi', (api || 'https://api.github.com').replace(/\\/$/, ''))
+    var api = prompt('GitHub API base:', gh.api || 'https://api.github.com'); if (api === null) return; saveGh('ghApi', (api || 'https://api.github.com').replace(/\\/$/, ''))
     var tok = prompt('PAT token with workflow scope (stored locally):', gh.token); if (tok === null) return; saveGh('ghToken', tok || '')
     updateRunnerBanner()
     alert('✅ GitHub runner configured.')
