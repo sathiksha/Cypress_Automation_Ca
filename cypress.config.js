@@ -1,5 +1,5 @@
 const { defineConfig } = require('cypress');
-const { isFileExist } = require('cypress-verify-download');
+const { isFileExist } = require('cy-verify-downloads');
 const readXlsx = require('./read-xlsx');
 const { removeDirectory } = require('cypress-delete-downloads-folder');
 const fs = require('fs');
