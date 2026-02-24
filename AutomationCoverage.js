@@ -315,8 +315,8 @@ function buildDashboardData() {
       executionTime: 0,
       passRate: hasRealData
         ? (specMetrics.tests.length > 0
-            ? Math.round((specMetrics.passes / specMetrics.tests.length) * 100)
-            : 0)
+          ? Math.round((specMetrics.passes / specMetrics.tests.length) * 100)
+          : 0)
         : 0,
       flaky: false,
       hasRealData
@@ -705,21 +705,16 @@ https://cdn.sheetjs.com/xlsx-0.20.1/package/dist/xlsx.full.min.js</script>
   }
 
   // GitHub settings (stored in localStorage)
- function getGh() {
-  var gh = {
-    api: 'https://api.github.com',
-
-    // Hardcoded values (your repo)
-    org: 'sathiksha',
-    repo: 'Cypress_Automation_Ca',
-    ref: 'main',
-    workflow: 'run-tests.yml',
-
-    // Token: first try localStorage, else fallback
-    token: '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'
+  function getGh() {
+    return {
+      api:      localStorage.getItem('ghApi') || 'https://api.github.com',
+      org:      localStorage.getItem('ghOrg') || 'sathiksha',
+      repo:     localStorage.getItem('ghRepo') || 'Cypress_Automation_Ca',
+      ref:      localStorage.getItem('ghRef') || 'main',
+      workflow: localStorage.getItem('ghWorkflow') || 'run-tests.yml',
+      token:    localStorage.getItem('ghToken') || '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'
+    }
   }
-  return gh
-}
 
   function saveGh(k, v) { try { localStorage.setItem(k, v) } catch(_){} }
 
@@ -1011,7 +1006,14 @@ https://cdn.sheetjs.com/xlsx-0.20.1/package/dist/xlsx.full.min.js</script>
       if (r.ok) {
         appendRunLog('✅ Workflow dispatch accepted. GitHub will start the run shortly.\\n')
       } else {
-        appendRunLog('❌ Dispatch failed: ' + r.status + ' ' + r.statusText + '\\n')
+        r.json().then(function(data) {
+           appendRunLog('❌ Dispatch failed: ' + r.status + ' ' + (data.message || r.statusText) + '\\n')
+           if (r.status === 401) {
+             appendRunLog('💡 Tip: Your token might be invalid or revoked. Go to ⚙️ GitHub Runner and update your token.\\n')
+           }
+        }).catch(function() {
+           appendRunLog('❌ Dispatch failed: ' + r.status + ' ' + r.statusText + '\\n')
+        })
       }
       return r
     }).catch(function(err){
